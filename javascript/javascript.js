@@ -1,15 +1,23 @@
 
-//toggleShow function for about page on a mobile so overlay shows when picture is clicked
-function toggleShow() {
-    var element = document.querySelector(".overlay");
-        element.className.toggle("overlay-show");
-        return;
+function offsetAnchor(e) {         
+    if (location.hash.length !== 0 && location.hash !== "#top") {             
+        window.scroll(0, $(e.target.hash).position().top + 200);         
+    }     
+}     
+$(document).on('click', 'a[href^="#"]', function (e) {         
+    window.setTimeout(function () {             
+        offsetAnchor(e);         
+    }, 10);     
+});
+
+AOS.init();
+
+function show(data) {
+    var div = data.querySelector('.overlay');
+    div.className = "overlay-show";
+    setTimeout(() => {
+        div.classList.remove('overlay-show');
+        div.className = "overlay";
+    }, 5000);
 }
-
-//Offsett page when loading same-page links
-function addMargin() {
-    window.scrollTo(0, window.pageYOffset - 75);
-}
-
-window.addEventListener('hashchange', addMargin);
-
+       

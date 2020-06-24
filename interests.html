@@ -7,6 +7,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link href="style/styles.css" rel="stylesheet">
         <link rel="apple-touch-icon" sizes="180x180" href="style/img/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="style/img/favicon-32x32.png">
@@ -16,9 +17,10 @@
     </head>
     <body>
       <header id="top" class="jumbotron text-center" style="margin-bottom:0">
+        <div data-aos="zoom-in">
         <h1>Likes and Interests</h1>
         <p>Grab a coffee and have a browse!</p>
-        <p id="mobile" class="text-center">Tap on each picture to reveal something about me</p>
+        <p id="mobile" class="text-center">Tap on each picture to reveal something about me</p></div>
       </header>
 
 
@@ -52,45 +54,45 @@
         <div class="row">
 
         <div class="column-about">
-          <div class="overlay-container" onclick="toggleShow()">
+          <div class="overlay-container" data-aos="zoom-in" onclick="show(this);">
             <img src="style/img/avataaars.png"><div class="overlay"><h5 class="overlay-text">I love programming!</h5></div></div>
-          <div class="overlay-container" onclick="toggleShow()">
+          <div class="overlay-container" data-aos="zoom-in"  onclick="show(this);">
             <img src="https://res.cloudinary.com/grohealth/image/upload/v1581688713/DCUK/Content/iStock-938993594-1000x600.jpg">
             <div class="overlay"><h5 class="overlay-text">A hot cup of coffee twice a day is essential to me</h5></div></div>
-          <div class="overlay-container" onclick="toggleShow()">
+          <div class="overlay-container" data-aos="zoom-in" onclick="show(this);">
             <img src="https://c402277.ssl.cf1.rackcdn.com/photos/18315/images/hero_full/Medium_WW230176.jpg">
             <div class="overlay"><h5 class="overlay-text">Pandas make me smile</h5></div></div>
         </div>
         <div class="column-about">
-          <div class="overlay-container" onclick="toggleShow()">
+          <div class="overlay-container" data-aos="zoom-in" onclick="show(this);">
             <img src="https://www.heraldscotland.com/resources/images/10021861.jpg">
             <div class="overlay"><h5 class="overlay-text">Teacher by day...</h5></div></div>
-          <div class="overlay-container" onclick="toggleShow()">
+          <div class="overlay-container" data-aos="zoom-in" onclick="show(this);">
             <img src="https://www.tripsavvy.com/thmb/JJzwd3tVN48P4QoT-VoFaDK7aE8=/2121x1414/filters:fill(auto,1)/GettyImages-185811312-5ad9a62c43a1030037c7f832.jpg">
             <div class="overlay"><h5 class="overlay-text">Delicious curry for dinner everyday</h5></div></div>
-          <div class="overlay-container" onclick="toggleShow()">
+          <div class="overlay-container" data-aos="zoom-in" onclick="show(this);">
             <img src="http://www.sloveniatimes.com/modules/uploader/uploads/Aktualno/Podobe1/oh_1b18458f-7f55-4c62-9613-216acaa83c8f.jpg">
             <div class="overlay"><h5 class="overlay-text">Long walks in sunny countrysides are my thing</h5></div></div>
         </div>
         <div class="column-about">
-          <div class="overlay-container" onclick="toggleShow()">
+          <div class="overlay-container" data-aos="zoom-in" onclick="show(this);">
             <img src="https://cosmos-images1.imgix.net/file/spina/photo/19815/190724_chilli_full.jpg">
             <div class="overlay"><h5 class="overlay-text">Spicier the better</h5></div></div>
-          <div class="overlay-container" onclick="toggleShow()">
+          <div class="overlay-container" data-aos="zoom-in" onclick="show(this);">
             <img src="https://www.shoutoutuk.org/wp-content/uploads/2018/11/Depositphotos_54856347_l-2015-750x436.jpg">
             <div class="overlay"><h5 class="overlay-text">Travelling the world would be a dream come true</h5></div></div>
-          <div class="overlay-container" onclick="toggleShow()">
+          <div class="overlay-container" data-aos="zoom-in" onclick="show(this);">
             <img src="https://www.thebigwineguy.com/wp-content/uploads/2017/03/winegrapes.jpg">
             <div class="overlay"><h5 class="overlay-text">Friday is wine day</h5></div></div>
         </div>
         <div class="column-about">
-          <div class="overlay-container" onclick="toggleShow()">
+          <div class="overlay-container" data-aos="zoom-in" onclick="show(this);">
             <img src="https://lh5.googleusercontent.com/-pQCXtaKoAkg/TW-dMi0fUPI/AAAAAAAAADk/orxxt5iuakw/s1600/5RomComPosters.jpg">
             <div class="overlay"><h5 class="overlay-text">Cozy on the sofa with a rom-com</h5></div></div>
-          <div class="overlay-container" onclick="toggleShow()">
+          <div class="overlay-container" data-aos="zoom-in" onclick="show(this);">
             <img src="https://content.thriveglobal.com/wp-content/uploads/2019/11/family-.jpg">
             <div class="overlay"><h5 class="overlay-text">Love and family are important to me</h5></div></div>
-          <div class="overlay-container" onclick="toggleShow()">
+          <div class="overlay-container" data-aos="zoom-in" onclick="show(this);">
             <img src="https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2017/09/flat-white.jpg">
             <div class="overlay"><h5 class="overlay-text">Did I mention I love coffee?</h5></div></div>
         </div>
@@ -119,6 +121,7 @@
     </body>
     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="javascript/react.js"></script>
     <script src="javascript/javascript.js"></script>
 </html>

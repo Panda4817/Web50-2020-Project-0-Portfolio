@@ -1,10 +1,14 @@
 @import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
 @import url("C:/Users/Kanta/Documents/CS50_Web/project0/project0/");
+html {
+  scroll-behavior: smooth;
+}
+
 #top {
   background: linear-gradient(45deg, #2f4454, #2e151b);
 }
 
-#top > p {
+#top > div > p {
   color: #da7b93;
 }
 
@@ -130,8 +134,8 @@ body {
 }
 
 .column-lang {
-  flex: 20%;
-  max-width: 20%;
+  flex: 25%;
+  max-width: 25%;
   padding: 0 4px;
 }
 .column-lang img {
@@ -185,7 +189,7 @@ body {
   transition: opacity 0.5s ease;
   background-color: #376e65;
 }
-.overlay-container .overlay .overlay-text {
+.overlay-container .overlay-text {
   color: white;
   position: absolute;
   top: 50%;
@@ -193,27 +197,25 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
-.overlay-container:hover .overlay {
+.overlay-container .overlay-show {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
   opacity: 0.9;
+  transition: opacity 0.3s ease;
+  background-color: #376e65;
 }
 
-@media screen and (max-width: 992px) {
-  .overlay-show {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    vertical-align: middle;
-    height: 100%;
-    width: 100%;
-    opacity: 0.9;
-    transition: opacity 0.3s ease;
-    background-color: #376e65;
-  }
-}
 @media screen and (min-width: 992px) {
   #mobile {
     display: none;
+  }
+
+  .overlay-container:hover .overlay {
+    opacity: 0.9;
   }
 }
 .project-title {
