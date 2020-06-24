@@ -1,0 +1,350 @@
+@import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
+@import url("C:/Users/Kanta/Documents/CS50_Web/project0/project0/");
+#top {
+  background: linear-gradient(45deg, #2f4454, #2e151b);
+}
+
+#top > p {
+  color: #da7b93;
+}
+
+h1 {
+  color: white;
+}
+
+.back {
+  background: linear-gradient(90deg, #2f4454, #2e151b);
+  color: white;
+}
+
+body {
+  background: linear-gradient(-90deg, #2f4454, #2e151b);
+}
+
+.img-5, .img-6, .img-4, .img-3, .img-2, .img-1 {
+  height: 300px;
+  background-size: contain;
+  background-position: center;
+}
+
+.img-1 {
+  background-image: url(https://cdn-media-1.freecodecamp.org/images/1*rV6_99F42Jr7uR5YtLrHrQ.jpeg);
+}
+
+.img-2 {
+  background-image: url(https://miro.medium.com/max/960/1*83jSovab7wOQQq-MJDuRgQ.jpeg);
+}
+
+.img-3 {
+  background-image: url(https://i.ytimg.com/vi/FsYdgKO4AQU/maxresdefault.jpg);
+}
+
+.img-4 {
+  background-image: url(https://files.realpython.com/media/Advance_Watermarked.7780b18d1990.jpg);
+}
+
+.img-6 {
+  background-image: url("img/cs50web.jpg");
+}
+
+.img-5 {
+  background-image: url("img/cs50_project.jpg");
+}
+
+@media screen and (max-width: 720px) {
+  .img-1, .img-2, .img-3, .img-4, .img-6, .img-5 {
+    height: 200px;
+  }
+}
+#navbar {
+  z-index: 1;
+  background-color: #1c3334 !important;
+}
+#navbar .navbar-nav, #navbar .navbar-collapse {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.nav-item a:hover {
+  color: white !important;
+  background-color: #376e65 !important;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-link {
+  color: #da7b93 !important;
+  text-decoration: none !important;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 5px;
+  padding-left: 5px !important;
+}
+
+.navbar-collapse > .nav-link {
+  padding: 5px !important;
+  margin: 5px !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+#footer {
+  background: linear-gradient(-45deg, #2f4454, #2e151b);
+  border-top: 10px solid;
+  border-color: #1c3334;
+}
+#footer p {
+  color: white;
+}
+#footer .profile {
+  font-size: 30px;
+  color: #da7b93;
+  transition: transform 0.3s ease-out;
+}
+#footer .profile:hover {
+  transform: translateY(-10px);
+  color: #376e65;
+}
+#footer .footer-contact {
+  color: #da7b93;
+  text-decoration: none;
+}
+#footer .footer-contact:hover {
+  color: #376e65;
+  text-decoration: none;
+}
+
+/* Create four equal columns that sits next to each other */
+.column-about {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.column-about img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.column-lang {
+  flex: 20%;
+  max-width: 20%;
+  padding: 0 4px;
+}
+.column-lang img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.table {
+  background: #1c3334 !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.table thead {
+  color: #da7b93;
+  text-align: center;
+}
+.table td {
+  text-align: center;
+}
+.table tr:hover {
+  background: #376e65 !important;
+  color: white;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 992px) {
+  .column-about, .column-lang {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 720px) {
+  .column-about, .column-lang {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.overlay-container {
+  position: relative;
+}
+.overlay-container .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  background-color: #376e65;
+}
+.overlay-container .overlay .overlay-text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay-container:hover .overlay {
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 992px) {
+  .overlay-show {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+    background-color: #376e65;
+  }
+}
+@media screen and (min-width: 992px) {
+  #mobile {
+    display: none;
+  }
+}
+.project-title {
+  padding: 18px;
+}
+
+.content {
+  background-color: #1c3334;
+  padding: 15px;
+  margin-bottom: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.content h3 {
+  padding: 10px;
+  text-align: center;
+}
+
+.content:hover, .content:focus {
+  background-color: #376e65;
+}
+
+.project-img-10, .project-img-9, .project-img-8, .project-img-7, .project-img-6, .project-img-5, .project-img-4, .project-img-3, .project-img-2, .project-img-1 {
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+}
+
+.project-img-1 {
+  background-image: url("img/tribute_page.jpg");
+}
+
+.project-img-2 {
+  background-image: url("img/company_page.jpg");
+}
+
+.project-img-3 {
+  background-image: url("img/technical_document.jpg");
+}
+
+.project-img-4 {
+  background-image: url("img/survey_form.jpg");
+}
+
+.project-img-5 {
+  background-image: url("img/cs50_final_project.jpg");
+}
+
+.project-img-6 {
+  background-image: url("img/homepage.png");
+}
+
+.project-img-7 {
+  background-image: url("img/book.png");
+}
+
+.project-img-8 {
+  background-image: url("img/flack.jpg");
+}
+
+.project-img-9 {
+  background-image: url("img/pizza.png");
+}
+
+.project-img-10 {
+  background-image: url("img/cs50_web_final_project.png");
+}
+
+.zoom {
+  transition: transform 0.2s;
+  /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+#submit {
+  background: #1c3334;
+  color: #da7b93;
+  transition: 0.3s ease-out;
+}
+
+#submit:hover {
+  background: #376e65;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.carousel-inner {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.carousel-item .img1 {
+  background-image: url("img/watchreadrepeat.png");
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-size: contain;
+  background-position: center;
+}
+@media screen and (max-width: 992px) {
+  .carousel-item .img1 {
+    height: 80vh;
+  }
+}
+@media screen and (max-width: 766px) {
+  .carousel-item .img1 {
+    height: 50vh;
+  }
+}
+.carousel-item .img2 {
+  background-image: url("img/mysouschef.png");
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-size: contain;
+  background-position: center;
+}
+@media screen and (max-width: 992px) {
+  .carousel-item .img2 {
+    height: 80vh;
+  }
+}
+@media screen and (max-width: 766px) {
+  .carousel-item .img2 {
+    height: 50vh;
+  }
+}
+.carousel-item .carousel-caption {
+  background-color: #376e65 !important;
+  padding: 10px !important;
+}
+
+/*# sourceMappingURL=styles.css.map */
