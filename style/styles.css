@@ -76,7 +76,7 @@ h1 {
 
 .nav-item a:hover {
   color: white !important;
-  background-color: #376e65 !important;
+  background-color: #376d64 !important;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -115,14 +115,14 @@ h1 {
 }
 #footer .profile:hover {
   transform: translateY(-10px);
-  color: #376e65;
+  color: #376d64;
 }
 #footer .footer-contact {
   color: #da7b93;
   text-decoration: none;
 }
 #footer .footer-contact:hover {
-  color: #376e65;
+  color: #376d64;
   text-decoration: none;
 }
 
@@ -164,7 +164,7 @@ h1 {
   font-weight: lighter;
 }
 .table tr:hover {
-  background: #376e65 !important;
+  background: #376d64 !important;
   color: white;
 }
 
@@ -194,7 +194,7 @@ h1 {
   width: 100%;
   opacity: 0;
   transition: opacity 0.5s ease;
-  background-color: #376e65;
+  background-color: #376d64;
 }
 .overlay-container .overlay-text {
   color: white;
@@ -213,7 +213,7 @@ h1 {
   width: 100%;
   opacity: 0.9;
   transition: opacity 0.3s ease;
-  background-color: #376e65;
+  background-color: #376d64;
 }
 
 @media screen and (min-width: 992px) {
@@ -241,7 +241,7 @@ h1 {
 }
 
 .content:hover, .content:focus {
-  background-color: #376e65;
+  background-color: #376d64;
 }
 
 .project-img-10, .project-img-9, .project-img-8, .project-img-7, .project-img-6, .project-img-5, .project-img-4, .project-img-3, .project-img-2, .project-img-1 {
@@ -306,54 +306,95 @@ h1 {
 }
 
 #submit:hover {
-  background: #376e65;
+  background: #376d64;
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.carousel-inner {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.carousel-item .img1 {
+.img1 {
   background-image: url("img/watchreadrepeat.png");
   display: block;
   width: 100%;
-  height: 100vh;
   background-size: contain;
   background-position: center;
 }
-@media screen and (max-width: 992px) {
-  .carousel-item .img1 {
-    height: 80vh;
-  }
-}
-@media screen and (max-width: 766px) {
-  .carousel-item .img1 {
-    height: 50vh;
-  }
-}
-.carousel-item .img2 {
+
+.img2 {
   background-image: url("img/mysouschef.png");
   display: block;
   width: 100%;
-  height: 100vh;
   background-size: contain;
   background-position: center;
 }
-@media screen and (max-width: 992px) {
-  .carousel-item .img2 {
+
+.hero-slides {
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hero-slides .single-hero-slide {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .hero-slides .single-hero-slide {
     height: 80vh;
   }
 }
-@media screen and (max-width: 766px) {
-  .carousel-item .img2 {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .hero-slides .single-hero-slide {
+    height: 75vh;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .hero-slides .single-hero-slide {
     height: 50vh;
   }
 }
-.carousel-item .carousel-caption {
-  background-color: #376e65 !important;
-  padding: 10px !important;
+.hero-slides .single-hero-slide .hero-slides-content {
+  position: relative;
+  z-index: 1;
+  padding: 10px;
+  border-left: 3px solid #1c3334;
+  margin: 10px;
+  background-color: rgba(55, 109, 100, 0.7);
+}
+
+@media only screen and (max-width: 767px) {
+  .hero-slides .single-hero-slide .hero-slides-content {
+    padding: 5px;
+  }
+}
+.hero-slides .single-hero-slide .hero-slides-content h5 {
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 767px) {
+  .hero-slides .single-hero-slide .hero-slides-content h5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
+.hero-slides .single-hero-slide .hero-slides-content p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+  .hero-slides .single-hero-slide .hero-slides-content p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
