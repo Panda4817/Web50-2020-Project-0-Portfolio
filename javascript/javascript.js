@@ -1,6 +1,8 @@
 
 
-AOS.init();
+AOS.init({
+    once: true
+});
 
 function show(data) {
     var div = data.querySelector('.overlay');
