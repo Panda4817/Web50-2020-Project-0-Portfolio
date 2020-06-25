@@ -2,6 +2,8 @@
 @import url("C:/Users/Kanta/Documents/CS50_Web/project0/project0/");
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  background: linear-gradient(45deg, #2f4454, #2e151b);
 }
 
 #top {

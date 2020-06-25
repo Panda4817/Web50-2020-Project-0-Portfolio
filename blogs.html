@@ -2,17 +2,15 @@
 
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <link href="style/styles.css" rel="stylesheet">
-        <link rel="apple-touch-icon" sizes="180x180" href="style/img/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="style/img/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="style/img/favicon-16x16.png">
-        <link rel="manifest" href="style/img/site.webmanifest">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link href="style/styles.css" rel="stylesheet">
+      <link rel="apple-touch-icon" sizes="180x180" href="style/img/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="style/img/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="style/img/favicon-16x16.png">
+      <link rel="manifest" href="style/img/site.webmanifest">
         <title>Blogs</title>
     </head>
     <body>
@@ -57,19 +55,19 @@
             <h3>Dates</h3>
             <ul class="nav nav-pills flex-column">
               <li class="nav-item">
-                <a class="nav-link" href="#June20">June</a>
+                <a class="nav-link" href="#June20" onclick="scrollToTargetAdjusted('June20');">June</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#May20">May</a>
+                <a class="nav-link" href="#May20" onclick="scrollToTargetAdjusted('May20');">May</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#April20">April</a>
+                <a class="nav-link" href="#April20" onclick="scrollToTargetAdjusted('April20');">April</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#March20">March 2020</a>
+                <a class="nav-link" href="#March20" onclick="scrollToTargetAdjusted('March20');">March 2020</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#November19">November 2019</a>
+                <a class="nav-link" href="#November19" onclick="scrollToTargetAdjusted('November19');">November 2019</a>
               </li>
             </ul>
 
@@ -103,7 +101,8 @@
             <hr class="d-md-none">
           </div>
           <div class="col-md-8">
-            <div id="June20" data-aos="fade-left" data-aos-easing="linear">
+            <div id="June20" class="anchor" >
+            <div  data-aos="fade-left" data-aos-easing="ease-in">
             <h2 >CS50 Web completed!</h2>
             <h5>My final project submitted, June 23, 2020</h5>
             <div class="img-6"></div>
@@ -120,7 +119,9 @@
             </p>
             <br>
           </div>
-          <div id="May20" data-aos="fade-left" data-aos-easing="linear">
+        </div>
+        <div id="May20" class="anchor" >
+          <div data-aos="fade-left" data-aos-easing="ease-in">
             <h2>CS50x completed!</h2>
             <h5>My final project submitted, May 2, 2020</h5>
             <div class="img-5"></div>
@@ -132,8 +133,9 @@
              I have now started CS50's web programming with python and javascript course.
             </p>
             <br>
-          </div>
-          <div id="April20" data-aos="fade-left" data-aos-easing="linear">
+          </div></div>
+          <div id="April20" class="anchor" >
+          <div  data-aos="fade-left" data-aos-easing="ease-in">
             <h2>FreeCodeCamp</h2>
             <h5>Learning responsive web design, April 10, 2020</h5>
             <div class="img-2"></div>
@@ -144,8 +146,9 @@
               The course taught me how to use HTML and CSS in a variety of different ways. This included CSS flexbox and media queries. By the end of the course I had made 5 unique projects using codepen. Though I had to look up alots of things on w3schools.
             </p>
             <br>
-          </div>
-          <div id="March20" data-aos="fade-left" data-aos-easing="linear">
+          </div></div>
+          <div id="March20" class="anchor" >
+          <div  data-aos="fade-left" data-aos-easing="ease-in">
             <h2>Python</h2>
             <h5>Python vs C, March 27, 2020</h5>
             <div class="img-4"></div>
@@ -156,8 +159,9 @@
               Took a little break but I'm back to CS50. All the psets to do with C programming language were so interesting and fun! Now I am onto python. That blur filter in C was time consuming but in python it is so quick! Found w3schools to be very helpful, along with the python documentation.
             </p>
             <br>
-          </div>
-          <div id="November19" data-aos="fade-left" data-aos-easing="linear">
+          </div></div>
+          <div id="November19" class="anchor" >
+          <div  data-aos="fade-left" data-aos-easing="ease-in">
             <h2>CS50</h2>
             <h5>Amazing start to computer science, November 2, 2019</h5>
             <div class="img-3"></div>
@@ -167,7 +171,7 @@
             <p>
               From the first lecture video I was hooked. The professors and tutors running this course explained every concept so clearly. I would recommend this course to anyone who wants to get into computer science and has no prior experience like me.
             </p>
-          </div>
+          </div></div>
           </div>
         </div>
       </main>
@@ -194,6 +198,8 @@
         </p>
       </footer>
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

@@ -9,6 +9,8 @@ $darkgreen: #1c3334;
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  background: linear-gradient(45deg, $bluegrey, $maroon);
 }
 
 #top {
@@ -393,5 +395,4 @@ body {
   }
 
 }
-
 

@@ -1,14 +1,4 @@
 
-function offsetAnchor(e) {         
-    if (location.hash.length !== 0 && location.hash !== "#top") {             
-        window.scroll(0, $(e.target.hash).position().top + 200);         
-    }     
-}     
-$(document).on('click', 'a[href^="#"]', function (e) {         
-    window.setTimeout(function () {             
-        offsetAnchor(e);         
-    }, 10);     
-});
 
 AOS.init();
 
@@ -20,4 +10,9 @@ function show(data) {
         div.className = "overlay";
     }, 5000);
 }
-       
+
+function scrollToTargetAdjusted(data) {
+    $('html').animate({
+        scrollTop: $("#"+data).offset().top - 100
+      }, 1000);
+}
