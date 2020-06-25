@@ -41,7 +41,7 @@ if ($('.owl-carousel') ){
         nav: false,
         dots: false,
         autoplay: true,
-        autoplayTimeout: 5000,
+        autoplayTimeout: 6000,
         smartSpeed: 1000
     });
 
@@ -49,7 +49,7 @@ if ($('.owl-carousel') ){
         var slideLayer = $("[data-animation]");
         slideLayer.each(function () {
             var anim_name = $(this).data('animation');
-            $(this).removeClass('animated ' + anim_name).css('opacity', '0');
+            $(this).removeClass('animate__' + anim_name).css('opacity', '0');
         });
     });
 
@@ -57,17 +57,12 @@ if ($('.owl-carousel') ){
         var slideLayer = welcomeSlide.find('.owl-item.active').find("[data-animation]");
         slideLayer.each(function () {
             var anim_name = $(this).data('animation');
-            $(this).addClass('animated ' + anim_name).css('opacity', '1');
+            $(this).addClass('animate__' + anim_name).css('opacity', '1');
         });
     });
 
     $("[data-delay]").each(function () {
         var anim_del = $(this).data('delay');
-        $(this).css('animation-delay', anim_del);
-    });
-
-    $("[data-duration]").each(function () {
-        var anim_dur = $(this).data('duration');
-        $(this).css('animation-duration', anim_dur);
+        $(this).addClass('animate__delay-'+anim_del);
     });
 }
