@@ -161,6 +161,8 @@ h1 {
 }
 .table td {
   text-align: center;
+  color: white;
+  font-weight: lighter;
 }
 .table tr:hover {
   background: #376e65 !important;
