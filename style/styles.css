@@ -1,7 +1,6 @@
 @import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
   background: linear-gradient(45deg, #2f4454, #2e151b);
 }
 
