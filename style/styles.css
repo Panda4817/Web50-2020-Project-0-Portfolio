@@ -67,7 +67,7 @@ h1 {
   }
 }
 #navbar {
-  z-index: 1;
+  z-index: 999999;
   background-color: #1c3334 !important;
 }
 #navbar .navbar-nav, #navbar .navbar-collapse {

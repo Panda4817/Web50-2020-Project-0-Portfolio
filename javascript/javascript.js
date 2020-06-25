@@ -15,11 +15,11 @@ function show(data) {
 function scrollToTargetAdjusted(data) {
     $('html').animate({
         scrollTop: $("#"+data).offset().top - 100
-      }, 2000);
+      }, 500);
 }
 
 function scrollToTop(data) {
-    $('html').animate({
-        scrollTop: $("#"+data).offset().top
-      }, 1000);
+    $('html', 'body').animate({
+        scrollTop: $("#"+data)
+      },0);
 }
