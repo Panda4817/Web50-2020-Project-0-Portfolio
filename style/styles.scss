@@ -399,6 +399,7 @@ h1 {
         .hero-slides .single-hero-slide {
           height: 50vh; } }
       .hero-slides .single-hero-slide .hero-slides-content {
+        display: block;
         position: relative;
         z-index: 1;
         padding: 10px;
