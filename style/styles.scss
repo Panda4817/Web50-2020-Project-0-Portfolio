@@ -13,6 +13,20 @@ html {
   background: linear-gradient(45deg, $bluegrey, $maroon);
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: linear-gradient(-90deg, $bluegrey, $maroon);
+}
+
+header, footer {
+  flex-grow: 0;
+  
+}
+
 #top {
   background: linear-gradient(45deg, $bluegrey, $maroon);
 }
@@ -26,13 +40,11 @@ h1 {
 }
 
 .back {
+  flex-grow: 1;
   background: linear-gradient(90deg, $bluegrey, $maroon);
   color: white;
 }
 
-body {
-  background: linear-gradient(-90deg, $bluegrey, $maroon);
-}
 
 %img-index {
   height: 300px;
@@ -42,6 +54,7 @@ body {
 
 .img-1 {
   @extend %img-index;
+  background-size: cover !important;
   background-image: url(https://cdn-media-1.freecodecamp.org/images/1*rV6_99F42Jr7uR5YtLrHrQ.jpeg);
 }
 

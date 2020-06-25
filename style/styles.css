@@ -6,6 +6,19 @@ html {
   background: linear-gradient(45deg, #2f4454, #2e151b);
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: linear-gradient(-90deg, #2f4454, #2e151b);
+}
+
+header, footer {
+  flex-grow: 0;
+}
+
 #top {
   background: linear-gradient(45deg, #2f4454, #2e151b);
 }
@@ -19,12 +32,9 @@ h1 {
 }
 
 .back {
+  flex-grow: 1;
   background: linear-gradient(90deg, #2f4454, #2e151b);
   color: white;
-}
-
-body {
-  background: linear-gradient(-90deg, #2f4454, #2e151b);
 }
 
 .img-5, .img-6, .img-4, .img-3, .img-2, .img-1 {
@@ -34,6 +44,7 @@ body {
 }
 
 .img-1 {
+  background-size: cover !important;
   background-image: url(https://cdn-media-1.freecodecamp.org/images/1*rV6_99F42Jr7uR5YtLrHrQ.jpeg);
 }
 

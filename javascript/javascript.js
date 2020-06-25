@@ -16,5 +16,5 @@ function show(data) {
 function scrollToTargetAdjusted(data) {
     $('html').animate({
         scrollTop: $("#"+data).offset().top - 100
-      }, 1000);
+      }, 2000);
 }
