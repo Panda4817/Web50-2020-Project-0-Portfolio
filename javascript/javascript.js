@@ -19,7 +19,7 @@ function scrollToTargetAdjusted(data) {
 }
 
 function scrollToTop(data) {
-    $('html', 'body').animate({
+    $('html').animate({
         scrollTop: $("#"+data).offset().top
       }, 1000);
 }
