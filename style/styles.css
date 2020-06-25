@@ -168,6 +168,11 @@ h1 {
   color: white;
 }
 
+@media screen and (max-width: 992px) {
+  #table {
+    display: none;
+  }
+}
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 992px) {
   .column-about, .column-lang {

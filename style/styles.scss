@@ -194,6 +194,11 @@ h1 {
   }
 
 }
+@media screen and (max-width: 992px) {
+  #table {
+    display: none;
+  }
+}
 
 
 
