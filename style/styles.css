@@ -32,6 +32,7 @@ h1 {
   height: 300px;
   background-size: contain;
   background-position: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .img-1 {
@@ -145,8 +146,9 @@ h1 {
 .column-lang img {
   margin-top: 8px;
   vertical-align: middle;
-  width: 100%;
+  width: 100px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
 }
 
 .table {
@@ -181,13 +183,16 @@ h1 {
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 720px) {
-  .column-about, .column-lang {
+  .column-about {
     flex: 100%;
     max-width: 100%;
   }
 }
 .overlay-container {
   position: relative;
+}
+.overlay-container img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .overlay-container .overlay {
   position: absolute;
@@ -303,6 +308,10 @@ h1 {
   transform: scale(1.1);
 }
 
+#mobile .content h3 {
+  color: #da7b93;
+}
+
 #submit {
   background: #1c3334;
   color: #da7b93;
@@ -356,7 +365,7 @@ h1 {
 }
 @media only screen and (max-width: 767px) {
   .hero-slides .single-hero-slide {
-    height: 50vh;
+    height: 60vh;
   }
 }
 .hero-slides .single-hero-slide .hero-slides-content {
@@ -384,8 +393,8 @@ h1 {
 
 @media only screen and (max-width: 767px) {
   .hero-slides .single-hero-slide .hero-slides-content h5 {
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 15px;
+    margin-bottom: 5px;
   }
 }
 .hero-slides .single-hero-slide .hero-slides-content p {
@@ -397,8 +406,8 @@ h1 {
 
 @media only screen and (max-width: 767px) {
   .hero-slides .single-hero-slide .hero-slides-content p {
-    font-size: 14px;
-    margin-bottom: 10px;
+    font-size: 11px;
+    margin-bottom: 5px;
   }
 }
 
