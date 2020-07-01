@@ -4,9 +4,7 @@ class Year extends React.Component {
     }
     render() {
         let x = new Date().getFullYear();
-        return (
-            {x}
-        );
+        return { x };
     }
 }
 ReactDOM.render(Year, document.querySelector('#year'));

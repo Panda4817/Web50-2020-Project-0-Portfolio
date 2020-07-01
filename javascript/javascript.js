@@ -1,5 +1,3 @@
-
-
 AOS.init();
 if ($('.owl-carousel') ){
     var welcomeSlide = $('.hero-slides');
@@ -59,4 +57,3 @@ function scrollToTop(data) {
         scrollTop: $("#"+data).offset().top
       }, 1000);
 }
-
