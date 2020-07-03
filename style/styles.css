@@ -254,7 +254,7 @@ h1 {
   background-color: #376d64;
 }
 
-.project-img-10, .project-img-9, .project-img-8, .project-img-7, .project-img-6, .project-img-5, .project-img-4, .project-img-3, .project-img-2, .project-img-1 {
+.project-img-14, .project-img-13, .project-img-12, .project-img-11, .project-img-10, .project-img-9, .project-img-8, .project-img-7, .project-img-6, .project-img-5, .project-img-4, .project-img-3, .project-img-2, .project-img-1 {
   height: 150px;
   background-size: cover;
   background-position: center;
@@ -298,6 +298,22 @@ h1 {
 
 .project-img-10 {
   background-image: url("img/cs50_web_final_project.png");
+}
+
+.project-img-11 {
+  background-image: url("img/random_quotes.png");
+}
+
+.project-img-12 {
+  background-image: url("img/markdown_previewer.png");
+}
+
+.project-img-13 {
+  background-image: url("img/drum_machine.png");
+}
+
+.project-img-14 {
+  background-image: url("img/react_calculator.png");
 }
 
 .zoom {

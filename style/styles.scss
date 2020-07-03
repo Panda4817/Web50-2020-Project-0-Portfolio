@@ -349,6 +349,22 @@ h1 {
   @extend %project-img;
   background-image: url("img/cs50_web_final_project.png");
 }
+.project-img-11 {
+  @extend %project-img;
+  background-image: url("img/random_quotes.png");
+}
+.project-img-12 {
+  @extend %project-img;
+  background-image: url("img/markdown_previewer.png");
+}
+.project-img-13 {
+  @extend %project-img;
+  background-image: url("img/drum_machine.png");
+}
+.project-img-14 {
+  @extend %project-img;
+  background-image: url("img/react_calculator.png");
+}
 
 
 .zoom {
