@@ -73,6 +73,17 @@ h1 {
   background-image: url("img/cs50_project.jpg");
 }
 
+.img-7 {
+  @extend %img-index;
+  background-image: url("img/react_frontend.png");
+}
+
+.img-8 {
+  @extend %img-index;
+  background-image: url("img/tictactoe.png");
+}
+
+
 @media screen and (max-width: 720px) {
   %img-index {
     height: 200px;
@@ -366,6 +377,11 @@ h1 {
   background-image: url("img/react_calculator.png");
 }
 
+.project-img-15 {
+  @extend %project-img;
+  background-image: url("img/cutesee_laptop.png");
+}
+
 
 .zoom {
   transition: transform .2s; /* Animation */
@@ -404,6 +420,13 @@ h1 {
     }
   .img2 {
     background-image: url("img/mysouschef.png");
+    display: block;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+  }
+  .img3 {
+    background-image: url("img/cutesee_index.png");
     display: block;
     width: 100%;
     background-size: contain;
