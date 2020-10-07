@@ -1,11 +1,10 @@
-# Web50 2020 Project 0 - Homepage
+# Portfolio
 
-My website is a protfolio website showcasing my journey into computer science via blogs, courses I have takes and the projects I have completed along the way.
-I have added animations to the website.
+My website showcasing my journey into computer science via blogs, courses I have taken and the projects I have completed along the way.
 
 ## index.html
 
-This is the first page of my website. I have used a bootstrap carousel to showcase 2 web application projects that I have deployed.
+This is the first page of my website. I have used a bootstrap carousel to showcase 3 web application projects that I have deployed.
 
 ## blogs.html
 
@@ -34,4 +33,4 @@ Used bootstrap 4 styling throughout each webpage and some of bootstrap 4 jquery 
 
 ## react.js
 
-Just started to look into React and used it to automatically update the year in the footer.
+React used to automatically update the year in the footer.

@@ -83,6 +83,25 @@ h1 {
   background-image: url("img/tictactoe.png");
 }
 
+.img-9 {
+  @extend %img-index;
+  background-image: url("img/snake.gif");
+}
+
+.img-10 {
+  @extend %img-index;
+  background-image: url("img/repl_it.png");
+}
+
+.blog_link {
+  color: $lightpink;
+  text-decoration: none;
+}
+
+.blog_link:hover {
+  color: $lightgreen;
+  text-decoration: none;
+}
 
 @media screen and (max-width: 720px) {
   %img-index {
@@ -127,6 +146,7 @@ h1 {
   box-shadow: none !important;
   outline: none !important;
 }
+
 
 
 #footer {
@@ -380,6 +400,16 @@ h1 {
 .project-img-15 {
   @extend %project-img;
   background-image: url("img/cutesee_laptop.png");
+}
+
+.project-img-16 {
+  @extend %project-img;
+  background-image: url("img/snake.gif");
+}
+
+.project-img-17 {
+  @extend %project-img;
+  background-image: url("img/sudoku.png");
 }
 
 
