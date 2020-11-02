@@ -163,10 +163,10 @@ h1 {
 .column-about {
   flex: 25%;
   max-width: 25%;
-  padding: 0 4px;
+  padding: 0 0px;
 }
 .column-about img {
-  margin-top: 8px;
+  margin-top: 0px;
   vertical-align: middle;
   width: 100%;
 }
