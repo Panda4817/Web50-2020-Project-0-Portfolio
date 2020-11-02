@@ -124,18 +124,13 @@ h1 {
   font-size: 1.3em;
 }
 
-.dates-links .dropdown-toggle {
-  border-radius: 0px;
-  margin: 5px;
-}
 .dates-links .dropdown-menu {
   background-color: #1c3334;
 }
 .dates-links .dropdown-menu .dropdown-item {
   color: #da7b93;
 }
-.dates-links .nav-pills .nav-link.active, .dates-links .nav-pills .show > .nav-link, .dates-links .dropdown-toggle {
-  color: #fff;
+.dates-links .dropdown-toggle {
   background: none !important;
 }
 

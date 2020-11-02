@@ -140,22 +140,15 @@ h1 {
 }
 
 .dates-links {
-    .dropdown-toggle {
-      border-radius: 0px;
-      margin: 5px;
-    }
-
- 
   .dropdown-menu {
     background-color: $darkgreen;
     .dropdown-item {
       color: $lightpink;
     }
   }
-  .nav-pills .nav-link.active, .nav-pills .show>.nav-link, .dropdown-toggle{
-    color: #fff;
+  .dropdown-toggle{
     background: none !important;
-}
+  }
 }
 
 #navbar {
