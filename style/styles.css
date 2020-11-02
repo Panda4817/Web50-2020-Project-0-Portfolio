@@ -125,9 +125,7 @@ h1 {
 }
 
 .dates-links .dropdown-toggle {
-  background-color: #1c3334 !important;
   border-radius: 0px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 5px;
 }
 .dates-links .dropdown-menu {
@@ -136,7 +134,7 @@ h1 {
 .dates-links .dropdown-menu .dropdown-item {
   color: #da7b93;
 }
-.dates-links .nav-pills .nav-link.active, .dates-links .nav-pills .show > .nav-link {
+.dates-links .nav-pills .nav-link.active, .dates-links .nav-pills .show > .nav-link, .dates-links .dropdown-toggle {
   color: #fff;
   background: none !important;
 }
