@@ -131,7 +131,7 @@ h1 {
   color: #da7b93;
 }
 .dates-links .dropdown-toggle {
-  background: none !important;
+  background: transparent !important;
 }
 
 #navbar {
