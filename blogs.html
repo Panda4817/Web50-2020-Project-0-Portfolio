@@ -55,7 +55,7 @@
             <h5>My journey into computer science</h5>
             <div class="img-1"></div>
             <p>I am particularly interested in full-stack development.</p>
-            <h3>Dates</h3>
+            <div id="dates-large"><h3>Dates</h3>
             <ul class="nav nav-pills flex-column">
               <li class="nav-item">
                 <a class="nav-link" href="#November20" onclick="scrollToTargetAdjusted('November20');">November</a>
@@ -87,9 +87,27 @@
               <li class="nav-item">
                 <a class="nav-link" href="#October19" onclick="scrollToTargetAdjusted('October19');">October 2019</a>
               </li>
-            </ul>
-
-            <h3>Links</h3>
+            </ul></div>
+            <div id="dates-small"><ul class="nav nav-pills flex-column dates-links">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 <span class="font-weight-bolder mobile-dropdown">Dates</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#November20" onclick="scrollToTargetAdjusted('November20');">November</a>
+                  <a class="dropdown-item" href="#October20" onclick="scrollToTargetAdjusted('October20');">October</a>
+                  <a class="dropdown-item" href="#September20" onclick="scrollToTargetAdjusted('September20');">September</a>
+                  <a class="dropdown-item" href="#August20" onclick="scrollToTargetAdjusted('August20');">August</a>
+                  <a class="dropdown-item" href="#July20" onclick="scrollToTargetAdjusted('July20');">July</a>
+                  <a class="dropdown-item" href="#June20" onclick="scrollToTargetAdjusted('June20');">June</a>
+                  <a class="dropdown-item" href="#May20" onclick="scrollToTargetAdjusted('May20');">May</a>
+                  <a class="dropdown-item" href="#April20" onclick="scrollToTargetAdjusted('April20');">April</a>
+                  <a class="dropdown-item" href="#March20" onclick="scrollToTargetAdjusted('March20');">March 2020</a>
+                  <a class="dropdown-item" href="#October19" onclick="scrollToTargetAdjusted('October19');">October 2019</a>
+                </div>
+              </li></ul>
+            </div>
+            <div id="links-large"><h3>Links</h3>
             <ul class="nav nav-pills flex-column">
               <li class="nav-item">
                 <a class="nav-link" href="https://cs50.harvard.edu/x/2020/" target="_blank">CS50 Intro to CS</a>
@@ -121,7 +139,26 @@
               <li class="nav-item">
                 <a class="nav-link" href="https://cs50.harvard.edu/ai/2020/" target="_blank">CS50AI</a>
               </li>
-            </ul>
+            </ul></div>
+            <div id="links-small"><ul class="nav nav-pills flex-column dates-links">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 <span class="font-weight-bolder mobile-dropdown">Links</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="https://cs50.harvard.edu/x/2020/" target="_blank">CS50 Intro to CS</a>
+                  <a class="dropdown-item" href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a>
+                  <a class="dropdown-item" href="https://www.w3schools.com/" target="_blank">w3schools</a>
+                  <a class="dropdown-item" href="https://docs.python.org/3/" target="_blank">Python documentation</a>
+                  <a class="dropdown-item" href="https://codepen.io/" target="_blank">CodePen</a>
+                  <a class="dropdown-item" href="https://cs50.harvard.edu/web/2020/" target="_blank">CS50 Web</a>
+                  <a class="dropdown-item" href="https://flask.palletsprojects.com/en/1.1.x/" target="_blank">Flask</a>
+                  <a class="dropdown-item" href="https://www.djangoproject.com/" target="_blank">Django</a>
+                  <a class="dropdown-item" href="https://reactjs.org/" target="_blank">React</a>
+                  <a class="dropdown-item" href="https://cs50.harvard.edu/ai/2020/" target="_blank">CS50AI</a>
+                </div>
+              </li></ul>
+            </div>
             <hr class="d-md-none">
           </div>
           <div class="col-md-8">

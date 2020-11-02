@@ -112,6 +112,53 @@ h1 {
   %img-index {
     height: 200px;
   }
+  #dates-large {
+    display: none;
+  }
+  #links-large {
+    display: none;
+  }
+  #dates-small {
+    display: block;
+  }
+  #links-small {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 721px) {
+  #dates-small {
+    display: none;
+  }
+  #links-small {
+    display: none;
+  }
+}
+
+.mobile-dropdown {
+  font-size: 1.3em;
+}
+
+.dates-links {
+    .dropdown-toggle {
+      background-color: $darkgreen !important;
+      border-radius: 0px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin: 5px;
+    }
+    
+
+ 
+  .dropdown-menu {
+    background-color: $darkgreen;
+    .dropdown-item {
+      color: $lightpink;
+    }
+  }
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: #fff;
+    background: none !important;
+}
 }
 
 #navbar {
@@ -305,11 +352,11 @@ h1 {
 
 
 
-
 @media screen and (min-width: 992px) {
   #mobile {
     display: none;
   }
+  
 
   .overlay-container:hover .overlay {
     opacity: 0.9;
