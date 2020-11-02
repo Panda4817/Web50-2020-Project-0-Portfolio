@@ -147,6 +147,9 @@ h1 {
   transform: translateY(-10px);
   color: #376d64;
 }
+#footer .profile:focus {
+  box-shadow: none !important;
+}
 #footer .footer-contact {
   color: #da7b93;
   text-decoration: none;

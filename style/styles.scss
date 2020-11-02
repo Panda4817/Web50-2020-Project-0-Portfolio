@@ -172,6 +172,10 @@ h1 {
     color: $lightgreen;
   }
 
+  .profile:focus {
+    box-shadow: none !important;
+  }
+
   .footer-contact {
     color: $lightpink;
     text-decoration: none;
