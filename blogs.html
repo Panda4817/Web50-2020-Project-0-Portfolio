@@ -58,6 +58,9 @@
             <h3>Dates</h3>
             <ul class="nav nav-pills flex-column">
               <li class="nav-item">
+                <a class="nav-link" href="#November20" onclick="scrollToTargetAdjusted('November20');">November</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#October20" onclick="scrollToTargetAdjusted('October20');">October</a>
               </li>
               <li class="nav-item">
@@ -122,6 +125,23 @@
             <hr class="d-md-none">
           </div>
           <div class="col-md-8">
+            <div id="November20">
+              <div  data-aos="zoom-in" data-aos-easing="ease-in">
+              <h2 >Multiplayer Online Pictionary App!</h2>
+              <h5>Picto, November 2, 2020</h5>
+              <div class="img-11"></div>
+              <p>
+                I have created a multiplayer online pictionary web app to play with friends during lock down.
+              </p>
+              <p>
+                I have finally finished my online multiplayer pictionary web app called Picto! 
+                It allows users to create rooms and invite friends to join the room and start a game of pictionary. 
+                It uses ReactJS for front end and NodeJS with Express server for back end. The drawings and chat messages are communicated between users via Socket.IO.
+                Also this is the first time I have deployed the back end and front end separately - front end on Netlify and back end on Heroku. I cannot wait to try this out with my friends!
+              </p>
+              <br>
+              </div>
+            </div>
             <div id="October20">
               <div  data-aos="zoom-in" data-aos-easing="ease-in">
               <h2 >CS50AI Complete and More Projects on Repl.it!</h2>
@@ -273,7 +293,7 @@
           </a>
         </div>
         <p>
-          Thank you for visiting my page. To find out more visit my other profile pages.
+          Thank you for visiting my portfolio website. To find out more visit my other profile pages.
         </p>
         <div class="social-media">
             <a id="profile-link" href="https://github.com/Panda4817" target="_blank" class="btn profile">
@@ -282,8 +302,8 @@
               <i class="fab fa-linkedin"></i></a>
               <a href="https://codepen.io/k_munton" target="_blank" class="btn profile">
               <i class="fab fa-codepen"></i></a>
-              <a id="profile-link" href="https://repl.it/@Panda4817" target="_blank" class="btn profile">
-                <img src="style/img/768px-Repl.it_logo.svg.png" width="40" class="mb-1"/></a>
+              <a id="profile-link" href="https://repl.it/@Panda4817" target="_blank" class="btn profile" onmouseover="document.getElementById('repl').src='style/img/Repl_it_logo_hover.png';" onmouseout="document.getElementById('repl').src='style/img/Repl_it_logo.png';">
+                <img id="repl" src="style/img/Repl_it_logo.png" width="30" class="mb-2" /></a>
         </div>
         <p>
           <i class="far fa-copyright"></i> <span id="year"></span>

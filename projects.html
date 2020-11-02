@@ -80,7 +80,7 @@
         <h2 class="project-title text-center">React and NodeJS Project</h2>
         <div class="row row-projects justify-content-center">
 
-            <div class="col-md-12">
+            <div class="col-md-6">
             <div class="content zoom">
               <a href="https://cutesee.herokuapp.com/" target="_blank" style="text-decoration: none;">
                 <div class="project-img-15"></div></a>
@@ -91,6 +91,19 @@
                 The website lets you search for images by typing the search query in the search bar.
                 However it is a little different from normal image search engines because it adds the word ‘cute’ onto the beginning of the search query. 
                 The website is mobile responsive and uses Bootstrap 4 for styling. This website is deployed on Heroku. 
+              </p>
+            </div>
+
+          </div>
+          <div class="col-md-6">
+            <div class="content zoom">
+              <a href="https://picto.netlify.app/" target="_blank" style="text-decoration: none;">
+                <div class="project-img-18"></div></a>
+              <h3>Picto</h3>
+              <p>
+                An online multiplayer pictionary app with ReactJS front end and NodeJS back end with Express server. 
+                The website lets you create a room or join an existing room. Once the game has started, it uses Socket.IO to communicate drawing data and chat messages between users. 
+                The website is mobile responsive and uses Bootstrap 4 for styling. The back end is deployed on Heroku and the front end is deployed on Netlify.
               </p>
             </div>
 
@@ -282,7 +295,7 @@
           <i class="fas fa-chevron-up"></i>
         </a></div>
         <p>
-          Thank you for visiting my page. To find out more visit my other profile pages.
+          Thank you for visiting my portfolio website. To find out more visit my other profile pages.
         </p>
         <div class="social-media">
             <a id="profile-link" href="https://github.com/Panda4817" target="_blank" class="btn profile">
@@ -291,8 +304,8 @@
               <i class="fab fa-linkedin"></i></a>
               <a href="https://codepen.io/k_munton" target="_blank" class="btn profile">
               <i class="fab fa-codepen"></i></a>
-              <a id="profile-link" href="https://repl.it/@Panda4817" target="_blank" class="btn profile">
-                <img src="style/img/768px-Repl.it_logo.svg.png" width="40" class="mb-1"/></a>
+              <a id="profile-link" href="https://repl.it/@Panda4817" target="_blank" class="btn profile" onmouseover="document.getElementById('repl').src='style/img/Repl_it_logo_hover.png';" onmouseout="document.getElementById('repl').src='style/img/Repl_it_logo.png';">
+                <img id="repl" src="style/img/Repl_it_logo.png" width="30" class="mb-2" /></a>
         </div>
         <p>
           <i class="far fa-copyright"></i> <span id="year"></span>
