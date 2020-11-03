@@ -143,7 +143,6 @@ h1 {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: none !important;
   .dropdown-menu {
     background-color: $darkgreen;
     .dropdown-item {
@@ -153,9 +152,6 @@ h1 {
       background-color: $lightgreen;
       color: white;
     }
-  }
-  .dropdown-toggle{
-    background-color: none !important;
   }
 }
 

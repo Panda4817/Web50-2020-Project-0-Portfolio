@@ -128,7 +128,6 @@ h1 {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: none !important;
 }
 .dates-links .dropdown-menu {
   background-color: #1c3334;
@@ -139,9 +138,6 @@ h1 {
 .dates-links .dropdown-menu .dropdown-item:hover {
   background-color: #376d64;
   color: white;
-}
-.dates-links .dropdown-toggle {
-  background-color: none !important;
 }
 
 #navbar {
