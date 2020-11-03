@@ -121,17 +121,24 @@ h1 {
   }
 }
 .mobile-dropdown {
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 .dates-links {
   z-index: 99999999;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 .dates-links .dropdown-menu {
   background-color: #1c3334;
 }
 .dates-links .dropdown-menu .dropdown-item {
   color: #da7b93;
+}
+.dates-links .dropdown-menu .dropdown-item:hover {
+  background-color: #376d64;
+  color: white;
 }
 .dates-links .dropdown-toggle {
   background: transparent !important;

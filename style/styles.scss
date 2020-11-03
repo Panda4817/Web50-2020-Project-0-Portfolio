@@ -136,15 +136,22 @@ h1 {
 }
 
 .mobile-dropdown {
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 .dates-links {
   z-index: 99999999;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   .dropdown-menu {
     background-color: $darkgreen;
     .dropdown-item {
       color: $lightpink;
+    }
+    .dropdown-item:hover {
+      background-color: $lightgreen;
+      color: white;
     }
   }
   .dropdown-toggle{
