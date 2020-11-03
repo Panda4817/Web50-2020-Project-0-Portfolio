@@ -119,10 +119,10 @@ h1 {
     display: none;
   }
   #dates-small {
-    display: block;
+    display: flex;
   }
   #links-small {
-    display: block;
+    display: flex;
   }
 }
 
@@ -144,6 +144,7 @@ h1 {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  background-color: none !important;
   .dropdown-menu {
     background-color: $darkgreen;
     .dropdown-item {
@@ -155,7 +156,7 @@ h1 {
     }
   }
   .dropdown-toggle{
-    background: transparent !important;
+    background-color: none !important;
   }
 }
 

@@ -104,11 +104,11 @@ h1 {
   }
 
   #dates-small {
-    display: block;
+    display: flex;
   }
 
   #links-small {
-    display: block;
+    display: flex;
   }
 }
 @media screen and (min-width: 721px) {
@@ -129,6 +129,7 @@ h1 {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  background-color: none !important;
 }
 .dates-links .dropdown-menu {
   background-color: #1c3334;
@@ -141,7 +142,7 @@ h1 {
   color: white;
 }
 .dates-links .dropdown-toggle {
-  background: transparent !important;
+  background-color: none !important;
 }
 
 #navbar {
