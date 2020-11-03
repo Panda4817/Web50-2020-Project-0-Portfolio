@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background: linear-gradient(-90deg, #2f4454, #2e151b);
+  background: linear-gradient(-90deg, #2f4454, #2e151b) !important;
 }
 
 #top {
