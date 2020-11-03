@@ -50,7 +50,22 @@
       </nav>
 
       <main class="container back">
-        <h2 class="project-title text-center">Projects Inspired by CS50 AI with Python</h2>
+        <div id="project-links"><ul class="dates-links text-left">
+          <li class="dropdown text-decoration-none">
+            <a class="dropdown-toggle "  role="button" id="dropdownMenuButtonProjects" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Jump to a section
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonProjects">
+              <a class="dropdown-item" href="#pythoncs50ai" onclick="scrollToTargetAdjusted('pythoncs50ai');">Python projects inspired by CS50AI</a>
+              <a class="dropdown-item" href="#nodejs" onclick="scrollToTargetAdjusted('nodejs');">ReactJS + NodeJS projects</a>
+              <a class="dropdown-item" href="#react" onclick="scrollToTargetAdjusted('react');">ReactJS projects</a>
+              <a class="dropdown-item" href="#pythonweb" onclick="scrollToTargetAdjusted('pythonweb');">Python Flask and Django projects</a>
+              <a class="dropdown-item" href="#cs50intro" onclick="scrollToTargetAdjusted('cs50intro');">CS50x final project</a>
+              <a class="dropdown-item" href="#responsive" onclick="scrollToTargetAdjusted('responsive');">Responsive web design projects</a>
+            </div>
+          </li></ul>
+        </div>
+        <h2 class="project-title text-center" id="pythoncs50ai">Projects Inspired by CS50 AI with Python</h2>
         <div class="row row-projects justify-content-center">
 
           <div class="col-md-6">
@@ -77,9 +92,21 @@
             </div>
       </div>
 
-        <h2 class="project-title text-center">React and NodeJS Project</h2>
+        <h2 class="project-title text-center" id="nodejs">React and NodeJS Project</h2>
         <div class="row row-projects justify-content-center">
+          <div class="col-md-6">
+            <div class="content zoom">
+              <a href="https://picto.netlify.app/" target="_blank" style="text-decoration: none;">
+                <div class="project-img-18"></div></a>
+              <h3>Picto</h3>
+              <p>
+                An online multiplayer pictionary app with ReactJS front end and NodeJS back end with Express server. 
+                The website lets you create a room or join an existing room. Once the game has started, it uses Socket.IO to communicate drawing data and chat messages between users. 
+                The website is mobile responsive and uses Bootstrap 4 for styling. The back end is deployed on Heroku and the front end is deployed on Netlify.
+              </p>
+            </div>
 
+          </div>
             <div class="col-md-6">
             <div class="content zoom">
               <a href="https://cutesee.herokuapp.com/" target="_blank" style="text-decoration: none;">
@@ -95,21 +122,9 @@
             </div>
 
           </div>
-          <div class="col-md-6">
-            <div class="content zoom">
-              <a href="https://picto.netlify.app/" target="_blank" style="text-decoration: none;">
-                <div class="project-img-18"></div></a>
-              <h3>Picto</h3>
-              <p>
-                An online multiplayer pictionary app with ReactJS front end and NodeJS back end with Express server. 
-                The website lets you create a room or join an existing room. Once the game has started, it uses Socket.IO to communicate drawing data and chat messages between users. 
-                The website is mobile responsive and uses Bootstrap 4 for styling. The back end is deployed on Heroku and the front end is deployed on Netlify.
-              </p>
-            </div>
-
-          </div>
+          
         </div>
-        <h2 class="project-title text-center">FreeCodeCamp Front End Libraries Projects</h2>
+        <h2 class="project-title text-center" id="react">FreeCodeCamp Front End Libraries Projects</h2>
         <div class="row justify-content-center">
           <div class="col-md-6 col-lg-3">
             <div class="content zoom">
@@ -163,19 +178,24 @@
             </div>
           </div>
         </div>
-        <h2 class="project-title text-center">CS50 Web Final Project</h2>
+        <h2 class="project-title text-center" id="pythonweb">CS50 Web Final Project</h2>
         <div class="row row-projects justify-content-center">
 
             <div class="col-md-12">
+             
             <div class="content zoom">
+              <div class="row">
+                <div class="col-md-6">
               <a href="https://mysouschef.herokuapp.com/" target="_blank" style="text-decoration: none;">
-                <div class="project-img-10"></div></a>
+                <div class="project-img-10"></div></a></div>
+                <div class="col-md-6">
               <h3>MySousChef Web Application</h3>
               <p>
                 For my final project I created a website called MySousChef that lets you search for recipes, add your own recipes, add items to a virtual pantry and keep track of use by dates, best before dates, when an item was opened or frozen and use within information. 
                 The website also lets you search for recipes by filtering for ingredients only in your virtual pantry. You can also create a virtual shopping list.
                 This project uses the Django Python framework with a PostgreSQL database. This website utilises the Spoonacular API and a Colorlib template. The website is deployed using Heroku.
-              </p>
+              </p> </div>
+            </div>
             </div>
 
           </div>
@@ -230,13 +250,16 @@
             </div>
           </div>
         </div>
-        <h2 class="project-title text-center">CS50 Introduction to Computer Science Final Project</h2>
+        <h2 class="project-title text-center" id="cs50intro">CS50 Introduction to Computer Science Final Project</h2>
         <div class="row row-projects justify-content-center">
 
             <div class="col-md-12">
             <div class="content zoom">
+              <div class="row">
+                <div class="col-md-6">
               <a href="https://watchreadrepeat.eu.pythonanywhere.com/" target="_blank" style="text-decoration: none;">
-                <div class="project-img-5"></div></a>
+                <div class="project-img-5"></div></a></div>
+                <div class="col-md-6">
               <h3>Watch Read Repeat Web Application</h3>
               <p>
                 Python and Flask based website that lets you keep lists of what you have watched, watching or want to watch and same with books. Back-end completed using Python and Flask with a SQLite database.
@@ -245,12 +268,12 @@
                 To start saving books, TV shows and movies, an account needs to be created with the site and then login using username and password. The website lets you update account details through the accounts page.
                 I have also used Bootstrap styled DataTables for the lists and other styling features such as modals.
                 This is the first website I have deployed and it is hosted from PythonAnywhere.
-              </p>
+              </p></div></div>
             </div>
 
           </div>
           </div>
-           <h2 class="project-title text-center">FreeCodeCamp Responsive Web Design Projects</h2>
+           <h2 class="project-title text-center" id="responsive">FreeCodeCamp Responsive Web Design Projects</h2>
 
         <div class="row justify-content-center">
           <div class="col-md-6 col-lg-3">

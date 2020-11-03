@@ -338,6 +338,16 @@ h1 {
   background-position: center;
 }
 
+@media screen and (min-width: 992px) {
+  .project-img-10, .project-img-5 {
+    height: 300px !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .project-img-10, .project-img-5 {
+    height: 400px !important;
+  }
+}
 .project-img-1 {
   background-image: url("img/tribute_page.jpg");
 }
