@@ -140,6 +140,7 @@ h1 {
 }
 
 .dates-links {
+  z-index: 99999999;
   .dropdown-menu {
     background-color: $darkgreen;
     .dropdown-item {

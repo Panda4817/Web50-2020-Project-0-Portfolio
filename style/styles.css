@@ -124,6 +124,9 @@ h1 {
   font-size: 1.3em;
 }
 
+.dates-links {
+  z-index: 99999999;
+}
 .dates-links .dropdown-menu {
   background-color: #1c3334;
 }
