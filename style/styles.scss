@@ -479,6 +479,11 @@ h1 {
   background-image: url("img/picto1.gif");
 }
 
+.project-img-19 {
+  @extend %project-img;
+  background-image: url("img/social-panda.png");
+}
+
 
 .zoom {
   transition: transform .2s; /* Animation */
@@ -537,6 +542,15 @@ h1 {
     background-size: contain;
     background-position: center;
   }
+
+  .img5 {
+    background-image: url("img/social-panda.png");
+    display: block;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+  }
+
 
   .hero-slides {
     position: relative;
