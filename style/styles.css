@@ -95,16 +95,8 @@ h1 {
     height: 200px;
   }
 
-  #dates-large {
-    display: none;
-  }
-
   #links-large {
     display: none;
-  }
-
-  #dates-small {
-    display: flex;
   }
 
   #links-small {
@@ -112,12 +104,17 @@ h1 {
   }
 }
 @media screen and (min-width: 721px) {
-  #dates-small {
-    display: none;
-  }
-
   #links-small {
     display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .project-links {
+    margin: 0 -40vw !important;
+  }
+
+  .blog-dates {
+    margin: 0 -20vw !important;
   }
 }
 .mobile-dropdown {
@@ -125,6 +122,7 @@ h1 {
 }
 
 .dates-links {
+  color: white;
   list-style-type: none;
   margin: 0;
   padding: 0;
