@@ -122,6 +122,7 @@ h1 {
 }
 
 .dates-links {
+  z-index: 9999 !important;
   color: white;
   list-style-type: none;
   margin: 0;
@@ -139,7 +140,7 @@ h1 {
 }
 
 #navbar {
-  z-index: 999999;
+  z-index: 999;
   background-color: #1c3334 !important;
 }
 #navbar .navbar-nav, #navbar .navbar-collapse {

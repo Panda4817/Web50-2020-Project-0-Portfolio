@@ -112,7 +112,7 @@ h1 {
   %img-index {
     height: 200px;
   }
-  
+
   #links-large {
     display: none;
   }
@@ -142,6 +142,7 @@ h1 {
 }
 
 .dates-links {
+  z-index: 9999 !important;
   color: white;
   list-style-type: none;
   margin: 0;
@@ -161,7 +162,7 @@ h1 {
 
 
 #navbar {
-  z-index: 999999;
+  z-index: 999;
   background-color: $darkgreen !important;
   .navbar-nav, .navbar-collapse {
     margin: 0 !important;
