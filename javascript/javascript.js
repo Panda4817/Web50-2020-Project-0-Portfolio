@@ -9,7 +9,7 @@ if ($('.owl-carousel') ){
         nav: false,
         dots: false,
         autoplay: true,
-        autoplayTimeout: 6000,
+        autoplayTimeout: 8000,
         smartSpeed: 1000
     });
 

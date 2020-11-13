@@ -331,19 +331,19 @@ h1 {
   background-color: #376d64;
 }
 
-.project-img-19, .project-img-18, .project-img-17, .project-img-16, .project-img-15, .project-img-14, .project-img-13, .project-img-12, .project-img-11, .project-img-10, .project-img-9, .project-img-8, .project-img-7, .project-img-6, .project-img-5, .project-img-4, .project-img-3, .project-img-2, .project-img-1 {
-  height: 150px;
+.project-img-20, .project-img-19, .project-img-18, .project-img-17, .project-img-16, .project-img-15, .project-img-14, .project-img-13, .project-img-12, .project-img-11, .project-img-10, .project-img-9, .project-img-8, .project-img-7, .project-img-6, .project-img-5, .project-img-4, .project-img-3, .project-img-2, .project-img-1 {
+  height: 250px;
   background-size: cover;
   background-position: center;
 }
 
 @media screen and (min-width: 992px) {
-  .project-img-10, .project-img-5, .project-img-19 {
+  .project-img-10, .project-img-5 {
     height: 300px !important;
   }
 }
 @media screen and (min-width: 768px) {
-  .project-img-10, .project-img-5, .project-img-19 {
+  .project-img-10, .project-img-5 {
     height: 400px !important;
   }
 }
@@ -423,6 +423,10 @@ h1 {
   background-image: url("img/social-panda.png");
 }
 
+.project-img-20 {
+  background-image: url("img/issue_tracker.png");
+}
+
 .zoom {
   transition: transform 0.2s;
   /* Animation */
@@ -482,6 +486,14 @@ h1 {
 
 .img5 {
   background-image: url("img/social-panda.png");
+  display: block;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+}
+
+.img6 {
+  background-image: url("img/issue_tracker.png");
   display: block;
   width: 100%;
   background-size: contain;
