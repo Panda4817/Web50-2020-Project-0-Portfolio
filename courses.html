@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head id='head'>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="style/owl.carousel.min.css">
@@ -17,255 +16,75 @@
         <title>Courses</title>
     </head>
     <body>
-      <header id="top" class="jumbotron text-center" style="margin-bottom:0">
-        <div data-aos="zoom-in">
-        <h1>Computer Science Courses</h1>
-        <p>Read about the courses I have completed</p></div>
-      </header>
+        <header id="top" class="jumbotron text-center" style="margin-bottom:0">
+            <div id="header" data-aos="zoom-in">
+            </div>
+        </header>
+        <nav id="navbar" class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
 
+        </nav>
+        <main class="container back">
+            <div id="mobile" class="row row-projects justify-content-center">
 
-      <nav id="navbar" class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blogs.html">Blogs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="courses.html">Courses</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="interests.html">Interests</a>
-            </li>
-          </ul>
+            </div>
+            <div id="table" class="row">
+                <div class="table-responsive-lg p-3">
+                  <table class="table table-hover table-borderless">
+                    <thead>
+                      <tr>
+                        <th>Courses started</th>
+                        <th>Course provider</th>
+                        <th>Programming languages/ Tools/ Libraries</th>
+                        <th>Projects/ Problem sets (psets)</th>
+                        <th>Other skills</th>
+                        <th>Completion status</th>
+                      </tr>
+                    </thead>
+                    <tbody id="table_body">
+
+                    </tbody>
+                </table>
+              </div>
+            </div>
+        </main>
+        <div id="footer_content">
+
         </div>
-      </nav>
-
-      <main class="container back">
-        
-          <div id="mobile" class="row row-projects justify-content-center">
-            <div class="col-12 p-3">
-              <div class="content zoom">
-                  <h3>APIs and Microservices</h3>
-                  <ul>
-                    <li><p>FreeCodeCamp</p></li>
-                    <li><p>JavaScript</p></li>
-                    <li><p>5 projects on Repl.it</p></li>
-                    <li><p>Managing Packages with Npm, Basic NodeJS and ExpressJS, MongoDB and Mongoose</p></li>
-                    <li><p>Completed and Passed</p></li>
-                  </ul>
-              </div>
-          </div>
-            <div class="col-12 p-3">
-                <div class="content zoom">
-                    <h3>Scientific Computing with Python</h3>
-                    <ul>
-                      <li><p>FreeCodeCamp</p></li>
-                      <li><p>Python</p></li>
-                      <li><p>5 projects on Repl.it</p></li>
-                      <li><p>Basics of Python, Object-Oriented Programming, Database Design, Web Development</p></li>
-                      <li><p>Completed and Passed</p></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-12 p-3">
-              <div class="content zoom">
-                  <h3>CS50 Introduction to Artificial Intelligence with Python</h3>
-                  <ul>
-                    <li><p>Harvard University (through edX)</p></li>
-                    <li><p>Python</p></li>
-                    <li><p>6 quizzes and 12 projects</p></li>
-                    <li><p>Graph Search Algorithms, Adversarial Search, Knowledge Representation, Logical Inference, Probability Theory, Bayesian Networks,
-                      Markov Models, Constraint Satisfaction, Machine Learning, Reinforcement Learning, Neural Networks, Natural Language Processing</p></li>
-                    <li><p>Completed and Passed</p></li>
-                  </ul>
-              </div>
-            </div> 
-            <div class="col-12 p-3">
-              <div class="content zoom">
-                  <h3>Front End Libraries</h3>
-                  <ul>
-                    <li><p>FreeCodeCamp</p></li>
-                    <li><p>Bootstrap, jQuery, Sass, React, Redux</p></li>
-                    <li><p>5 projects through CodePen</p></li>
-                    <li><p>Completed and Passed</p></li>
-                  </ul>
-              </div>
-            </div>
-            <div class="col-12 p-3">
-              <div class="content zoom">
-                  <h3>JavaScript Algorithms and Data Structures</h3>
-                  <ul>
-                    <li><p>FreeCodeCamp</p></li>
-                    <li><p>JavaScript</p></li>
-                    <li><p>5 projects</p></li>
-                    <li><p>ES6, Debugging, Regular Expression, Object Oriented Programming, Functional Programming, Data Structures and Algorithm Scripting</p></li>
-                    <li><p>Completed and Passed</p></li>
-                  </ul>
-              </div>
-            </div>
-            <div class="col-12 p-3">
-              <div class="content zoom">
-                  <h3>CS50 Web Programming with Python and JavaScript</h3>
-                  <ul>
-                    <li><p>Harvard University (through edX)</p></li>
-                    <li><p>HTML, CSS, Python, JavaScript</p></li>
-                    <li><p>5 projects including a final project</p></li>
-                    <li><p>SQL, Flask, ORMs, APIs, Django, Git, Scalability and Security</p></li>
-                    <li><p>Completed and Passed</p></li>
-                  </ul>
-              </div>
-            </div>
-            <div class="col-12 p-3">
-              <div class="content zoom">
-                  <h3>Responsive Web Design</h3>
-                  <ul>
-                    <li><p>FreeCodeCamp</p></li>
-                    <li><p>CSS and HTML</p></li>
-                    <li><p>5 projects through CodePen</p></li>
-                    <li><p>Flexbox, Media Queries, Accessibility</p></li>
-                    <li><p>Completed and Passed</p></li>
-                  </ul>
-              </div>
-            </div>
-            <div class="col-12 p-3">
-              <div class="content zoom">
-              
-                  <h3>CS50 Introduction to Computer Science</h3>
-                  <ul>
-                    <li><p>Harvard University (through edX)</p></li>
-                    <li><p>C, Python, HTML, CSS, JavaScript</p></li>
-                    <li><p>9 psets and a final project</p></li>
-                    <li><p>Introduction to Data Structures and Algorithms, Memory,  SQL, Flask</p></li>
-                    <li><p>Completed and Passed</p></li>
-                  </ul>
-              </div>
-            </div>   
-          </div>
-          <div id="table" class="row">
-          <div class="table-responsive-lg p-3">
-            <table class="table table-hover table-borderless">
-              <thead>
-                <tr>
-                  <th>Courses started</th>
-                  <th>Course provider</th>
-                  <th>Programming languages/ Tools/ Libraries</th>
-                  <th>Projects/ Problem sets (psets)</th>
-                  <th>Other skills</th>
-                  <th>Completion status</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>APIs and Microservices</td>
-                  <td>FreeCodeCamp</td>
-                  <td>JavaScript</td>
-                  <td>5 projects on Repl.it</td>
-                  <td>Managing Packages with Npm, Basic NodeJS and ExpressJS, MongoDB and Mongoose</td>
-                  <td>Completed and Passed</td>
-                </tr>
-                <tr>
-                  <td>Scientific Computing with Python</td>
-                  <td>FreeCodeCamp</td>
-                  <td>Python</td>
-                  <td>5 projects on Repl.it</td>
-                  <td>Basics of Python, Object-Oriented Programming, Database Design, Web Development</td>
-                  <td>Completed and Passed</td>
-                </tr>
-                <tr>
-                  <td>CS50 Introduction to Artificial Intelligence with Python</td>
-                  <td>Harvard University (through edX)</td>
-                  <td>Python</td>
-                  <td>6 quizzes and 12 projects</td>
-                  <td>Graph Search Algorithms, Adversarial Search, Knowledge Representation, Logical Inference, Probability Theory, Bayesian Networks,
-                    Markov Models, Constraint Satisfaction, Machine Learning, Reinforcement Learning, Neural Networks, Natural Language Processing</td>
-                  <td>Completed and Passed</td>
-                </tr>
-                <tr>
-                  <td>Front End Libraries</td>
-                  <td>FreeCodeCamp</td>
-                  <td>Bootstrap, jQuery, Sass, React, Redux</td>
-                  <td>5 projects through CodePen</td>
-                  <td></td>
-                  <td>Completed and Passed</td>
-                </tr>
-                <tr>
-                  <td>JavaScript Algorithms and Data Structures</td>
-                  <td>FreeCodeCamp</td>
-                  <td>JavaScript</td>
-                  <td>5 projects</td>
-                  <td>ES6, Debugging, Regular Expression, Object Oriented Programming, Functional Programming, Data Structures and Algorithm Scripting</td>
-                  <td>Completed and Passed</td>
-                </tr>
-                <tr>
-                  <td>CS50 Web Programming with Python and JavaScript</td>
-                  <td>Harvard University (through edX)</td>
-                  <td>HTML, CSS, Python, JavaScript</td>
-                  <td>5 projects including a final project</td>
-                  <td>SQL, Flask, ORMs, APIs, Django, Git, Scalability and Security</td>
-                  <td>Completed and Passed</td>
-                </tr>
-                <tr>
-                  <td>Responsive Web Design</td>
-                  <td>FreeCodeCamp</td>
-                  <td>CSS and HTML</td>
-                  <td>5 projects through CodePen</td>
-                  <td>Flexbox, Media Queries, Accessibility</td>
-                  <td>Completed and Passed</td>
-                </tr>
-                <tr>
-                  <td>CS50 Introduction to Computer Science</td>
-                  <td>Harvard University (through edX)</td>
-                  <td>C, Python, HTML, CSS, JavaScript</td>
-                  <td>9 psets and a final project</td>
-                  <td>Introduction to Data Structures and Algorithms, Memory,  SQL, Flask</td>
-                  <td>Completed and Passed</td>
-                </tr> 
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </main>
-
-      <footer id="footer" class="jumbotron text-center" style="margin-bottom:0">
-        <div class="profile"><a class="profile" onclick="scrollToTop('top');" href="#top" title="Back to top">
-          <i class="fas fa-chevron-up"></i>
-        </a></div>
-        <p>
-          Thank you for visiting my portfolio website. To find out more visit my other profile pages.
-        </p>
-        <div class="social-media">
-            <a id="profile-link" href="https://github.com/Panda4817" target="_blank" class="btn profile">
-              <i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/kmunton" target="_blank" class="btn profile">
-              <i class="fab fa-linkedin"></i></a>
-              <a href="https://codepen.io/k_munton" target="_blank" class="btn profile">
-              <i class="fab fa-codepen"></i></a>
-              <a id="profile-link" href="https://repl.it/@Panda4817" target="_blank" class="btn profile" onmouseover="document.getElementById('repl').src='style/img/repl_it_logo_hover.png';" onmouseout="document.getElementById('repl').src='style/img/repl_it_logo.png';">
-                <img id="repl" src="style/img/repl_it_logo.png" width="30" class="mb-2" /></a>
-                <a href="https://www.freecodecamp.org/kmunton" target="_blank" class="btn profile">
-                  <i class="fab fa-free-code-camp"></i></a>
-        </div>
-        <p>
-          <i class="far fa-copyright"></i> <span id="year"></span>
-        </p>
-      </footer>
     </body>
+    <script id="mobile_temp" type="text/template">
+        {{#courses}}
+        <div class="col-12 p-3">
+            <div class="content zoom">
+                <h3>{{title}}</h3>
+                <ul>
+                  <li><p>{{provider}}</p></li>
+                  <li><p>{{lang}}</p></li>
+                  <li><p>{{projects}}</p></li>
+                  <li><p>{{description}}</p></li>
+                  <li><p>{{completion}}</p></li>
+                </ul>
+            </div>
+          </div>
+        {{/courses}}
+    </script>
+    <script id="table_temp" type="text/template">
+        {{#courses}}
+        <tr>
+            <td>{{title}}</td>
+            <td>{{provider}}</td>
+            <td>{{lang}}</td>
+            <td>{{projects}}</td>
+            <td>{{description}}</td>
+            <td>{{completion}}</td>
+        </tr>
+        {{/courses}}
+    </script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="javascript/owl.carousel.min.js"></script>
-    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="javascript/react.js"></script>
-    <script src="javascript/javascript.js"></script>
-</html>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.0.1/mustache.min.js" integrity="sha512-6AXIWogbKpsHvoZJrJtHpIYES4wP8czSj0zk7ZfwOYS8GWYFNSykwdfapt7yQc4ikZytemBu+QyVObzBHJMwYg==" crossorigin="anonymous"></script>
+    <script src="javascript/shared_functions.js"></script>
+    <script src="javascript/courses.js"></script>
+    

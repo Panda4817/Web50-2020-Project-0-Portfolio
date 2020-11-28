@@ -109,8 +109,8 @@ h1 {
   }
 }
 @media screen and (max-width: 576px) {
-  .project-links {
-    margin: 0 -40vw !important;
+  #project-links .dropdown-menu {
+    left: -50vw;
   }
 
   .blog-dates {
@@ -119,6 +119,11 @@ h1 {
 }
 .mobile-dropdown {
   font-size: 1.5em;
+}
+
+#project-links .dropdown-menu {
+  min-width: 50vw !important;
+  height: fit-content !important;
 }
 
 .dates-links {
@@ -169,9 +174,56 @@ h1 {
   margin: 5px !important;
 }
 
+.navbar-toggler:hover {
+  background: transparent !important;
+}
+
 .navbar-toggler:focus {
   box-shadow: none !important;
   outline: none !important;
+}
+
+.navbar-toggler:active, :hover {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.navbar-toggler:hover {
+  box-shadow: none !important;
+  outline: none !important;
+  background: transparent !important;
+}
+
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+.navbar-toggler .icon-bar {
+  background-color: #da7b93;
+  display: block;
+  width: 30px;
+  height: 2px;
+  border-radius: 1px;
+  transition: all 0.6s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.navbar-toggler .icon-bar + .icon-bar {
+  margin-top: 6px;
+}
+
+.navbar-toggler[aria-expanded=false] .top-bar, .middle-bar, .bottom-bar {
+  transform: none;
+  opacity: 1;
+}
+
+.navbar-toggler[aria-expanded=true] .top-bar {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+.navbar-toggler[aria-expanded=true] .bottom-bar {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+.navbar-toggler[aria-expanded=true] .middle-bar {
+  opacity: 0;
 }
 
 #footer {
@@ -204,6 +256,14 @@ h1 {
 }
 
 /* Create four equal columns that sits next to each other */
+.card-columns {
+  column-count: 4 !important;
+}
+.card-columns .project {
+  width: 100% !important;
+  height: auto !important;
+}
+
 .column-about {
   flex: 25%;
   max-width: 25%;
@@ -258,12 +318,20 @@ h1 {
     flex: 50%;
     max-width: 50%;
   }
+
+  .card-columns {
+    column-count: 2 !important;
+  }
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 720px) {
   .column-about {
     flex: 100%;
     max-width: 100%;
+  }
+
+  .card-columns {
+    column-count: 1 !important;
   }
 }
 .overlay-container {
@@ -327,26 +395,95 @@ h1 {
   text-align: center;
 }
 
+.tags {
+  font-size: x-small;
+  background-color: #376d64;
+  color: white !important;
+  cursor: pointer;
+}
+
+.tags:hover {
+  background-color: #1c3334;
+  color: #da7b93;
+}
+
+.tags-muted:hover {
+  background-color: #376d64;
+  color: white !important;
+}
+
+.tags-muted {
+  font-size: x-small;
+  background-color: #1c3334;
+  color: #da7b93 !important;
+  cursor: pointer;
+}
+
+.token {
+  background-color: #376d64 !important;
+  border-color: #376d64 !important;
+  border-radius: 20px !important;
+  color: white !important;
+  height: fit-content !important;
+}
+.token .close {
+  opacity: 1 !important;
+  color: white !important;
+  text-shadow: none !important;
+}
+
+.tokenfield {
+  box-shadow: none !important;
+  outline: none !important;
+  background-color: transparent !important;
+  border: 1px solid white !important;
+}
+.tokenfield .token-input {
+  color: white !important;
+  height: 30px !important;
+}
+
+.tokenfield:hover, .tokenfield:active, .tokenfield:focus {
+  border: 1px solid white !important;
+}
+
+.ui-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 9999 !important;
+  font-size: 1rem;
+  text-align: left;
+  list-style: none;
+  list-style-type: none;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  color: white;
+  margin: 0;
+  padding: 0;
+  background-color: #1c3334;
+}
+.ui-menu li {
+  color: #da7b93;
+  padding-left: 5px !important;
+  cursor: pointer;
+}
+.ui-menu li:hover {
+  background-color: #376d64;
+  color: white;
+}
+
 .content:hover, .content:focus {
   background-color: #376d64;
 }
 
 .project-img-20, .project-img-19, .project-img-18, .project-img-17, .project-img-16, .project-img-15, .project-img-14, .project-img-13, .project-img-12, .project-img-11, .project-img-10, .project-img-9, .project-img-8, .project-img-7, .project-img-6, .project-img-5, .project-img-4, .project-img-3, .project-img-2, .project-img-1 {
-  height: 250px;
+  height: 200px;
   background-size: cover;
   background-position: center;
 }
 
-@media screen and (min-width: 992px) {
-  .project-img-10, .project-img-5 {
-    height: 300px !important;
-  }
-}
-@media screen and (min-width: 768px) {
-  .project-img-10, .project-img-5 {
-    height: 400px !important;
-  }
-}
 .project-img-1 {
   background-image: url("img/tribute_page.jpg");
 }

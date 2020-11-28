@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head id='head'>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="style/owl.carousel.min.css">
         <link rel="stylesheet" href="style/owl.theme.default.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tokenfield/0.12.0/css/bootstrap-tokenfield.min.css" integrity="sha512-YWDtZYKUekuPMIzojX205b/D7yCj/ZM82P4hkqc9ZctHtQjvq3ei11EvAmqxQoyrIFBd9Uhfn/X6nJ1Nnp+F7A==" crossorigin="anonymous" />      
         <link href="style/styles.css" rel="stylesheet">
         <link rel="apple-touch-icon" sizes="180x180" href="style/img/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="style/img/favicon-32x32.png">
@@ -17,369 +17,71 @@
         <title>Projects</title>
     </head>
     <body>
-      <header id="top" class="jumbotron text-center" style="margin-bottom:0">
-        <div data-aos="zoom-in">
-        <h1>Projects</h1>
-        <p>Take a look at what I have been working on</p></div>
-      </header>
-
-
-      <nav id="navbar" class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="project-links"><ul class="dates-links text-left">
-          <li class="dropdown text-decoration-none">
-            <a class="dropdown-toggle "  role="button" id="dropdownMenuButtonProjects" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-             Jump to a section
-            </a>
-            <div class="dropdown-menu project-links" aria-labelledby="dropdownMenuButtonProjects">
-              <a class="dropdown-item" href="#freecodecampNode" onclick="scrollToTargetAdjusted('freecodecampNode');">FreeCodeCamp NodeJS Projects</a>
-              <a class="dropdown-item" href="#pythoncs50ai" onclick="scrollToTargetAdjusted('pythoncs50ai');">Python projects inspired by CS50AI</a>
-              <a class="dropdown-item" href="#nodejs" onclick="scrollToTargetAdjusted('nodejs');">ReactJS + NodeJS projects</a>
-              <a class="dropdown-item" href="#react" onclick="scrollToTargetAdjusted('react');">ReactJS projects</a>
-              <a class="dropdown-item" href="#pythonweb" onclick="scrollToTargetAdjusted('pythonweb');">Python Flask and Django projects</a>
-              <a class="dropdown-item" href="#cs50intro" onclick="scrollToTargetAdjusted('cs50intro');">CS50x final project</a>
-              <a class="dropdown-item" href="#responsive" onclick="scrollToTargetAdjusted('responsive');">Responsive web design projects</a>
+        <header id="top" class="jumbotron text-center" style="margin-bottom:0">
+            <div id="header" data-aos="zoom-in">
             </div>
-          </li></ul>
+        </header>
+        <nav id="navbar" class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+
+        </nav>
+        <main class="container back">
+            <form onsubmit="return false">
+                <div class="form-row">
+                    <div class="input-group m-3">
+                        <input type="text" class="form-control" id="tokenfield" placeholder="Search by tags" aria-label="searchTags" aria-describedby="inputField">
+                        <div class="input-group-append">
+                        <button class="btn btn-light" id="submit" type="button" onclick="getTokens()"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>   
+                </div>
+            </form>
+            <div id="project_content" class="card-columns">
+
+            </div>
+            <div id="taglist" class="row justify-content-center">
+
+            </div>
+        </main>
+        <div id="footer_content">
+
         </div>
-        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blogs.html">Blogs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="courses.html">Courses</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="interests.html">Interests</a>
-            </li>
-          </ul>
-          
-        </div>
-        
-      </nav>
-
-      <main class="container back">
-        
-        <h2 class="project-title text-center" id="freecodecampNode">FreeCodeCamp NodeJS Projects</h2>
-        <div class="row row-projects justify-content-center">
-          <div class="col-md-6">
-            <div class="content zoom">
-              <a href="https://social-panda.panda4817.repl.co/" target="_blank" style="text-decoration: none;">
-                <div class="project-img-19"></div></a>
-              <h3>Social Panda Web Application</h3>
-              <p>
-                This project was started to complete the advanced NodeJS challenges on FreeCodeCamp but I decided to extend it with more features.
-              I used PassportJS to give users various ways to login to the app. I used a MongoDB database to store user and posts information. 
-              I used a Pug template engine to render the front end. The app allows users to make posts, with hashtags and emoji. Users can like and unlike posts. Users can filter posts by trending hashtags. 
-              The app includes a global chat room, which uses Socket.IO. I used Bootstrap 4 for styling and mobile responsiveness. The project is running on Repl.
-            </p>
-            </div>
-
-          </div>
-            <div class="col-md-6">
-            <div class="content zoom">
-              <a href="https://issue-tracker.panda4817.repl.co" target="_blank" style="text-decoration: none;">
-                <div class="project-img-20"></div></a>
-              <h3>Issue Tracker</h3>
-              <p>
-                This project was part of FreeCodeCamp Quality Assurance projects. The project uses a MongoDB database to get, post, put and delete issues. 
-                The project didn't require it but I used a Pug template engine to render the front end. The index page has a simple dashboard showing the number of projects and number of issues per project. 
-                When the project page is loaded, it displays all projects both open and closed but you may filter the issues by adding queries to the url.
-                I used Bootstrap 4 for styling and mobile responsiveness. The project is running on Repl.
-              </p>
-            </div>
-
-          </div>
-          
-        </div>
-        <h2 class="project-title text-center" id="pythoncs50ai">Projects Inspired by CS50 AI with Python</h2>
-        <div class="row row-projects justify-content-center">
-
-          <div class="col-md-6">
-          <div class="content zoom">
-            <a href="https://github.com/Panda4817/Snake-AI" target="_blank" style="text-decoration: none;">
-              <div class="project-img-16"></div></a>
-            <h3>Snake AI</h3>
-            <p>
-              A pygame program that allows users to play the classic game of Snake as normal, watch an AI play Snake and play Snake against the AI. 
-              Before settling on the Hamiltonian Cycle for the AI snake, I tried Q-learning and A* search algorithms. 
-            </p>
-          </div>
-          </div>
-          <div class="col-md-6">
-            <div class="content zoom">
-              <a href="https://github.com/Panda4817/sudoku-solver" target="_blank" style="text-decoration: none;">
-                <div class="project-img-17"></div></a>
-              <h3>Sudoku Solver</h3>
-              <p>
-                A command line tool that uses a backtracking search algorithm with some optimization heuristics to solve any valid sudoku boards. 
-                The board is loaded from a csv file. It will print out the board as it is being solved and afterwards print out the number of seconds it took to solve it.
-              </p>
-            </div>
-            </div>
-      </div>
-
-        <h2 class="project-title text-center" id="nodejs">React and NodeJS Project</h2>
-        <div class="row row-projects justify-content-center">
-          <div class="col-md-6">
-            <div class="content zoom">
-              <a href="https://picto.netlify.app/" target="_blank" style="text-decoration: none;">
-                <div class="project-img-18"></div></a>
-              <h3>Picto</h3>
-              <p>
-                An online multiplayer Pictionary app with ReactJS front end and NodeJS back end with Express server. 
-                The website lets you create a room or join an existing room. Once the game has started, it uses Socket.IO to communicate drawing data and chat messages between users. 
-                The website is mobile responsive and uses Bootstrap 4 for styling. The back end is deployed on Heroku and the front end is deployed on Netlify.
-              </p>
-            </div>
-
-          </div>
-            <div class="col-md-6">
-            <div class="content zoom">
-              <a href="https://cutesee.herokuapp.com/" target="_blank" style="text-decoration: none;">
-                <div class="project-img-15"></div></a>
-              <h3>CuteSee</h3>
-              <p>
-                This is a personal project using ReactJS front end and NodeJS with Express for back end. 
-                The website also utilises a third-party API Pixabay for the images. 
-                The website lets you search for images by typing the search query in the search bar.
-                However it is a little different from normal image search engines because it adds the word ‘cute’ onto the beginning of the search query. 
-                The website is mobile responsive and uses Bootstrap 4 for styling. This website is deployed on Heroku. 
-              </p>
-            </div>
-
-          </div>
-          
-        </div>
-        <h2 class="project-title text-center" id="react">FreeCodeCamp Front End Libraries Projects</h2>
-        <div class="row justify-content-center">
-          <div class="col-md-6 col-lg-3">
-            <div class="content zoom">
-               <a href="https://codepen.io/k_munton/pen/MWKEdNG" target="_blank" style="text-decoration: none;">
-              <div class="project-img-11"></div></a>
-              <h3>React Random Quote Generator</h3>
-              <p>
-                This project uses JavaScript with React, Bootstrap 4, Animate.css and Sass. 
-                When 'Generate Random Quote' is clicked a random number is generated, which is used as the array index for the quote and another number is generated for the array index for the body background colour.
-                Click on the image to see the project on CodePen.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="content zoom">
-             <a href="https://codepen.io/k_munton/pen/QWyOGzv" target="_blank" style="text-decoration: none;">
-            <div class="project-img-12"></div></a>
-              <h3>React Markdown Previewer</h3>
-              <p>
-                This project uses JavaScript with React, Bootstrap 4, Sass, Marked.js and HTML-React-Parser package. 
-                When the user types anything in the textarea, that input is controlled using React components. 
-                The input value is then parsed to HTML by Marked.js and then parsed again by HTML-React-Parser.
-                Click on the image to see the project on CodePen.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="content zoom">
-             <a href="https://codepen.io/k_munton/pen/XWXzPJW" target="_blank" style="text-decoration: none;">
-            <div class="project-img-13"></div></a>
-              <h3>React Animal Drum Machine</h3>
-              <p>
-                This project uses JavaScript with React, Bootstrap 4 and Sass. 
-                When a user clicks on the drums or presses the keys associated with each drum an animal sound plays, along with a specific text and image being shown for that sound.
-                I programmed an easter egg into the app. When the user clicks on the image, it opens a Bootstrap modal with a video that starts playing immediatly.
-                Click on the image to see the project on CodePen. 
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="content zoom">
-             <a href="https://codepen.io/k_munton/pen/ExPogzZ" target="_blank" style="text-decoration: none;">
-            <div class="project-img-14"></div></a>
-              <h3>React Calculator</h3>
-              <p>
-                This project uses JavaScript with React, Bootstrap 4 and Sass.
-                The calculator lets you choose between formula logic or immediate execution logic using a custom toggle switch.
-                The calculator also works with keyboard keys being pressed along with mouse clicks.
-                Click on the image to see the project on CodePen. 
-              </p>
-            </div>
-          </div>
-        </div>
-        <h2 class="project-title text-center" id="pythonweb">CS50 Web Final Project</h2>
-        <div class="row row-projects justify-content-center">
-
-            <div class="col-md-12">
-             
-            <div class="content zoom">
-              <div class="row">
-                <div class="col-md-6">
-              <a href="https://mysouschef.herokuapp.com/" target="_blank" style="text-decoration: none;">
-                <div class="project-img-10"></div></a></div>
-                <div class="col-md-6">
-              <h3>MySousChef Web Application</h3>
-              <p>
-                For my final project I created a website called MySousChef that lets you search for recipes, add your own recipes, add items to a virtual pantry and keep track of use by dates, best before dates, when an item was opened or frozen and use within information. 
-                The website also lets you search for recipes by filtering for ingredients only in your virtual pantry. You can also create a virtual shopping list.
-                This project uses the Django Python framework with a PostgreSQL database. This website utilises the Spoonacular API and a Colorlib template. The website is deployed using Heroku.
-              </p> </div>
-            </div>
-            </div>
-
-          </div>
-          </div>
-        <h2 class="project-title text-center">CS50 Web Programming with Python and JavaScript Projects</h2>
-        <div class="row justify-content-center">
-          <div class="col-md-6 col-lg-3">
-            <div class="content zoom">
-               <a href="https://github.com/Panda4817/portfolio" target="_blank" style="text-decoration: none;">
-              <div class="project-img-6"></div></a>
-              <h3>Project 0 - Homepage</h3>
-              <p>
-                For this project I had to create a static website with the focus on SCSS and HTML. I created my portfolio website.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="content zoom">
-             <a href="https://github.com/Panda4817/Web50-2020-Project-1" target="_blank" style="text-decoration: none;">
-            <div class="project-img-7"></div></a>
-              <h3>Project 1 - Books</h3>
-              <p>This project was Python Flask based with a PostgreSQL database. 
-                In this project I built a book review website. 
-                Users are able to register for an account and then log in using their username and password. 
-                Once they log in, they will be able to search for books, leave reviews for individual books, and see the reviews made by other people. 
-                I also use the a third party API by Goodreads, another book review website, to pull in ratings from a broader audience. 
-                Finally, users are able to query for book details and book reviews programmatically via the website’s API. </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="content zoom">
-             <a href="https://github.com/Panda4817/Web50-2020-Project-2-Flack" target="_blank" style="text-decoration: none;">
-            <div class="project-img-8"></div></a>
-              <h3>Project 2 - Flack</h3>
-              <p>
-                In this project, I built an online messaging service using Flask, similar in spirit to Slack. 
-                Users are able to sign into the site with a display name, create channels (i.e. chatrooms) to communicate in, as well as see and join existing channels. 
-                Once a channel is selected, users are able to send and receive messages with one another in real time. You can also send gifs and images and see who else is in the channel.
-                This project uses Socket.IO to communicate between clients and servers.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="content zoom">
-             <a href="https://github.com/Panda4817/Web50-2020-Project-3-Pizza" target="_blank" style="text-decoration: none;">
-            <div class="project-img-9"></div></a>
-              <h3>Project 3 - Pizza</h3>
-              <p>In this project, I built a web application for handling a pizza restaurant’s online orders. Users are able to browse the restaurant’s menu, add items to their cart, and submit their orders. 
-                Meanwhile, the restaurant owners are able to add and update menu items, and view orders that have been placed.
-                Customers can also choose to pay by card through the implementation of Stripe API and restuarent owners can mark orders complete. This project uses the Python Django framework with a SQLite database.
-              </p>
-            </div>
-          </div>
-        </div>
-        <h2 class="project-title text-center" id="cs50intro">CS50 Introduction to Computer Science Final Project</h2>
-        <div class="row row-projects justify-content-center">
-
-            <div class="col-md-12">
-            <div class="content zoom">
-              <div class="row">
-                <div class="col-md-6">
-              <a href="https://watchreadrepeat.eu.pythonanywhere.com/" target="_blank" style="text-decoration: none;">
-                <div class="project-img-5"></div></a></div>
-                <div class="col-md-6">
-              <h3>Watch Read Repeat Web Application</h3>
-              <p>
-                Python and Flask based website that lets you keep lists of what you have watched, watching or want to watch and same with books. Back-end completed using Python and Flask with a SQLite database.
-                Front-end uses JavaScript, HTML and CSS with Bootstrap 4. Also some jQuery and AJAX.
-                The dashboard provides data about your lists such as top 5 rated books, movies and TV shows and stacked bar charts using Chart.js.
-                To start saving books, TV shows and movies, an account needs to be created with the site and then login using username and password. The website lets you update account details through the accounts page.
-                I have also used Bootstrap styled DataTables for the lists and other styling features such as modals.
-                This is the first website I have deployed and it is hosted from PythonAnywhere.
-              </p></div></div>
-            </div>
-
-          </div>
-          </div>
-           <h2 class="project-title text-center" id="responsive">FreeCodeCamp Responsive Web Design Projects</h2>
-
-        <div class="row justify-content-center">
-          <div class="col-md-6 col-lg-3">
-            <div class="content zoom">
-               <a href="https://codepen.io/k_munton/full/VwvZEJp" target="_blank" style="text-decoration: none;">
-              <div class="project-img-1"></div></a>
-              <h3>Ada Lovelace Tribute Page</h3>
-              <p>
-                I have built a tribute page with different elements. I made sure the image elements responsively resizes, relative to the width of its parent element, without exceeding its original size.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="content zoom">
-             <a href="https://codepen.io/k_munton/full/bGVGrjE" target="_blank" style="text-decoration: none;">
-            <div class="project-img-2"></div></a>
-              <h3>Company Product Landing Page</h3>
-              <p>I have created a company landing page with a contact form, navigation bar that responsively changes to a dropdown and uses CSS Flexbox. My page also uses media queries to repsond to different viewport widths.</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="content zoom">
-             <a href="https://codepen.io/k_munton/full/JjYoPKx/" target="_blank" style="text-decoration: none;">
-            <div class="project-img-3"></div></a>
-              <h3>Python Technical Documentation Page</h3>
-              <p>I have created a Python technical documentation page that has a fixed nav element on the left hand side of the screen. I have also used the code tag to present Python code on the page.</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="content zoom">
-             <a href="https://codepen.io/k_munton/full/oNjvJJO" target="_blank" style="text-decoration: none;">
-            <div class="project-img-4"></div></a>
-              <h3>Survey Form Page</h3>
-              <p>I have created a survey form with different types of inputs. These include text input for name, email input, dropdown with option tags, radio and checkbox input types and textarea input for comments. I have also included a button with submit type at the end.</p>
-            </div>
-          </div>
-        </div>
-      </main>
-
-      <footer id="footer" class="jumbotron text-center" style="margin-bottom:0">
-        <div class="profile"><a class="profile" onclick="scrollToTop('top');" href="#top" title="Back to top">
-          <i class="fas fa-chevron-up"></i>
-        </a></div>
-        <p>
-          Thank you for visiting my portfolio website. To find out more visit my other profile pages.
-        </p>
-        <div class="social-media">
-            <a id="profile-link" href="https://github.com/Panda4817" target="_blank" class="btn profile">
-              <i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/kmunton" target="_blank" class="btn profile">
-              <i class="fab fa-linkedin"></i></a>
-              <a href="https://codepen.io/k_munton" target="_blank" class="btn profile">
-              <i class="fab fa-codepen"></i></a>
-              <a id="profile-link" href="https://repl.it/@Panda4817" target="_blank" class="btn profile" onmouseover="document.getElementById('repl').src='style/img/repl_it_logo_hover.png';" onmouseout="document.getElementById('repl').src='style/img/repl_it_logo.png';">
-                <img id="repl" src="style/img/repl_it_logo.png" width="30" class="mb-2" /></a>
-                <a href="https://www.freecodecamp.org/kmunton" target="_blank" class="btn profile">
-                  <i class="fab fa-free-code-camp"></i></a>
-        </div>
-        <p>
-          <i class="far fa-copyright"></i> <span id="year"></span>
-        </p>
-      </footer>
     </body>
+    <script id="tags_temp" type="text/template">
+       {{#tags}}
+       {{#.}}
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="id_{{.}}" value="{{.}}" style='display: none' disabled>
+            <label onclick="addToken('{{.}}')" class="form-check-label tags-muted p-1 m-1 rounded-pill" id='label_{{.}}' for="id_{{.}}"><i class="fas fa-check" id='id_i_{{.}}' style='display: none'></i><i class="fas fa-times" id='id_x_{{.}}'></i> {{.}}</label>
+        </div>
+      {{/.}}
+       {{/tags}}
+    </script>
+    <script id="projects_temp" type="text/template">
+        {{#projects}}
+            <div class="mt-1 card content  {{#tags}}{{#.}}{{.}} {{/.}}{{/tags}}">
+                <a href="{{link}}" target="_blank" style="text-decoration: none;">
+                    <div class="{{img}}"></div>
+                </a>
+                <h3>{{title}}</h3>
+                <p>
+                    {{text}}
+                </p>
+                <div class="d-flex flex-wrap">
+                    {{#tags}}{{#.}}<span class='tags m-1 p-1 rounded-pill' onclick="addToken('{{.}}')">
+                        <i class="fas fa-tag"></i> {{.}}
+                    </span>{{/.}}{{/tags}}
+                </div>
+            </div>
+        {{/projects}}
+    </script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="javascript/owl.carousel.min.js"></script>
-    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="javascript/react.js"></script>
-    <script src="javascript/javascript.js"></script>
-</html>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.0.1/mustache.min.js" integrity="sha512-6AXIWogbKpsHvoZJrJtHpIYES4wP8czSj0zk7ZfwOYS8GWYFNSykwdfapt7yQc4ikZytemBu+QyVObzBHJMwYg==" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tokenfield/0.12.0/bootstrap-tokenfield.min.js" integrity="sha512-lUZZrGg8oiRBygP81yUZ4XkAbmeJn7u7HW5nq7npQ+ZXTRvj3ErL6y1XXDq6fujbiJlu6gHsgNUZLKE6eSDm8w==" crossorigin="anonymous"></script>
+    <script src="javascript/shared_functions.js"></script>
+    <script src="javascript/projects.js"></script>
+    

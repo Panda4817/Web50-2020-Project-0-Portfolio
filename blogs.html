@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head id='head'>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="style/owl.carousel.min.css">
@@ -17,328 +16,86 @@
         <title>Blogs</title>
     </head>
     <body>
-      <header id="top" class="jumbotron text-center" style="margin-bottom:0">
-        <div data-aos="zoom-in">
-        <h1>Hello World!</h1>
-        <p>Read about my leap into computer science!</p></div>
-      </header>
-
-      <nav id="navbar" class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div><ul class="text-left flex-column dates-links">
-          <li class="dropdown text-decoration-none">
-            <a class="dropdown-toggle "  role="button" id="dropdownMenuButtonProjects" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-             Jump to a date
-            </a>
-            <div class="dropdown-menu blog-dates" aria-labelledby="dropdownMenuButtonDates">
-              <a class="dropdown-item" href="#November20" onclick="scrollToTargetAdjusted('November20');">November</a>
-              <a class="dropdown-item" href="#October20" onclick="scrollToTargetAdjusted('October20');">October</a>
-              <a class="dropdown-item" href="#September20" onclick="scrollToTargetAdjusted('September20');">September</a>
-              <a class="dropdown-item" href="#August20" onclick="scrollToTargetAdjusted('August20');">August</a>
-              <a class="dropdown-item" href="#July20" onclick="scrollToTargetAdjusted('July20');">July</a>
-              <a class="dropdown-item" href="#June20" onclick="scrollToTargetAdjusted('June20');">June</a>
-              <a class="dropdown-item" href="#May20" onclick="scrollToTargetAdjusted('May20');">May</a>
-              <a class="dropdown-item" href="#April20" onclick="scrollToTargetAdjusted('April20');">April</a>
-              <a class="dropdown-item" href="#March20" onclick="scrollToTargetAdjusted('March20');">March 2020</a>
-              <a class="dropdown-item" href="#October19" onclick="scrollToTargetAdjusted('October19');">October 2019</a>
+        <header id="top" class="jumbotron text-center" style="margin-bottom:0">
+            <div id="header" data-aos="zoom-in">
             </div>
-          </li></ul>
-        </div>
-        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blogs.html">Blogs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="courses.html">Courses</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="interests.html">Interests</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+        </header>
+        <nav id="navbar" class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
 
-      <main class="container back">
-        <div class="row pt-3">
-          <div class="col-md-4">
-            <h2>Blogs</h2>
-            <h5>My journey into computer science</h5>
-            <div class="img-1"></div>
-            <p>I am particularly interested in full-stack development.</p>
-            <div id="links-large"><h3>My Helpful Links</h3>
-            <ul class="nav nav-pills flex-column">
-              <li class="nav-item">
-                <a class="nav-link" href="https://cs50.harvard.edu/x/2020/" target="_blank">CS50 Intro to CS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.w3schools.com/" target="_blank">w3schools</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://docs.python.org/3/" target="_blank">Python documentation</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://codepen.io/" target="_blank">CodePen</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://cs50.harvard.edu/web/2020/" target="_blank">CS50 Web</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://flask.palletsprojects.com/en/1.1.x/" target="_blank">Flask</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.djangoproject.com/" target="_blank">Django</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://reactjs.org/" target="_blank">ReactJS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://cs50.harvard.edu/ai/2020/" target="_blank">CS50AI</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://docs.mongodb.com/manual/" target="_blank">MongoDB</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.passportjs.org/docs/" target="_blank">PassportJS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://socket.io/" target="_blank">Socket.IO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://mongoosejs.com/" target="_blank">MongooseJS</a>
-              </li>
-            </ul></div>
-            <div id="links-small"><ul class="flex-column dates-links">
-              <li class="dropdown">
-                <a class="dropdown-toggle" role="button" id="dropdownMenuButtonLinks" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                 <span class="font-weight-bold mobile-dropdown">My Helpful Links</span>
-                </a>
-                <div class="dropdown-menu blog-links" aria-labelledby="dropdownMenuButtonLinks">
-                  <a class="dropdown-item" href="https://cs50.harvard.edu/x/2020/" target="_blank">CS50 Intro to CS</a>
-                  <a class="dropdown-item" href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a>
-                  <a class="dropdown-item" href="https://www.w3schools.com/" target="_blank">w3schools</a>
-                  <a class="dropdown-item" href="https://docs.python.org/3/" target="_blank">Python documentation</a>
-                  <a class="dropdown-item" href="https://codepen.io/" target="_blank">CodePen</a>
-                  <a class="dropdown-item" href="https://cs50.harvard.edu/web/2020/" target="_blank">CS50 Web</a>
-                  <a class="dropdown-item" href="https://flask.palletsprojects.com/en/1.1.x/" target="_blank">Flask</a>
-                  <a class="dropdown-item" href="https://www.djangoproject.com/" target="_blank">Django</a>
-                  <a class="dropdown-item" href="https://reactjs.org/" target="_blank">React</a>
-                  <a class="dropdown-item" href="https://cs50.harvard.edu/ai/2020/" target="_blank">CS50AI</a>
-                  <a class="dropdown-item" href="https://docs.mongodb.com/manual/" target="_blank">MongoDB</a>
-                  <a class="dropdown-item" href="https://www.passportjs.org/docs/" target="_blank">PassportJS</a>
-                  <a class="dropdown-item" href="https://socket.io/" target="_blank">Socket.IO</a>
-                  <a class="dropdown-item" href="https://mongoosejs.com/" target="_blank">MongooseJS</a>
+        </nav>
+        <main class="container back">
+            <div class="row pt-3">
+                <div class="col-md-4">
+                    <h2>Blogs</h2>
+                    <h5>My journey into computer science</h5>
+                    <div class="img-1"></div>
+                    <p>I am particularly interested in full-stack development.</p>
+                    <div id="links-large">
+                        <h3>My Helpful Links</h3>
+                        <ul  id="links_nav" class="nav nav-pills flex-column">
+
+                        </ul>
+                    </div>
+                    <div id="links-small"><ul class="flex-column dates-links">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" role="button" id="dropdownMenuButtonLinks" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="font-weight-bold mobile-dropdown">My Helpful Links</span>
+                            </a>
+                            <div id="links_dropdown" class="dropdown-menu blog-links" aria-labelledby="dropdownMenuButtonLinks">
+
+                            </div>
+                        </li>
+                        </ul>
+                    </div>
+                    <hr class="d-md-none">
                 </div>
-              </li></ul>
-            </div>
-            <hr class="d-md-none">
-          </div>
-          <div class="col-md-8">
-            <div id="November20">
-              <div  data-aos="zoom-in" data-aos-easing="ease-in">
-              <h2 >Multiplayer Online Pictionary App!</h2>
-              <h5>Picto, November 2, 2020</h5>
-              <div class="img-11"></div>
-              <p>
-                I have created a multiplayer online Pictionary web app to play with friends during lock down.
-              </p>
-              <p>
-                I have finally finished my online multiplayer Pictionary web app called Picto! 
-                It allows users to create rooms and invite friends to join the room and start a game of Pictionary. 
-                It uses ReactJS for front end and NodeJS with Express server for back end. The drawings and chat messages are communicated between users via Socket.IO.
-                Also this is the first time I have deployed the back end and front end separately - front end on Netlify and back end on Heroku. I cannot wait to try this out with my friends!
-              </p>
-              <br>
-              </div>
-            </div>
-            <div id="October20">
-              <div  data-aos="zoom-in" data-aos-easing="ease-in">
-              <h2 >CS50AI Complete and More Projects on Repl.it!</h2>
-              <h5>Repl.it, October 9, 2020</h5>
-              <div class="img-10"></div>
-              <p>
-                I have successfully completed the CS50 Intro to AI course and Scientific Computing with Python course on FreeCodeCamp.
-              </p>
-              <p>
-                I have learnt so many new concepts in the CS50AI course and I have outlined them in more detail in my CS50AI repo on GitHub - 
-                <a href="https://github.com/Panda4817/CS50AI" target="_blank" class="blog_link">Click here to see it</a>! Now I am focussing on the FreeCodeCamp courses.
-                The Scientific Computing with Python was a refresher course of the basics of Python. I now have a Repl.it account with FreeCodeCamp projects.
-                I am also creating a multiplayer online game using NodeJS and React. The new project will include the use of Socket.IO.
-              </p>
-              <br>
-              </div>
-            </div>
-            <div id="September20">
-              <div  data-aos="zoom-in" data-aos-easing="ease-in">
-              <h2 >Snake AI and Sudoku Solver!</h2>
-              <h5>CS50AI, September, 2020</h5>
-              <div class="img-9"></div>
-              <p>
-                CS50 Intro to AI with Python inspired me to complete my own AI projects.
-              </p>
-              <p>
-                After lecture 3, learning about backtracking search, I decided to create a command line tool that solves Sudoku puzzles.
-                This CLI also measures how long it takes to find the solution, so it was interesting to see if I could get that time has low as possible
-                by optimizing the algorithm. Another idea I had was to recreate a classic game that is played by an AI and I decided to choose Snake. 
-                This took a few weeks to complete as I went through different algorithms (Q-learning, A* Search) for the AI, before settling on the Hamiltonian cycle. 
-              </p>
-              <br>
-              </div>
-            </div>
-            <div id="August20">
-            <div  data-aos="zoom-in" data-aos-easing="ease-in">
-            <h2 >Half way through CS50AI course!</h2>
-            <h5>CS50AI, August 28, 2020</h5>
-            <div class="img-8"></div>
-            <p>
-              I started the CS50 Introduction to Artificial Intelligence with Python.
-            </p>
-            <p>
-              The course looked interesting and I wanted to do more Python so I decided to start this course.
-              As part of the course I have created a Tic-Tac-Toe game that one can play against an AI and programmed an AI to play the Minesweeper game.
-              I am learning a lot of new concepts such as different search algorithms and the minimax algorithm.
-            </p>
-            <br>
-            </div>
-            </div>
-            <div id="July20">
-            <div  data-aos="zoom-in" data-aos-easing="ease-in">
-            <h2 >FreeCodeCamp Front End Libraries completed!</h2>
-            <h5>Created my own web application using React, July, 2020</h5>
-            <div class="img-7"></div>
-            <p>
-              I earned the FreeCodeCamp Front End Libraries certificate.
-            </p>
-            <p>
-              The main thing I learned from this course is ReactJS and created several projects using this. 
-              Once completed I created my own personal project using ReactJS for front end and NodeJS with Express for back end.
-              I have also created a chatbot using React and the code for that can be found on GitHub.
-            </p>
-            <br>
-            </div>
-            </div>
-            <div id="June20">
-            <div  data-aos="zoom-in" data-aos-easing="ease-in">
-            <h2 >CS50 Web completed!</h2>
-            <h5>My final project submitted, June 23, 2020</h5>
-            <div class="img-6"></div>
-            <p>
-              I earned the CS50 Web Programming with Python and JavaScript certificate.
-            </p>
-            <p>
-              This course was very interesting as I learnt a new framework in Python called Django and learnt the concepts of CI/CD along with how to write tests. 
-              The course taught me how to use various tools such as Git, Travis, Heroku and PostgreSQL. It also covered some important topics such as security and scalability.
-            The course consisted of 4 projects and a final project. My portfolio was project 0 and more information about the other projects are on the projects page.
-             My final project is a website called MySousChef that lets you create a virtual pantry and store information such as use by dates. The website also lets you search for recipes through Spoonacular API. 
-             I deployed it via Heroku. See projects page for more information and a link to it.
-             I am now continuing with FreeCodeCamp courses and looking to move into a developer role.
-            </p>
-            <br>
-          </div>
-        </div>
-        <div id="May20">
-          <div data-aos="zoom-in" data-aos-easing="ease-in">
-            <h2>CS50 Intro to CS completed!</h2>
-            <h5>My final project submitted, May 2, 2020</h5>
-            <div class="img-5"></div>
-            <p>
-              I earned the CS50 Introduction to Computer Science certificate.
-            </p>
-            <p>
-             My final project is a website that lets you track movies, tv shows and books you are watching and reading. I deployed it via PythonAnywhere. See projects page for more information and a link to it.
-             I have now started CS50's Web Programming with Python and JavaScript course.
-            </p>
-            <br>
-          </div></div>
-          <div id="April20">
-          <div  data-aos="zoom-in" data-aos-easing="ease-in">
-            <h2>FreeCodeCamp</h2>
-            <h5>Learning responsive web design, April 10, 2020</h5>
-            <div class="img-2"></div>
-            <p>
-              I earned the responsive web design certificate after completing 300 hours worth of tutorials and projects.
-            </p>
-            <p>
-              The course taught me how to use HTML and CSS in a variety of different ways. This included CSS Flexbox and media queries. By the end of the course I had made 5 unique projects using CodePen.
-            </p>
-            <br>
-          </div></div>
-          <div id="March20">
-          <div  data-aos="zoom-in" data-aos-easing="ease-in">
-            <h2>Python</h2>
-            <h5>Python vs C, March 27, 2020</h5>
-            <div class="img-4"></div>
-            <p>
-              Completed the problem sets in C and now onto Python.
-            </p>
-            <p>
-              Took a little break but I'm back to CS50. 
-              All the problem sets to do with C programming language were so interesting and fun! Now I am onto Python. 
-              That blur filter in C was time consuming but in Python it was quicker to complete! 
-              Found w3schools to be very helpful, along with the Python documentation.
-            </p>
-            <br>
-          </div></div>
-          <div id="October19">
-          <div  data-aos="zoom-in" data-aos-easing="ease-in">
-            <h2>CS50</h2>
-            <h5>Amazing start to computer science, October 24, 2019</h5>
-            <div class="img-3"></div>
-            <p>
-              I just started and I am loving it!
-            </p>
-            <p>
-              From the first lecture video I was hooked. The professors and tutors running this course explained every concept so clearly. I would recommend this course to anyone who wants to get into computer science and has no prior experience like me.
-            </p>
-          </div></div>
-          </div>
-        </div>
-      </main>
+                <div id="blogs_content" class="col-md-8">
 
-      <footer id="footer" class="jumbotron text-center" style="margin-bottom:0">
-        <div class="profile">
-          <a class="profile" onclick="scrollToTop('top');" href="#top" title="Back to top">
-            <i class="fas fa-chevron-up"></i>
-          </a>
+                </div>
+            </div>
+        </main>
+        <div id="footer_content">
+
         </div>
-        <p>
-          Thank you for visiting my portfolio website. To find out more visit my other profile pages.
-        </p>
-        <div class="social-media">
-            <a id="profile-link" href="https://github.com/Panda4817" target="_blank" class="btn profile">
-              <i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/kmunton" target="_blank" class="btn profile">
-              <i class="fab fa-linkedin"></i></a>
-              <a href="https://codepen.io/k_munton" target="_blank" class="btn profile">
-              <i class="fab fa-codepen"></i></a>
-              <a id="profile-link" href="https://repl.it/@Panda4817" target="_blank" class="btn profile" onmouseover="document.getElementById('repl').src='style/img/repl_it_logo_hover.png';" onmouseout="document.getElementById('repl').src='style/img/repl_it_logo.png';">
-                <img id="repl" src="style/img/repl_it_logo.png" width="30" class="mb-2" /></a>
-              <a href="https://www.freecodecamp.org/kmunton" target="_blank" class="btn profile">
-                <i class="fab fa-free-code-camp"></i></a>
-        </div>
-        <p>
-          <i class="far fa-copyright"></i> <span id="year"></span>
-        </p>
-      </footer>
     </body>
+    <script id="links_temp_nav" type="text/template">
+        {{#links}}
+        <li class="nav-item">
+            <a class="nav-link" href="{{href}}" target="_blank">{{text}}</a>
+        </li>
+        {{/links}}
+    </script>
+    <script id="links_temp_dropdown" type="text/template">
+        {{#links}}
+        <a class="dropdown-item" href="{{hre}}" target="_blank">{{text}}</a>
+        {{/links}}
+    </script>
+    <script id="blogs_temp" type="text/template">
+        {{#blogs}}
+        <div id="{{month}}">
+            <div  data-aos="zoom-in" data-aos-easing="ease-in">
+                <h2 >{{mainHeading}}</h2>
+                <h5>{{subHeading}}</h5>
+                <div class="{{img}}"></div>
+                <p>
+                    {{subText}}
+                </p>
+                <p>
+                    {{{mainText}}}
+                </p>
+                <br>
+            </div>
+        </div>
+        {{/blogs}}
+    </script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="javascript/owl.carousel.min.js"></script>
-    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="javascript/react.js"></script>
-    <script src="javascript/javascript.js"></script>
-</html>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.0.1/mustache.min.js" integrity="sha512-6AXIWogbKpsHvoZJrJtHpIYES4wP8czSj0zk7ZfwOYS8GWYFNSykwdfapt7yQc4ikZytemBu+QyVObzBHJMwYg==" crossorigin="anonymous"></script>
+    <script src="javascript/shared_functions.js"></script>
+    <script src="javascript/blogs.js"></script>
+    
+    
+    
