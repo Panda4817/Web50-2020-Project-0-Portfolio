@@ -61,7 +61,7 @@ const projects = {
             The project didn't require it but I used a Pug template engine to render the front end. The index page has a simple dashboard showing the number of projects and number of issues per project. 
             When the project page is loaded, it displays all projects both open and closed but you may filter the issues by adding queries to the url.
             I used Bootstrap 4 for styling and mobile responsiveness. The project is running on Repl.`,
-            "link":"https://issue-tracker.panda4817.repl.co"
+            "link":"https://repl.it/@Panda4817/issue-tracker"
         },
         {
             "title":"Social Panda Web Application",
