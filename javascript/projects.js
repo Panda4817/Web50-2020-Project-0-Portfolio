@@ -24,7 +24,7 @@ const projects = {
         {
             "title":"CuteSee",
             "img":"project-img-15",
-            "tags": ['React', 'JavaScript', 'Node', 'Express', 'Bootstrap-4', 'CSS', 'HTML', 'deployed', 'Heroku', 'Git', 'VS-Code'],
+            "tags": ['React', 'JavaScript', 'Node', 'Express', 'Bootstrap-4', 'CSS', 'HTML', 'deployed', 'Heroku', 'Git', 'VS-Code', 'API'],
             "text":`This is a personal project using ReactJS front end and NodeJS with Express for back end. 
             The website also utilises a third-party API Pixabay for the images. 
             The website lets you search for images by typing the search query in the search bar.
@@ -35,7 +35,7 @@ const projects = {
         {
             "title":"MySousChef Web Application",
             "img":"project-img-10",
-            "tags": ['Python', 'Django', 'PostgreSQL', 'Database', 'SQL', 'JavaScript', 'JQuery', 'Bootstrap-4', 'SCSS', 'Sass', 'CSS', 'HTML', 'deployed', 'Heroku', 'Travis-CI', 'Git', 'VS-Code', 'CS50-Web'],
+            "tags": ['Python', 'Django', 'PostgreSQL', 'Database', 'SQL', 'JavaScript', 'JQuery', 'Bootstrap-4', 'SCSS', 'Sass', 'CSS', 'HTML', 'deployed', 'Heroku', 'Travis-CI', 'Git', 'VS-Code', 'CS50-Web', 'API'],
             "text":`For my CS50 web programming final project I created a website called MySousChef that lets you search for recipes, add your own recipes, add items to a virtual pantry and keep track of use by dates, best before dates, when an item was opened or frozen and use within information. 
             The website also lets you search for recipes by filtering for ingredients only in your virtual pantry. You can also create a virtual shopping list.
             This project uses the Django Python framework with a PostgreSQL database. This website utilises the Spoonacular API and a Colorlib template. The website is deployed using Heroku.`,
@@ -44,7 +44,7 @@ const projects = {
         {
             "title":"Watch Read Repeat Web Application",
             "img":"project-img-5",
-            "tags": ['Python', 'Flask', 'SQLite', 'Database', 'SQL', 'JavaScript', 'JQuery', 'Bootstrap-4', 'CSS', 'HTML', 'deployed', 'PythonAnywhere', 'Git', 'CS50x'],
+            "tags": ['Python', 'Flask', 'SQLite', 'Database', 'SQL', 'JavaScript', 'JQuery', 'Bootstrap-4', 'CSS', 'HTML', 'deployed', 'PythonAnywhere', 'Git', 'CS50x', 'API'],
             "text":`Python and Flask based website that lets you keep lists of what you have watched, watching or want to watch and same with books. Back-end completed using Python and Flask with a SQLite database.
             Front-end uses JavaScript, HTML and CSS with Bootstrap 4. Also some jQuery and AJAX.
             The dashboard provides data about your lists such as top 5 rated books, movies and TV shows and stacked bar charts using Chart.js.
@@ -56,7 +56,7 @@ const projects = {
         {
             "title":"Issue Tracker",
             "img":"project-img-20",
-            "tags": ['JavaScript', 'Node', 'Express', 'MongoDB', 'Database', 'No-SQL', 'Pug', 'Chai', 'Chai-http', 'Mocha', 'Bootstrap-4', 'CSS', 'HTML', 'deployed', 'Repl', 'Git', 'FreeCodeCamp'],
+            "tags": ['JavaScript', 'Node', 'Express', 'MongoDB', 'Database', 'No-SQL', 'Pug', 'Chai', 'Chai-http', 'Mocha', 'Bootstrap-4', 'CSS', 'HTML', 'deployed', 'Repl', 'Git', 'FreeCodeCamp', 'API'],
             "text":`This project was part of FreeCodeCamp Quality Assurance projects. The project uses a MongoDB database to get, post, put and delete issues. 
             The project didn't require it but I used a Pug template engine to render the front end. The index page has a simple dashboard showing the number of projects and number of issues per project. 
             When the project page is loaded, it displays all projects both open and closed but you may filter the issues by adding queries to the url.
@@ -134,7 +134,7 @@ const projects = {
         {
             "title":"Project 3 - Pizza",
             "img":"project-img-9",
-            "tags": ['Python', 'Django', 'SQLite', 'Database', 'SQL', 'JavaScript', 'JQuery', 'Bootstrap-4', 'SCSS', 'Sass', 'CSS', 'HTML', 'Git', 'VS-Code', 'CS50-Web'],
+            "tags": ['Python', 'Django', 'SQLite', 'Database', 'SQL', 'JavaScript', 'JQuery', 'Bootstrap-4', 'SCSS', 'Sass', 'CSS', 'HTML', 'Git', 'VS-Code', 'CS50-Web', 'API'],
             "text":`In this project, I built a web application for handling a pizza restaurant’s online orders. Users are able to browse the restaurant’s menu, add items to their cart, and submit their orders. 
             Meanwhile, the restaurant owners are able to add and update menu items, and view orders that have been placed.
             Customers can also choose to pay by card through the implementation of Stripe API and restaurant owners can mark orders complete. This project uses the Python Django framework with a SQLite database.`,
