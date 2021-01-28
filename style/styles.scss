@@ -103,6 +103,11 @@ h1 {
   background-image: url("img/aoc.png");
 }
 
+.img-13 {
+  @extend %img-index;
+  background-image: url("img/jan21.png");
+}
+
 .blog_link {
   color: $lightpink;
   text-decoration: none;

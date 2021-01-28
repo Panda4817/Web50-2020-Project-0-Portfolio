@@ -7,6 +7,7 @@ const dropdown = `<ul class="text-left flex-column dates-links">
    Jump to a date
   </a>
   <div class="dropdown-menu blog-dates" aria-labelledby="dropdownMenuButtonDates">
+    <a class="dropdown-item" href="#January21" onclick="scrollToTargetAdjusted('January21');">January 2021</a>
     <a class="dropdown-item" href="#December20" onclick="scrollToTargetAdjusted('December20');">December</a>
     <a class="dropdown-item" href="#November20" onclick="scrollToTargetAdjusted('November20');">November</a>
     <a class="dropdown-item" href="#October20" onclick="scrollToTargetAdjusted('October20');">October</a>
@@ -43,6 +44,16 @@ const links = {
 
 const blogs = {
   "blogs": [
+    {
+      "month":"January21", 
+      "mainHeading":"Problem Solving!",
+      "subHeading":"January 29, 2021",
+      "img":"img-13",
+      "subText":"I will complete all previous Advent of Code challenges before December 2021!",
+      "mainText":`It has been an interesting month. I have dabbled in a new langauge; Ruby. Last month's Advent of Code motivated me to challenge myself more and complete problems daily. 
+      I have started to work through CodeSignal and HackerRank problems. I have also challenged myself to complete all previous Advent of Code challenges by December 2021. 
+      I have already completed 2015 and I am currently working through 2016 problems. I love it!`
+    },
     {
       "month":"December20", 
       "mainHeading":"Advent of Code 2020!",
