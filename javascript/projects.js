@@ -71,7 +71,7 @@ const projects = {
             I used PassportJS to give users various ways to login to the app. I used a MongoDB database to store user and posts information. 
             I used a Pug template engine to render the front end. The app allows users to make posts, with hashtags and emoji. Users can like and unlike posts. Users can filter posts by trending hashtags. 
             The app includes a global chat room, which uses Socket.IO. I used Bootstrap 4 for styling and mobile responsiveness. The project is running on Repl.`,
-            "link":"https://social-panda.panda4817.repl.co/"
+            "link":"https://repl.it/@Panda4817/social-panda"
         },
         
         {
