@@ -5,13 +5,23 @@ const header = `<h1>Projects</h1>
 
 const tags = {
     "tags": [
-        "React", "JavaScript", "Node", "Express", "SocketIO", "Chai", "Chai-http", "Mocha", "Bootstrap-4", "Netlify", "CSS", "HTML", "deployed", "Heroku", "Travis-CI", "Git", "VS-Code", "Python", "Django", "PostgreSQL", "Database", "SQL", "JQuery", "SCSS", "Sass", "CS50-Web", "Flask", "SQLite", "PythonAnywhere", "CS50x", "MongoDB", "No-SQL", "Pug", "Repl", "FreeCodeCamp", "Passport", "command-line-tool", "Numpy", "CS50AI", "Pygame", "CodePen", "live-demo", "API", "Mustache"
+        "React", "JavaScript", "Node", "Express", "SocketIO", "Chai", "Chai-http", "Mocha", "Bootstrap-4", "Netlify", "CSS", "HTML", "deployed", "Heroku", "Travis-CI", "Git", "VS-Code", "Python", "Django", "PostgreSQL", "Database", "SQL", "JQuery", "SCSS", "Sass", "CS50-Web", "Flask", "SQLite", "PythonAnywhere", "CS50x", "MongoDB", "No-SQL", "Pug", "Repl", "FreeCodeCamp", "Passport", "command-line-tool", "Numpy", "CS50AI", "Pygame", "CodePen", "live-demo", "API", "Mustache", "Serverless"
     ]
 }
 
 
 const projects = {
     "projects": [
+        {
+            "title":"Chrome Extension",
+            "img":"project-img-21",
+            "tags": ['JavaScript', 'Node', 'Express', 'CSS', 'HTML', 'Git', 'VS-Code', 'Serverless', 'API', 'Netlify'],
+            "text":`A chrome extension that replaces the new tab with an xkcd themed one. It will show you the latest comic and a random comic. 
+            It can also show you news headlines from your country, the latest Google doodle, your most visited sites and bookmarks. 
+            To get around CORs while accessing the xkcd API, I created my own serverless API functions hosted on Netlify, which fetch the latest news headlines, comics and Google doodle. 
+            My the serverless API repo is on GitHub: https://github.com/Panda4817/serverless-api.`,
+            "link":"https://github.com/Panda4817/xkcd-new-tab"
+        },
         {
             "title":"Picto",
             "img":"project-img-18",

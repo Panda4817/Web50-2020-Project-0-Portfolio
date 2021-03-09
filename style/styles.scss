@@ -108,6 +108,11 @@ h1 {
   background-image: url("img/jan21.png");
 }
 
+.img-14 {
+  @extend %img-index;
+  background-image: url("img/chrome_ext.png");
+}
+
 .blog_link {
   color: $lightpink;
   text-decoration: none;
@@ -635,6 +640,12 @@ h1 {
   @extend %project-img;
   background-image: url("img/issue_tracker.png");
 }
+
+.project-img-21 {
+  @extend %project-img;
+  background-image: url("img/chrome_ext.png");
+}
+
 
 
 .zoom {

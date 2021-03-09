@@ -4,9 +4,10 @@ const header = ` <h1>Hello World!</h1>
 const dropdown = `<ul class="text-left flex-column dates-links">
 <li class="dropdown text-decoration-none">
   <a class="dropdown-toggle "  role="button" id="dropdownMenuButtonProjects" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-   Jump to a date
+    Jump to a date
   </a>
   <div class="dropdown-menu blog-dates" aria-labelledby="dropdownMenuButtonDates">
+    <a class="dropdown-item" href="#February21" onclick="scrollToTargetAdjusted('February21');">February 2021</a>
     <a class="dropdown-item" href="#January21" onclick="scrollToTargetAdjusted('January21');">January 2021</a>
     <a class="dropdown-item" href="#December20" onclick="scrollToTargetAdjusted('December20');">December</a>
     <a class="dropdown-item" href="#November20" onclick="scrollToTargetAdjusted('November20');">November</a>
@@ -45,12 +46,23 @@ const links = {
 const blogs = {
   "blogs": [
     {
+      "month":"February21", 
+      "mainHeading":"Chrome Extension!",
+      "subHeading":"February 28, 2021",
+      "img":"img-14",
+      "subText":"I created my very first Chrome extension.",
+      "mainText":`I found a good tutorial on Chrome extensions and decided to go for it. My Chrome extension replaces the new tab with an xkcd.com comics themed tab. 
+      It shows you news headlines, latest xkcd comic, a random xkcd comic, most visited sites, bookmarks and latest Google doodle. 
+      It was a very fun project as I had to find away around the CORs problem when accessing the xkcd API. I ended up creating my own serverless API functions hosted on Netlify to request this information. 
+      I have submitted it for review and I am super excited to see it in the Chrome Web Store.`
+    },
+    {
       "month":"January21", 
       "mainHeading":"Problem Solving!",
       "subHeading":"January 29, 2021",
       "img":"img-13",
       "subText":"I will complete all previous Advent of Code challenges before December 2021!",
-      "mainText":`It has been an interesting month. I have dabbled in a new langauge; Ruby. Last month's Advent of Code motivated me to challenge myself more and complete problems daily. 
+      "mainText":`It has been an interesting month. I have dabbled in a new language; Ruby. Last month's Advent of Code motivated me to challenge myself more and complete problems daily. 
       I have started to work through CodeSignal and HackerRank problems. I have also challenged myself to complete all previous Advent of Code challenges by December 2021. 
       I have already completed 2015 and I am currently working through 2016 problems. I love it!`
     },
