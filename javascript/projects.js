@@ -19,7 +19,7 @@ const projects = {
             "text":`A chrome extension that replaces the new tab with an xkcd themed one. It will show you the latest comic and a random comic. 
             It can also show you news headlines from your country, the latest Google doodle, your most visited sites and bookmarks. 
             To get around CORs while accessing the xkcd API, I created my own serverless API functions hosted on Netlify, which fetch the latest news headlines, comics and Google doodle. 
-            My the serverless API repo is on GitHub: <a href="https://github.com/Panda4817/serverless-api" target="_blank">https://github.com/Panda4817/serverless-api</a>.`,
+            My the serverless API repo is on GitHub.`,
             "link":"https://github.com/Panda4817/xkcd-new-tab"
         },
         {
