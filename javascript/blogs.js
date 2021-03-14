@@ -7,7 +7,7 @@ const dropdown = `<ul class="text-left flex-column dates-links">
     Jump to a date
   </a>
   <div class="dropdown-menu blog-dates" aria-labelledby="dropdownMenuButtonDates">
-    <a class="dropdown-item" href="#February21" onclick="scrollToTargetAdjusted('February21');">February 2021</a>
+    <a class="dropdown-item" href="#February21" onclick="scrollToTargetAdjusted('February21');">February</a>
     <a class="dropdown-item" href="#January21" onclick="scrollToTargetAdjusted('January21');">January 2021</a>
     <a class="dropdown-item" href="#December20" onclick="scrollToTargetAdjusted('December20');">December</a>
     <a class="dropdown-item" href="#November20" onclick="scrollToTargetAdjusted('November20');">November</a>
