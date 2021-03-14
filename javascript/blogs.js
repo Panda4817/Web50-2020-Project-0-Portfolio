@@ -39,7 +39,8 @@ const links = {
         {"href": "https://www.passportjs.org/docs/" , "text": "PassportJS"},
         {"href": "https://socket.io/" , "text": "Socket.IO"},
         {"href": "https://mongoosejs.com/" , "text": "MongooseJS"},
-        {"href": "https://adventofcode.com/" , "text": "Advent of Code"}
+        {"href": "https://adventofcode.com/" , "text": "Advent of Code"},
+        {"href": "https://coderadio.freecodecamp.org/", "text": "FreeCodeCamp Music for Coding"}
     ]
 }
 
