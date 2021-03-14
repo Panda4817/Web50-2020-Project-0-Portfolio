@@ -54,7 +54,7 @@ const blogs = {
       "mainText":`I found a good tutorial on Chrome extensions and decided to go for it. My Chrome extension replaces the new tab with an xkcd.com comics themed tab. 
       It shows you news headlines, latest xkcd comic, a random xkcd comic, most visited sites, bookmarks and latest Google doodle. 
       It was a very fun project as I had to find away around the CORs problem when accessing the xkcd API. I ended up creating my own serverless API functions hosted on Netlify to request this information. 
-      I have submitted it for review and I am super excited to see it in the Chrome Web Store.`
+      I have submitted it for review and I am super excited to see it in the Chrome Web Store. 14/03/21 UPDATE: It is published! <a href="https://chrome.google.com/webstore/detail/new-tab-xkcd-comics-theme/hpbeeihachkpnaeccpdijpdekjinhpib" target="_blank" class="blog_link">Click here to see it on the Chrome web store!</a>`
     },
     {
       "month":"January21", 
