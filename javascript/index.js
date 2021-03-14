@@ -109,6 +109,15 @@ const frameworks = {
         "alt": "Redux",
         "color": "#764ABC"
         },
+        {"src": "style/img/badges/nodemon.svg",
+        "alt": "Nodemon",
+        "color": "#76D04B"
+        },
+        {"src": "style/img/badges/express.svg",
+        "alt": "ExpressJS",
+        "color": "#000000"
+        },
+
     ]
 }
 
