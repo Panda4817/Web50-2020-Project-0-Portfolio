@@ -97,7 +97,7 @@ const learning_portals = {
         "alt": "LeetCode",
         "color": "#FFA116"
         },
-        {"src": "style/img/badges/Hackerrank.svg",
+        {"src": "style/img/badges/hackerrank.svg",
         "alt": "HackerRank",
         "color": "#2EC866"
         },
