@@ -300,6 +300,18 @@ h1 {
   border-radius: 10px;
 }
 
+#learning {
+  flex: 1;
+}
+#learning div {
+  margin: 5px;
+  border-width: 1;
+  border-style: solid;
+  font-weight: 100;
+  padding: 5px;
+  border-radius: 10px;
+}
+
 .table {
   background: #1c3334 !important;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

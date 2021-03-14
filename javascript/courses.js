@@ -4,6 +4,14 @@ const header = `<h1>Computer Science Courses</h1>
 const courses = {
     "courses": [
         {
+            "title":"React Native - The Practical Guide",
+            "provider":"Udemy",
+            "lang":"React Native",
+            "projects":"4 Projects",
+            "description":"Use React Native and React knowledge to build native iOS and Android Apps - incl. Push Notifications, Hooks, Redux",
+            "completion":"Ongoing"
+        },
+        {
             "title":"APIs and Microservices",
             "provider":"FreeCodeCamp",
             "lang":"JavaScript",
@@ -71,6 +79,39 @@ const courses = {
     ]
 }
 
+const learning_portals = {
+    "badges": [
+        {"src": "style/img/badges/freecodecamp.svg",
+        "alt": "FreeCodeCamp",
+        "color": "#0A0A23"
+        },
+        {"src": "style/img/badges/edx.svg",
+        "alt": "edX",
+        "color": "#02262B"
+        },
+        {"src": "style/img/badges/geeksforgeeks.svg",
+        "alt": "Geeks For Geeks",
+        "color": "#0F9D58"
+        },
+        {"src": "style/img/badges/leetcode.svg",
+        "alt": "LeetCode",
+        "color": "#FFA116"
+        },
+        {"src": "style/img/badges/Hackerrank.svg",
+        "alt": "HackerRank",
+        "color": "#2EC866"
+        },
+        {"src": "style/img/badges/stackoverflow.svg",
+        "alt": "Stack Overflow",
+        "color": "#F58025"
+        },
+        {"src": "style/img/badges/udemy.svg",
+        "alt": "Udemy",
+        "color": "#EC5252"
+        },
+    ]
+}
+
 
 
 
@@ -80,11 +121,14 @@ document.addEventListener('DOMContentLoaded', () => {
     
     let mobile_temp = $('#mobile_temp').html()
     let table_temp = $('#table_temp').html()
+    let badges_temp = $('#badges_temp').html()
+    let badges_output = Mustache.render(badges_temp, learning_portals);
     let mobile_output = Mustache.render(mobile_temp, courses)
     let table_output = Mustache.render(table_temp, courses)
     
     $('#mobile').append(mobile_output)
     $('#table_body').append(table_output)
+    $('#learning').append(badges_output)
     
     AOS.init();
 
