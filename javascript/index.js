@@ -89,6 +89,26 @@ const frameworks = {
         "alt": "Expo",
         "color": "#000020"
         },
+        {"src": "style/img/badges/yarn.svg",
+        "alt": "Yarn",
+        "color": "#2C8EBB"
+        },
+        {"src": "style/img/badges/npm.svg",
+        "alt": "NPM",
+        "color": "#CB3837"
+        },
+        {"src": "style/img/badges/pug.svg",
+        "alt": "Pug",
+        "color": "#A86454"
+        },
+        {"src": "style/img/badges/numpy.svg",
+        "alt": "Numpy",
+        "color": "#013243"
+        },
+        {"src": "style/img/badges/redux.svg",
+        "alt": "Redux",
+        "color": "#764ABC"
+        },
     ]
 }
 
@@ -124,6 +144,12 @@ const tools = {
         {"src": "style/img/badges/mocha.svg",
         "alt": "Mocha",
         "color": "#8D6748"},
+        {"src": "style/img/badges/xfce.svg",
+        "alt": "XFCE",
+        "color": "#2284F2"},
+        {"src": "style/img/badges/linux.svg",
+        "alt": "Linux",
+        "color": "#FCC624"},
     ]
 }
 

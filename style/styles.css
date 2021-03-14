@@ -290,14 +290,14 @@ h1 {
 .column-lang {
   flex: 25%;
   max-width: 25%;
-  padding: 0 4px;
 }
-.column-lang img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100px;
+.column-lang div {
+  margin: 5px;
+  border-width: 1;
+  border-style: solid;
+  font-weight: 100;
+  padding: 5px;
   border-radius: 10px;
-  margin-left: 25%;
 }
 
 .table {

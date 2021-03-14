@@ -329,14 +329,14 @@ h1 {
 .column-lang {
   flex: 25%;
   max-width: 25%;
-  padding: 0 4px;
 
-  img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100px;
+  div {
+    margin: 5px;
+    border-width: 1;
+    border-style: solid;
+    font-weight: 100;
+    padding: 5px;
     border-radius: 10px;
-    margin-left: 25%;
   }
 
 }
@@ -778,7 +778,7 @@ h1 {
               font-size: 11px; 
               margin-bottom: 5px;
             } 
-          }
+          }     
 
 
 

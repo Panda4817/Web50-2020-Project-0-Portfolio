@@ -71,9 +71,8 @@
     </script>
     <script id="badges_temp" type="text/template">
         {{#badges}}
-        <div data-aos="zoom-in">
-            <img src="{{src}}" alt="{{alt}}" title="{{alt}}"/>
-            <p class="lead" style="color: white;">{{alt}}</p>
+        <div data-aos="zoom-in" class="badge" style="border-color: {{color}}">
+            <img width="30" height="30" src="{{src}}" alt="{{alt}}" title="{{alt}}"/> {{alt}}
         </div>
         {{/badges}}
     </script>
