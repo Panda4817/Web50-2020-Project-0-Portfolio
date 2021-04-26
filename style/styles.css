@@ -290,6 +290,10 @@ h1 {
 .column-lang {
   flex: 25%;
   max-width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
 }
 .column-lang div {
   margin: 5px;
@@ -348,7 +352,7 @@ h1 {
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 720px) {
-  .column-about {
+  .column-about, .column-lang {
     flex: 100%;
     max-width: 100%;
   }
