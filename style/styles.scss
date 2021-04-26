@@ -65,52 +65,57 @@ h1 {
 
 .img-6 {
    @extend %img-index;
-   background-image: url("img/cs50web.jpg");
+   background-image: url("img/projects/cs50web.jpg");
 }
 
 .img-5 {
   @extend %img-index;
-  background-image: url("img/cs50_project.jpg");
+  background-image: url("img/projects/cs50_project.jpg");
 }
 
 .img-7 {
   @extend %img-index;
-  background-image: url("img/react_frontend.png");
+  background-image: url("img/projects/react_frontend.png");
 }
 
 .img-8 {
   @extend %img-index;
-  background-image: url("img/tictactoe.png");
+  background-image: url("img/projects/tictactoe.png");
 }
 
 .img-9 {
   @extend %img-index;
-  background-image: url("img/snake.gif");
+  background-image: url("img/projects/snake.gif");
 }
 
 .img-10 {
   @extend %img-index;
-  background-image: url("img/repl_it.png");
+  background-image: url("img/projects/repl_it.png");
 }
 
 .img-11 {
   @extend %img-index;
-  background-image: url("img/picto2.gif");
+  background-image: url("img/projects/picto2.gif");
 }
 
 .img-12 {
   @extend %img-index;
-  background-image: url("img/aoc.png");
+  background-image: url("img/projects/aoc.png");
 }
 
 .img-13 {
   @extend %img-index;
-  background-image: url("img/jan21.png");
+  background-image: url("img/projects/jan21.png");
 }
 
 .img-14 {
   @extend %img-index;
-  background-image: url("img/chrome_ext.png");
+  background-image: url("img/projects/chrome_ext.png");
+}
+
+.img-15 {
+  @extend %img-index;
+  background-image: url("img/projects/march_april21.png");
 }
 
 .blog_link {
@@ -570,97 +575,122 @@ h1 {
 
 .project-img-1 {
   @extend %project-img;
-  background-image: url("img/tribute_page.jpg");
+  background-image: url("img/projects/tribute_page.jpg");
 }
 
 .project-img-2 {
   @extend %project-img;
-  background-image: url("img/company_page.jpg");
+  background-image: url("img/projects/company_page.jpg");
 }
 .project-img-3 {
   @extend %project-img;
-  background-image: url("img/technical_document.jpg");
+  background-image: url("img/projects/technical_document.jpg");
 }
 
 .project-img-4 {
   @extend %project-img;
-  background-image: url("img/survey_form.jpg");
+  background-image: url("img/projects/survey_form.jpg");
 }
 
 .project-img-5 {
   @extend %project-img;
-  background-image: url("img/cs50_final_project.jpg");
+  background-image: url("img/projects/cs50_final_project.jpg");
 }
 .project-img-6 {
   @extend %project-img;
-  background-image: url("img/homepage.png");
+  background-image: url("img/projects/homepage.png");
 }
 .project-img-7 {
   @extend %project-img;
-  background-image: url("img/book.png");
+  background-image: url("img/projects/book.png");
 }
 .project-img-8 {
   @extend %project-img;
-  background-image: url("img/flack.jpg");
+  background-image: url("img/projects/flack.jpg");
 }
 .project-img-9 {
   @extend %project-img;
-  background-image: url("img/pizza.png");
+  background-image: url("img/projects/pizza.png");
 }
 .project-img-10 {
   @extend %project-img;
-  background-image: url("img/cs50_web_final_project.png");
+  background-image: url("img/projects/cs50_web_final_project.png");
 }
 .project-img-11 {
   @extend %project-img;
-  background-image: url("img/random_quotes.png");
+  background-image: url("img/projects/random_quotes.png");
 }
 .project-img-12 {
   @extend %project-img;
-  background-image: url("img/markdown_previewer.png");
+  background-image: url("img/projects/markdown_previewer.png");
 }
 .project-img-13 {
   @extend %project-img;
-  background-image: url("img/drum_machine.png");
+  background-image: url("img/projects/drum_machine.png");
 }
 .project-img-14 {
   @extend %project-img;
-  background-image: url("img/react_calculator.png");
+  background-image: url("img/projects/react_calculator.png");
 }
 
 .project-img-15 {
   @extend %project-img;
-  background-image: url("img/cutesee_laptop.png");
+  background-image: url("img/projects/cutesee_laptop.png");
 }
 
 .project-img-16 {
   @extend %project-img;
-  background-image: url("img/snake.gif");
+  background-image: url("img/projects/snake.gif");
 }
 
 .project-img-17 {
   @extend %project-img;
-  background-image: url("img/sudoku.png");
+  background-image: url("img/projects/sudoku.png");
 }
 
 .project-img-18 {
   @extend %project-img;
-  background-image: url("img/picto1.gif");
+  background-image: url("img/projects/picto1.gif");
 }
 
 .project-img-19 {
   @extend %project-img;
-  background-image: url("img/social-panda.png");
+  background-image: url("img/projects/social-panda.png");
 }
 
 .project-img-20 {
   @extend %project-img;
-  background-image: url("img/issue_tracker.png");
+  background-image: url("img/projects/issue_tracker.png");
 }
 
 .project-img-21 {
   @extend %project-img;
-  background-image: url("img/chrome_ext.png");
+  background-image: url("img/projects/chrome_ext.png");
+}
+
+.project-img-22 {
+  @extend %project-img;
+  background-image: url("img/projects/guess_number_app.png");
+}
+
+.project-img-23 {
+  @extend %project-img;
+  background-image: url("img/projects/to_do_app.png");
+}
+
+.project-img-24 {
+  @extend %project-img;
+  background-image: url("img/projects/penny_jar_app.png");
+}
+
+.project-img-25 {
+  @extend %project-img;
+  background-image: url("img/projects/muddy_boots_app.png");
+}
+
+.project-img-26 {
+  @extend %project-img;
+  background-image: url("img/projects/shop_app.png");
 }
 
 
@@ -694,21 +724,21 @@ h1 {
 
 
   .img1 {
-    background-image: url("img/watchreadrepeat.png");
+    background-image: url("img/projects/watchreadrepeat.png");
     display: block;
     width: 100%;
     background-size: contain;
     background-position: center;
     }
   .img2 {
-    background-image: url("img/mysouschef.png");
+    background-image: url("img/projects/mysouschef.png");
     display: block;
     width: 100%;
     background-size: contain;
     background-position: center;
   }
   .img3 {
-    background-image: url("img/cutesee_index.png");
+    background-image: url("img/projects/cutesee_index.png");
     display: block;
     width: 100%;
     background-size: contain;
@@ -716,7 +746,7 @@ h1 {
   }
 
   .img4 {
-    background-image: url("img/picto.png");
+    background-image: url("img/projects/picto.png");
     display: block;
     width: 100%;
     background-size: contain;
@@ -724,7 +754,7 @@ h1 {
   }
 
   .img5 {
-    background-image: url("img/social-panda.png");
+    background-image: url("img/projects/social-panda.png");
     display: block;
     width: 100%;
     background-size: contain;
@@ -732,7 +762,7 @@ h1 {
   }
 
   .img6 {
-    background-image: url("img/issue_tracker.png");
+    background-image: url("img/projects/issue_tracker.png");
     display: block;
     width: 100%;
     background-size: contain;

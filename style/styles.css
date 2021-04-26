@@ -28,7 +28,7 @@ h1 {
   border-radius: 0em !important;
 }
 
-.img-14, .img-13, .img-12, .img-11, .img-10, .img-9, .img-8, .img-7, .img-5, .img-6, .img-4, .img-3, .img-2, .img-1 {
+.img-15, .img-14, .img-13, .img-12, .img-11, .img-10, .img-9, .img-8, .img-7, .img-5, .img-6, .img-4, .img-3, .img-2, .img-1 {
   height: 300px;
   background-size: contain;
   background-position: center;
@@ -53,43 +53,47 @@ h1 {
 }
 
 .img-6 {
-  background-image: url("img/cs50web.jpg");
+  background-image: url("img/projects/cs50web.jpg");
 }
 
 .img-5 {
-  background-image: url("img/cs50_project.jpg");
+  background-image: url("img/projects/cs50_project.jpg");
 }
 
 .img-7 {
-  background-image: url("img/react_frontend.png");
+  background-image: url("img/projects/react_frontend.png");
 }
 
 .img-8 {
-  background-image: url("img/tictactoe.png");
+  background-image: url("img/projects/tictactoe.png");
 }
 
 .img-9 {
-  background-image: url("img/snake.gif");
+  background-image: url("img/projects/snake.gif");
 }
 
 .img-10 {
-  background-image: url("img/repl_it.png");
+  background-image: url("img/projects/repl_it.png");
 }
 
 .img-11 {
-  background-image: url("img/picto2.gif");
+  background-image: url("img/projects/picto2.gif");
 }
 
 .img-12 {
-  background-image: url("img/aoc.png");
+  background-image: url("img/projects/aoc.png");
 }
 
 .img-13 {
-  background-image: url("img/jan21.png");
+  background-image: url("img/projects/jan21.png");
 }
 
 .img-14 {
-  background-image: url("img/chrome_ext.png");
+  background-image: url("img/projects/chrome_ext.png");
+}
+
+.img-15 {
+  background-image: url("img/projects/march_april21.png");
 }
 
 .blog_link {
@@ -103,7 +107,7 @@ h1 {
 }
 
 @media screen and (max-width: 720px) {
-  .img-1, .img-2, .img-3, .img-4, .img-6, .img-5, .img-7, .img-8, .img-9, .img-10, .img-11, .img-12, .img-13, .img-14 {
+  .img-1, .img-2, .img-3, .img-4, .img-6, .img-5, .img-7, .img-8, .img-9, .img-10, .img-11, .img-12, .img-13, .img-14, .img-15 {
     height: 200px;
   }
 
@@ -505,94 +509,114 @@ h1 {
   background-color: #376d64;
 }
 
-.project-img-21, .project-img-20, .project-img-19, .project-img-18, .project-img-17, .project-img-16, .project-img-15, .project-img-14, .project-img-13, .project-img-12, .project-img-11, .project-img-10, .project-img-9, .project-img-8, .project-img-7, .project-img-6, .project-img-5, .project-img-4, .project-img-3, .project-img-2, .project-img-1 {
+.project-img-26, .project-img-25, .project-img-24, .project-img-23, .project-img-22, .project-img-21, .project-img-20, .project-img-19, .project-img-18, .project-img-17, .project-img-16, .project-img-15, .project-img-14, .project-img-13, .project-img-12, .project-img-11, .project-img-10, .project-img-9, .project-img-8, .project-img-7, .project-img-6, .project-img-5, .project-img-4, .project-img-3, .project-img-2, .project-img-1 {
   height: 200px;
   background-size: cover;
   background-position: center;
 }
 
 .project-img-1 {
-  background-image: url("img/tribute_page.jpg");
+  background-image: url("img/projects/tribute_page.jpg");
 }
 
 .project-img-2 {
-  background-image: url("img/company_page.jpg");
+  background-image: url("img/projects/company_page.jpg");
 }
 
 .project-img-3 {
-  background-image: url("img/technical_document.jpg");
+  background-image: url("img/projects/technical_document.jpg");
 }
 
 .project-img-4 {
-  background-image: url("img/survey_form.jpg");
+  background-image: url("img/projects/survey_form.jpg");
 }
 
 .project-img-5 {
-  background-image: url("img/cs50_final_project.jpg");
+  background-image: url("img/projects/cs50_final_project.jpg");
 }
 
 .project-img-6 {
-  background-image: url("img/homepage.png");
+  background-image: url("img/projects/homepage.png");
 }
 
 .project-img-7 {
-  background-image: url("img/book.png");
+  background-image: url("img/projects/book.png");
 }
 
 .project-img-8 {
-  background-image: url("img/flack.jpg");
+  background-image: url("img/projects/flack.jpg");
 }
 
 .project-img-9 {
-  background-image: url("img/pizza.png");
+  background-image: url("img/projects/pizza.png");
 }
 
 .project-img-10 {
-  background-image: url("img/cs50_web_final_project.png");
+  background-image: url("img/projects/cs50_web_final_project.png");
 }
 
 .project-img-11 {
-  background-image: url("img/random_quotes.png");
+  background-image: url("img/projects/random_quotes.png");
 }
 
 .project-img-12 {
-  background-image: url("img/markdown_previewer.png");
+  background-image: url("img/projects/markdown_previewer.png");
 }
 
 .project-img-13 {
-  background-image: url("img/drum_machine.png");
+  background-image: url("img/projects/drum_machine.png");
 }
 
 .project-img-14 {
-  background-image: url("img/react_calculator.png");
+  background-image: url("img/projects/react_calculator.png");
 }
 
 .project-img-15 {
-  background-image: url("img/cutesee_laptop.png");
+  background-image: url("img/projects/cutesee_laptop.png");
 }
 
 .project-img-16 {
-  background-image: url("img/snake.gif");
+  background-image: url("img/projects/snake.gif");
 }
 
 .project-img-17 {
-  background-image: url("img/sudoku.png");
+  background-image: url("img/projects/sudoku.png");
 }
 
 .project-img-18 {
-  background-image: url("img/picto1.gif");
+  background-image: url("img/projects/picto1.gif");
 }
 
 .project-img-19 {
-  background-image: url("img/social-panda.png");
+  background-image: url("img/projects/social-panda.png");
 }
 
 .project-img-20 {
-  background-image: url("img/issue_tracker.png");
+  background-image: url("img/projects/issue_tracker.png");
 }
 
 .project-img-21 {
-  background-image: url("img/chrome_ext.png");
+  background-image: url("img/projects/chrome_ext.png");
+}
+
+.project-img-22 {
+  background-image: url("img/projects/guess_number_app.png");
+}
+
+.project-img-23 {
+  background-image: url("img/projects/to_do_app.png");
+}
+
+.project-img-24 {
+  background-image: url("img/projects/penny_jar_app.png");
+}
+
+.project-img-25 {
+  background-image: url("img/projects/muddy_boots_app.png");
+}
+
+.project-img-26 {
+  background-image: url("img/projects/shop_app.png");
 }
 
 .zoom {
@@ -621,7 +645,7 @@ h1 {
 }
 
 .img1 {
-  background-image: url("img/watchreadrepeat.png");
+  background-image: url("img/projects/watchreadrepeat.png");
   display: block;
   width: 100%;
   background-size: contain;
@@ -629,7 +653,7 @@ h1 {
 }
 
 .img2 {
-  background-image: url("img/mysouschef.png");
+  background-image: url("img/projects/mysouschef.png");
   display: block;
   width: 100%;
   background-size: contain;
@@ -637,7 +661,7 @@ h1 {
 }
 
 .img3 {
-  background-image: url("img/cutesee_index.png");
+  background-image: url("img/projects/cutesee_index.png");
   display: block;
   width: 100%;
   background-size: contain;
@@ -645,7 +669,7 @@ h1 {
 }
 
 .img4 {
-  background-image: url("img/picto.png");
+  background-image: url("img/projects/picto.png");
   display: block;
   width: 100%;
   background-size: contain;
@@ -653,7 +677,7 @@ h1 {
 }
 
 .img5 {
-  background-image: url("img/social-panda.png");
+  background-image: url("img/projects/social-panda.png");
   display: block;
   width: 100%;
   background-size: contain;
@@ -661,7 +685,7 @@ h1 {
 }
 
 .img6 {
-  background-image: url("img/issue_tracker.png");
+  background-image: url("img/projects/issue_tracker.png");
   display: block;
   width: 100%;
   background-size: contain;

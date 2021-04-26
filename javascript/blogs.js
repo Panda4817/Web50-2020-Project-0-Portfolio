@@ -7,6 +7,7 @@ const dropdown = `<ul class="text-left flex-column dates-links">
     Jump to a date
   </a>
   <div class="dropdown-menu blog-dates" aria-labelledby="dropdownMenuButtonDates">
+  	<a class="dropdown-item" href="#April21" onclick="scrollToTargetAdjusted('April21');">March-April</a>
     <a class="dropdown-item" href="#February21" onclick="scrollToTargetAdjusted('February21');">February</a>
     <a class="dropdown-item" href="#January21" onclick="scrollToTargetAdjusted('January21');">January 2021</a>
     <a class="dropdown-item" href="#December20" onclick="scrollToTargetAdjusted('December20');">December</a>
@@ -82,6 +83,19 @@ const links = {
 
 const blogs = {
 	blogs: [
+		{
+			month: "April21",
+			mainHeading: "React Native!",
+			subHeading: "April 26, 2021",
+			img: "img-15",
+			subText: "I created mobile apps using React Native and WSL2 development environment.",
+			mainText: `I am currently completing A React Native and Expo course on Udemy. 
+			Through the course I have created my very first mobile applications, which is super exciting!. 
+			Since I have been using the WSL2 environment for my development, running <code>expo start</code> does not allow physical devices or emulators to talk to a Metro server. 
+			Instead I need to run <code>adb -a nodaemon start server</code> on Powershell first and then <code>expo start --tunnel</code>. 
+			Then I can start an emulator or run the app  on a physical device through the Expo Go app. After learning this technique, I was able to run my apps and test them. 
+			I have also completed Advent of Code 2015-17 and only 2018 an 2019 challenges to complete.`,
+		},
 		{
 			month: "February21",
 			mainHeading: "Chrome Extension!",

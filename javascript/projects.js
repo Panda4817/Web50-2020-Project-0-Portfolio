@@ -50,11 +50,88 @@ const tags = {
 		"API",
 		"Mustache",
 		"Serverless",
+		"React Native",
+		"Expo",
+		"WSL2",
+		"Redux",
+		"Geolocation",
+		"Firebase"
 	],
 };
 
 const projects = {
 	projects: [
+		{
+			title: "E-commerce App",
+			img: "project-img-26",
+			tags: [
+				"JavaScript",
+				"VS-Code",
+				"WSL2",
+				"React Native",
+				"Expo",
+				"Redux",
+				"Firebase"
+			],
+			text: `The app lets an user create an account, verifies their email, login to their account, place products in a cart, order products, view orders made, add own products to sell, edit account details and logout.`,
+			link: "https://github.com/Panda4817/react-native-shop-app",
+		},
+		{
+			title: "Muddy Boots App",
+			img: "project-img-25",
+			tags: [
+				"JavaScript",
+				"VS-Code",
+				"WSL2",
+				"React Native",
+				"Expo",
+				"Redux",
+				"SQLite",
+				"Geolocation"
+			],
+			text: `The app lets you save your favourite places to start walks from. This project focussed on learning to use mobile native features such as camera, geolocation, file system and SQLite database.`,
+			link: "https://github.com/Panda4817/muddy-boots-app",
+		},
+		{
+			title: "Penny Jar App",
+			img: "project-img-24",
+			tags: [
+				"JavaScript",
+				"VS-Code",
+				"WSL2",
+				"React Native",
+				"Expo",
+				"Redux"
+			],
+			text: `The app lets you keep a virtual "swear jar", which uses AsyncStorage to store the number of pennies in your jar and a list of reasons for adding the penny.`,
+			link: "https://github.com/Panda4817/penny-jar-app",
+		},
+		{
+			title: "To-do App with Pomodoro Timer",
+			img: "project-img-23",
+			tags: [
+				"JavaScript",
+				"VS-Code",
+				"WSL2",
+				"React Native",
+				"Expo"
+			],
+			text: `The app has a timer and list keeping feature. The idea is to create the tasks and start the timer. The timer cycles between 25 minutes productive time and 5 minutes break time.`,
+			link: "https://github.com/Panda4817/pomodoro-timer-app",
+		},
+		{
+			title: "Number Guessing App",
+			img: "project-img-22",
+			tags: [
+				"JavaScript",
+				"VS-Code",
+				"WSL2",
+				"React Native",
+				"Expo"
+			],
+			text: `Pick a number and the computer guesses. Human gives hints by pressing higher or lower. See how many guesses required by the computer.`,
+			link: "https://github.com/Panda4817/guess-number-app",
+		},
 		{
 			title: "Chrome Extension",
 			img: "project-img-21",
