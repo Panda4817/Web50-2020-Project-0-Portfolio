@@ -50,7 +50,7 @@ const tags = {
 		"API",
 		"Mustache",
 		"Serverless",
-		"React Native",
+		"React-Native",
 		"Expo",
 		"WSL2",
 		"Redux",
@@ -68,7 +68,7 @@ const projects = {
 				"JavaScript",
 				"VS-Code",
 				"WSL2",
-				"React Native",
+				"React-Native",
 				"Expo",
 				"Redux",
 				"Firebase"
@@ -83,7 +83,7 @@ const projects = {
 				"JavaScript",
 				"VS-Code",
 				"WSL2",
-				"React Native",
+				"React-Native",
 				"Expo",
 				"Redux",
 				"SQLite",
@@ -99,7 +99,7 @@ const projects = {
 				"JavaScript",
 				"VS-Code",
 				"WSL2",
-				"React Native",
+				"React-Native",
 				"Expo",
 				"Redux"
 			],
@@ -113,7 +113,7 @@ const projects = {
 				"JavaScript",
 				"VS-Code",
 				"WSL2",
-				"React Native",
+				"React-Native",
 				"Expo"
 			],
 			text: `The app has a timer and list keeping feature. The idea is to create the tasks and start the timer. The timer cycles between 25 minutes productive time and 5 minutes break time.`,
@@ -126,7 +126,7 @@ const projects = {
 				"JavaScript",
 				"VS-Code",
 				"WSL2",
-				"React Native",
+				"React-Native",
 				"Expo"
 			],
 			text: `Pick a number and the computer guesses. Human gives hints by pressing higher or lower. See how many guesses required by the computer.`,
