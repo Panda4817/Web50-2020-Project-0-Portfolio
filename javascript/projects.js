@@ -71,7 +71,8 @@ const projects = {
 				"React-Native",
 				"Expo",
 				"Redux",
-				"Firebase"
+				"Firebase",
+				"Git",
 			],
 			text: `The app lets an user create an account, verifies their email, login to their account, place products in a cart, order products, view orders made, add own products to sell, edit account details and logout.`,
 			link: "https://github.com/Panda4817/react-native-shop-app",
@@ -87,7 +88,8 @@ const projects = {
 				"Expo",
 				"Redux",
 				"SQLite",
-				"Geolocation"
+				"Geolocation",
+				"Git",
 			],
 			text: `The app lets you save your favourite places to start walks from. This project focussed on learning to use mobile native features such as camera, geolocation, file system and SQLite database.`,
 			link: "https://github.com/Panda4817/muddy-boots-app",
@@ -101,7 +103,8 @@ const projects = {
 				"WSL2",
 				"React-Native",
 				"Expo",
-				"Redux"
+				"Redux",
+				"Git",
 			],
 			text: `The app lets you keep a virtual "swear jar", which uses AsyncStorage to store the number of pennies in your jar and a list of reasons for adding the penny.`,
 			link: "https://github.com/Panda4817/penny-jar-app",
@@ -114,7 +117,8 @@ const projects = {
 				"VS-Code",
 				"WSL2",
 				"React-Native",
-				"Expo"
+				"Expo",
+				"Git",
 			],
 			text: `The app has a timer and list keeping feature. The idea is to create the tasks and start the timer. The timer cycles between 25 minutes productive time and 5 minutes break time.`,
 			link: "https://github.com/Panda4817/pomodoro-timer-app",
@@ -127,7 +131,8 @@ const projects = {
 				"VS-Code",
 				"WSL2",
 				"React-Native",
-				"Expo"
+				"Expo",
+				"Git",
 			],
 			text: `Pick a number and the computer guesses. Human gives hints by pressing higher or lower. See how many guesses required by the computer.`,
 			link: "https://github.com/Panda4817/guess-number-app",
@@ -146,6 +151,7 @@ const projects = {
 				"Serverless",
 				"API",
 				"Netlify",
+				"WSL2",
 			],
 			text: `A chrome extension that replaces the new tab with an xkcd themed one. It will show you the latest comic and a random comic. 
             It can also show you news headlines from your country, the latest Google doodle, your most visited sites and bookmarks. 
@@ -174,6 +180,7 @@ const projects = {
 				"Travis-CI",
 				"Git",
 				"VS-Code",
+				"WSL2",
 			],
 			text: `An online multiplayer Pictionary app with ReactJS front end and NodeJS back end with Express server. 
             The website lets you create a room or join an existing room. Once the game has started, it uses Socket.IO to communicate drawing data and chat messages between users. 
@@ -196,6 +203,7 @@ const projects = {
 				"Git",
 				"VS-Code",
 				"API",
+				"WSL2",
 			],
 			text: `This is a personal project using ReactJS front end and NodeJS with Express for back end. 
             The website also utilises a third-party API Pixabay for the images. 
@@ -227,6 +235,7 @@ const projects = {
 				"VS-Code",
 				"CS50-Web",
 				"API",
+				"WSL2",
 			],
 			text: `For my CS50 web programming final project I created a website called MySousChef that lets you search for recipes, add your own recipes, add items to a virtual pantry and keep track of use by dates, best before dates, when an item was opened or frozen and use within information. 
             The website also lets you search for recipes by filtering for ingredients only in your virtual pantry. You can also create a virtual shopping list.
@@ -333,6 +342,7 @@ const projects = {
 				"Git",
 				"VS-Code",
 				"CS50AI",
+				"WSL2",
 			],
 			text: `A project inspired by CS50 AI course. A command line tool that uses a backtracking search algorithm with some optimization heuristics to solve any valid sudoku boards. 
             The board is loaded from a csv file. It will print out the board as it is being solved and afterwards print out the number of seconds it took to solve it.`,
@@ -348,6 +358,7 @@ const projects = {
 				"Git",
 				"VS-Code",
 				"CS50AI",
+				"WSL2",
 			],
 			text: `A project inspired by CS50 AI course. A pygame program that allows users to play the classic game of Snake as normal, watch an AI play Snake and play Snake against the AI. 
             Before settling on the Hamiltonian Cycle for the AI snake, I tried Q-learning and A* search algorithms. `,

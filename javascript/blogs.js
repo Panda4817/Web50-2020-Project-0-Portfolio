@@ -89,8 +89,8 @@ const blogs = {
 			subHeading: "April 26, 2021",
 			img: "img-15",
 			subText: "I created mobile apps using React Native and WSL2 development environment.",
-			mainText: `I am currently completing A React Native and Expo course on Udemy. 
-			Through the course I have created my very first mobile applications, which is super exciting!. 
+			mainText: `I am currently completing a React Native course on Udemy. 
+			Through the course I have created my very first mobile applications, which is super exciting! 
 			Since I have been using the WSL2 environment for my development, running <code>expo start</code> does not allow physical devices or emulators to talk to a Metro server. 
 			Instead I need to run <code>adb -a nodaemon start server</code> on Powershell first and then <code>expo start --tunnel</code>. 
 			Then I can start an emulator or run the app  on a physical device through the Expo Go app. After learning this technique, I was able to run my apps and test them. 
