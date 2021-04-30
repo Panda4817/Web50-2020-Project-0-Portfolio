@@ -509,7 +509,7 @@ h1 {
   background-color: #376d64;
 }
 
-.project-img-26, .project-img-25, .project-img-24, .project-img-23, .project-img-22, .project-img-21, .project-img-20, .project-img-19, .project-img-18, .project-img-17, .project-img-16, .project-img-15, .project-img-14, .project-img-13, .project-img-12, .project-img-11, .project-img-10, .project-img-9, .project-img-8, .project-img-7, .project-img-6, .project-img-5, .project-img-4, .project-img-3, .project-img-2, .project-img-1 {
+.project-img-29, .project-img-28, .project-img-27, .project-img-26, .project-img-25, .project-img-24, .project-img-23, .project-img-22, .project-img-21, .project-img-20, .project-img-19, .project-img-18, .project-img-17, .project-img-16, .project-img-15, .project-img-14, .project-img-13, .project-img-12, .project-img-11, .project-img-10, .project-img-9, .project-img-8, .project-img-7, .project-img-6, .project-img-5, .project-img-4, .project-img-3, .project-img-2, .project-img-1 {
   height: 200px;
   background-size: cover;
   background-position: center;
@@ -617,6 +617,18 @@ h1 {
 
 .project-img-26 {
   background-image: url("img/projects/shop_app.png");
+}
+
+.project-img-27 {
+  background-image: url("img/projects/library_api.png");
+}
+
+.project-img-28 {
+  background-image: url("img/projects/js_sudoku_solver.png");
+}
+
+.project-img-29 {
+  background-image: url("img/projects/translator.png");
 }
 
 .zoom {

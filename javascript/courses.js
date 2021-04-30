@@ -9,14 +9,23 @@ const courses = {
 			lang: "React Native",
 			projects: "4 Projects",
 			description:
-				"Use React Native and React knowledge to build native iOS and Android Apps - incl. Push Notifications, Hooks, Redux",
+				"Use React Native and React knowledge to build native iOS and Android Apps - incl. Push Notifications, Hooks, Redux, Firebase",
 			completion: "Ongoing",
+		},
+		{
+			title: "Quality Assurance",
+			provider: "FreeCodeCamp",
+			lang: "JavaScript",
+			projects: "5 projects on Repl.it and GitHub",
+			description:
+				"Writing unit tests and functional tests with Chai and Mocha, using Pug as a template engine, using Passport for authentication and Socket.IO for real-time communication",
+			completion: "Completed and Passed",
 		},
 		{
 			title: "APIs and Microservices",
 			provider: "FreeCodeCamp",
 			lang: "JavaScript",
-			projects: "5 projects on Repl.it",
+			projects: "5 projects on Repl.it and GitHub",
 			description:
 				"Managing Packages with Npm, Basic NodeJS and ExpressJS, MongoDB and Mongoose",
 			completion: "Completed and Passed",

@@ -55,12 +55,86 @@ const tags = {
 		"WSL2",
 		"Redux",
 		"Geolocation",
-		"Firebase"
+		"Firebase",
+		"Bootstrap-5"
 	],
 };
 
 const projects = {
 	projects: [
+		{
+			title: "American-British Translator",
+			img: "project-img-29",
+			tags: [
+				"JavaScript",
+				"Node",
+				"Express",
+				"Chai",
+				"Chai-http",
+				"Mocha",
+				"Bootstrap-5",
+				"CSS",
+				"HTML",
+				"deployed",
+				"Repl",
+				"Git",
+				"FreeCodeCamp",
+				"API",
+			],
+			text: `A freecodecamp project for the quality assurance certificate. A full stack JavaScript app that translates sentences written in American English to British English and vice versa. 
+			I wrote all the logic for the translator and I wrote all unit tests and functional tests in Chai and Mocha. 
+            The project is running on Repl.`,
+			link: "https://repl.it/@Panda4817/American-to-British-translator",
+		},
+		{
+			title: "Sudoku Solver JS",
+			img: "project-img-28",
+			tags: [
+				"JavaScript",
+				"Node",
+				"Express",
+				"Chai",
+				"Chai-http",
+				"Mocha",
+				"Bootstrap-5",
+				"CSS",
+				"HTML",
+				"deployed",
+				"Repl",
+				"Git",
+				"FreeCodeCamp",
+				"API",
+			],
+			text: `A freecodecamp project for the quality assurance certificate. A full stack JavaScript app that solves any 9x9 sudoku puzzles with a frontend using Bootstrap 5 styling. All unit tests and functional tests written in Chai and Mocha.  
+            The project is running on Repl.`,
+			link: "https://repl.it/@Panda4817/sudoku-solver-js",
+		},
+		{
+			title: "Library API",
+			img: "project-img-27",
+			tags: [
+				"JavaScript",
+				"Node",
+				"Express",
+				"MongoDB",
+				"Database",
+				"No-SQL",
+				"Chai",
+				"Chai-http",
+				"Mocha",
+				"Bootstrap-4",
+				"CSS",
+				"HTML",
+				"deployed",
+				"Repl",
+				"Git",
+				"FreeCodeCamp",
+				"API",
+			],
+			text: `A freecodecamp project for the quality assurance certificate. A library API implementation using NodeJS, ExpressJS server and MongoDB database for storage of books. It follows CRUD principles. You can add books, update them with new comments, delete a book and delete all books. I have also added a frontend to test out API responses and wrote all 10 functional tests using Chai and Mocha. 
+            I used Bootstrap 4 for styling and mobile responsiveness. The project is running on Repl.`,
+			link: "https://repl.it/@Panda4817/personal-library",
+		},
 		{
 			title: "E-commerce App",
 			img: "project-img-26",
