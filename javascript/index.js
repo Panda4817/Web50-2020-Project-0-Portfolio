@@ -1,43 +1,36 @@
 const header = `<h1>K Munton</h1>
-<p>I am an aspiring full-stack developer</p>`;
+<p>I am an aspiring software engineer</p>`;
 
 const slides = {
 	slides: [
 		{
 			img: "img1",
-			main:
-				"A Python and Flask website to keep track of movies, TV shows and books watched and read.",
+			main: "A Python and Flask website to keep track of movies, TV shows and books watched and read.",
 			sub: "Deployed using PythonAnywhere",
 		},
 		{
 			img: "img2",
-			main:
-				"A Python and Django website to search and save recipes, add own recipes, keep a virtual pantry and create shopping lists.",
+			main: "A Python and Django website to search and save recipes, add own recipes, keep a virtual pantry and create shopping lists.",
 			sub: "Deployed using Heroku",
 		},
 		{
 			img: "img3",
-			main:
-				"A ReactJS and NodeJS website to search images.",
+			main: "A ReactJS and NodeJS website to search images.",
 			sub: "Deployed using Heroku",
 		},
 		{
 			img: "img4",
-			main:
-				"A ReactJS, NodeJS and Socket.IO web application to play Pictionary online with friends.",
-			sub:
-				"Back end deployed on Heroku and front end deployed on Netlify",
+			main: "A ReactJS, NodeJS and Socket.IO web application to play Pictionary online with friends.",
+			sub: "Back end deployed on Heroku and front end deployed on Netlify",
 		},
 		{
 			img: "img5",
-			main:
-				"A NodeJS and Pug social media web application to create posts and chat.",
+			main: "A NodeJS and Pug social media web application to create posts and chat.",
 			sub: "Running on Repl",
 		},
 		{
 			img: "img6",
-			main:
-				"A NodeJS and Pug issue tracker web application to GET, POST, PUT and DELETE issues using MongoDB.",
+			main: "A NodeJS and Pug issue tracker web application to GET, POST, PUT and DELETE issues using MongoDB.",
 			sub: "Running on Repl",
 		},
 	],

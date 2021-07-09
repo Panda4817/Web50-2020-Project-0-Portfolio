@@ -1,5 +1,5 @@
 const header = ` <h1>Hello World!</h1>
-<p>Read about my leap into computer science!</p></div>`;
+<p>Read about my leap into software engineering!</p></div>`;
 
 const dropdown = `<ul class="text-left flex-column dates-links">
 <li class="dropdown text-decoration-none">
@@ -7,6 +7,7 @@ const dropdown = `<ul class="text-left flex-column dates-links">
     Jump to a date
   </a>
   <div class="dropdown-menu blog-dates" aria-labelledby="dropdownMenuButtonDates">
+  	<a class="dropdown-item" href="#July21" onclick="scrollToTargetAdjusted('July21');">May-July</a>
   	<a class="dropdown-item" href="#April21" onclick="scrollToTargetAdjusted('April21');">March-April</a>
     <a class="dropdown-item" href="#February21" onclick="scrollToTargetAdjusted('February21');">February</a>
     <a class="dropdown-item" href="#January21" onclick="scrollToTargetAdjusted('January21');">January 2021</a>
@@ -78,17 +79,36 @@ const links = {
 			href: "https://coderadio.freecodecamp.org/",
 			text: "FreeCodeCamp Music for Coding",
 		},
+		{
+			href: "https://www.codingblocks.net/",
+			text: "Coding Blocks",
+		},
 	],
 };
 
 const blogs = {
 	blogs: [
 		{
+			month: "July21",
+			mainHeading: "I love programming <3",
+			subHeading: "July 9, 2021",
+			img: "img-16",
+			subText:
+				"I have started listening to a coding podcast and I am half way through 2018 Advent Of Code.",
+			mainText: `Even though work has been super busy I still try and find time to program.
+			I have started creating a mobile app using what I have learnt from the React Native Udemy course so far. 
+			My app will remind users 1 or 2 weeks before a friends birthday/anniversary to buy and send cards and/or presents.
+			I am half way through 2018 Advent of Code and still loving the challenges. I have also started listening to Coding Blocks podcasts. 
+			These guys on the podcast are hilarious and informative and talk about a range of software engineering topics. 
+			I listen to them on Spotify but they are available on other platforms.`,
+		},
+		{
 			month: "April21",
 			mainHeading: "React Native!",
 			subHeading: "April 26, 2021",
 			img: "img-15",
-			subText: "I created mobile apps using React Native and WSL2 development environment.",
+			subText:
+				"I created mobile apps using React Native and WSL2 development environment.",
 			mainText: `I am currently completing a React Native course on Udemy. 
 			Through the course I have created my very first mobile applications, which is super exciting! 
 			Since I have been using the WSL2 environment for my development, running <code>expo start</code> does not allow physical devices or emulators to talk to a Metro server. 
@@ -255,9 +275,8 @@ const blogs = {
 
 document.addEventListener("DOMContentLoaded", () => {
 	document.getElementById("header").innerHTML = header;
-	document.getElementById(
-		"extra_dropdown"
-	).innerHTML = dropdown;
+	document.getElementById("extra_dropdown").innerHTML =
+		dropdown;
 	let links_temp_nav = $("#links_temp_nav").html();
 	let links_temp_dropdown = $(
 		"#links_temp_dropdown"

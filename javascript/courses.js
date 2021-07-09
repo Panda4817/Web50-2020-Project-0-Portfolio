@@ -1,8 +1,17 @@
-const header = `<h1>Computer Science Courses</h1>
+const header = `<h1>Courses</h1>
 <p>Read about the courses I have completed</p></div>`;
 
 const courses = {
 	courses: [
+		{
+			title: "Information Security",
+			provider: "FreeCodeCamp",
+			lang: "JavaScript and Python",
+			projects: "5 projects on Repl.it and GitHub",
+			description:
+				"Building a secure web app with HelmetJS. Building a TCP client and an Nmap and port scanner in Python.",
+			completion: "Completed and Passed",
+		},
 		{
 			title: "React Native - The Practical Guide",
 			provider: "Udemy",
@@ -11,6 +20,15 @@ const courses = {
 			description:
 				"Use React Native and React knowledge to build native iOS and Android Apps - incl. Push Notifications, Hooks, Redux, Firebase",
 			completion: "Ongoing",
+		},
+		{
+			title: "Data Visualization",
+			provider: "FreeCodeCamp",
+			lang: "JavaScript",
+			projects: "5 projects on Repl.it and GitHub",
+			description:
+				"Building charts, graphs, and maps to present different types of data with the D3.js library",
+			completion: "Completed and Passed",
 		},
 		{
 			title: "Quality Assurance",

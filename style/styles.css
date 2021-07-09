@@ -28,7 +28,7 @@ h1 {
   border-radius: 0em !important;
 }
 
-.img-15, .img-14, .img-13, .img-12, .img-11, .img-10, .img-9, .img-8, .img-7, .img-5, .img-6, .img-4, .img-3, .img-2, .img-1 {
+.img-16, .img-15, .img-14, .img-13, .img-12, .img-11, .img-10, .img-9, .img-8, .img-7, .img-5, .img-6, .img-4, .img-3, .img-2, .img-1 {
   height: 300px;
   background-size: contain;
   background-position: center;
@@ -96,6 +96,10 @@ h1 {
   background-image: url("img/projects/march_april21.png");
 }
 
+.img-16 {
+  background-image: url("img/projects/july21.png");
+}
+
 .blog_link {
   color: #da7b93;
   text-decoration: none;
@@ -107,7 +111,7 @@ h1 {
 }
 
 @media screen and (max-width: 720px) {
-  .img-1, .img-2, .img-3, .img-4, .img-6, .img-5, .img-7, .img-8, .img-9, .img-10, .img-11, .img-12, .img-13, .img-14, .img-15 {
+  .img-1, .img-2, .img-3, .img-4, .img-6, .img-5, .img-7, .img-8, .img-9, .img-10, .img-11, .img-12, .img-13, .img-14, .img-15, .img-16 {
     height: 200px;
   }
 
@@ -164,7 +168,8 @@ h1 {
   z-index: 999;
   background-color: #1c3334 !important;
 }
-#navbar .navbar-nav, #navbar .navbar-collapse {
+#navbar .navbar-nav,
+#navbar .navbar-collapse {
   margin: 0 !important;
   padding: 0 !important;
 }
@@ -199,7 +204,8 @@ h1 {
   outline: none !important;
 }
 
-.navbar-toggler:active, :hover {
+.navbar-toggler:active,
+:hover {
   box-shadow: none !important;
   outline: none !important;
 }
@@ -227,7 +233,9 @@ h1 {
   margin-top: 6px;
 }
 
-.navbar-toggler[aria-expanded=false] .top-bar, .middle-bar, .bottom-bar {
+.navbar-toggler[aria-expanded=false] .top-bar,
+.middle-bar,
+.bottom-bar {
   transform: none;
   opacity: 1;
 }
@@ -345,7 +353,8 @@ h1 {
 }
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 992px) {
-  .column-about, .column-lang {
+  .column-about,
+.column-lang {
     flex: 50%;
     max-width: 50%;
   }
@@ -356,7 +365,8 @@ h1 {
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 720px) {
-  .column-about, .column-lang {
+  .column-about,
+.column-lang {
     flex: 100%;
     max-width: 100%;
   }
@@ -474,7 +484,9 @@ h1 {
   height: 30px !important;
 }
 
-.tokenfield:hover, .tokenfield:active, .tokenfield:focus {
+.tokenfield:hover,
+.tokenfield:active,
+.tokenfield:focus {
   border: 1px solid white !important;
 }
 
@@ -505,7 +517,8 @@ h1 {
   color: white;
 }
 
-.content:hover, .content:focus {
+.content:hover,
+.content:focus {
   background-color: #376d64;
 }
 
