@@ -16,7 +16,7 @@ const courses = {
 			title: "React Native - The Practical Guide",
 			provider: "Udemy",
 			lang: "React Native",
-			projects: "4 Projects",
+			projects: "4 Projects on GitHub",
 			description:
 				"Use React Native and React knowledge to build native iOS and Android Apps - incl. Push Notifications, Hooks, Redux, Firebase",
 			completion: "Ongoing",
@@ -25,7 +25,7 @@ const courses = {
 			title: "Data Visualization",
 			provider: "FreeCodeCamp",
 			lang: "JavaScript",
-			projects: "5 projects on Repl.it and GitHub",
+			projects: "5 projects through CodePen",
 			description:
 				"Building charts, graphs, and maps to present different types of data with the D3.js library",
 			completion: "Completed and Passed",
