@@ -1,5 +1,5 @@
 const header = ` <h1>Hello World!</h1>
-<p>Read about my leap into software engineering!</p></div>`;
+<p>Read about my leap into software development!</p></div>`;
 
 const dropdown = `<ul class="text-left flex-column dates-links">
 <li class="dropdown text-decoration-none">
@@ -107,8 +107,7 @@ const blogs = {
 			mainHeading: "React Native!",
 			subHeading: "April 26, 2021",
 			img: "img-15",
-			subText:
-				"I created mobile apps using React Native and WSL2 development environment.",
+			subText: "I created mobile apps using React Native and WSL2 development environment.",
 			mainText: `I am currently completing a React Native course on Udemy. 
 			Through the course I have created my very first mobile applications, which is super exciting! 
 			Since I have been using the WSL2 environment for my development, running <code>expo start</code> does not allow physical devices or emulators to talk to a Metro server. 
@@ -132,8 +131,7 @@ const blogs = {
 			mainHeading: "Problem Solving!",
 			subHeading: "January 29, 2021",
 			img: "img-13",
-			subText:
-				"I will complete all previous Advent of Code challenges before December 2021!",
+			subText: "I will complete all previous Advent of Code challenges before December 2021!",
 			mainText: `It has been an interesting month. I have dabbled in a new language; Ruby. Last month's Advent of Code motivated me to challenge myself more and complete problems daily. 
       I have started to work through CodeSignal and HackerRank problems. I have also challenged myself to complete all previous Advent of Code challenges by December 2021. 
       I have already completed 2015 and I am currently working through 2016 problems. I love it!`,
@@ -165,8 +163,7 @@ const blogs = {
 		},
 		{
 			month: "October20",
-			mainHeading:
-				"CS50AI Complete and More Projects on Repl.it!",
+			mainHeading: "CS50AI Complete and More Projects on Repl.it!",
 			subHeading: "Repl.it, October 9, 2020",
 			img: "img-10",
 			subText:
@@ -181,8 +178,7 @@ const blogs = {
 			mainHeading: "Snake AI and Sudoku Solver!",
 			subHeading: "CS50AI, September, 2020",
 			img: "img-9",
-			subText:
-				"CS50 Intro to AI with Python inspired me to complete my own AI projects.",
+			subText: "CS50 Intro to AI with Python inspired me to complete my own AI projects.",
 			mainText: `After lecture 3, learning about backtracking search, I decided to create a command line tool that solves Sudoku puzzles.
       This CLI also measures how long it takes to find the solution, so it was interesting to see if I could get that time has low as possible
       by optimizing the algorithm. Another idea I had was to recreate a classic game that is played by an AI and I decided to choose Snake. 
@@ -193,21 +189,17 @@ const blogs = {
 			mainHeading: "Half way through CS50AI course!",
 			subHeading: "CS50AI, August 28, 2020",
 			img: "img-8",
-			subText:
-				"I started the CS50 Introduction to Artificial Intelligence with Python.",
+			subText: "I started the CS50 Introduction to Artificial Intelligence with Python.",
 			mainText: `The course looked interesting and I wanted to do more Python so I decided to start this course.
       As part of the course I have created a Tic-Tac-Toe game that one can play against an AI and programmed an AI to play the Minesweeper game.
       I am learning a lot of new concepts such as different search algorithms and the minimax algorithm.`,
 		},
 		{
 			month: "July20",
-			mainHeading:
-				"FreeCodeCamp Front End Libraries completed!",
-			subHeading:
-				"Created my own web application using React, July, 2020",
+			mainHeading: "FreeCodeCamp Front End Libraries completed!",
+			subHeading: "Created my own web application using React, July, 2020",
 			img: "img-7",
-			subText:
-				"I earned the FreeCodeCamp Front End Libraries certificate.",
+			subText: "I earned the FreeCodeCamp Front End Libraries certificate.",
 			mainText: `The main thing I learned from this course is ReactJS and created several projects using this. 
       Once completed I created my own personal project using ReactJS for front end and NodeJS with Express for back end.
       I have also created a chatbot using React and the code for that can be found on GitHub.`,
@@ -215,11 +207,9 @@ const blogs = {
 		{
 			month: "June20",
 			mainHeading: "CS50 Web completed!",
-			subHeading:
-				"My final project submitted, June 23, 2020",
+			subHeading: "My final project submitted, June 23, 2020",
 			img: "img-6",
-			subText:
-				"I earned the CS50 Web Programming with Python and JavaScript certificate.",
+			subText: "I earned the CS50 Web Programming with Python and JavaScript certificate.",
 			mainText: `This course was very interesting as I learnt a new framework in Python called Django and learnt the concepts of CI/CD along with how to write tests. 
       The course taught me how to use various tools such as Git, Travis, Heroku and PostgreSQL. It also covered some important topics such as security and scalability.
     The course consisted of 4 projects and a final project. My portfolio was project 0 and more information about the other projects are on the projects page.
@@ -232,16 +222,14 @@ const blogs = {
 			mainHeading: "CS50 Intro to CS completed!",
 			subHeading: "My final project submitted, May 2, 2020",
 			img: "img-5",
-			subText:
-				"I earned the CS50 Introduction to Computer Science certificate.",
+			subText: "I earned the CS50 Introduction to Computer Science certificate.",
 			mainText: `My final project is a website that lets you track movies, tv shows and books you are watching and reading. I deployed it via PythonAnywhere. See projects page for more information and a link to it.
       I have now started CS50's Web Programming with Python and JavaScript course.`,
 		},
 		{
 			month: "April20",
 			mainHeading: "FreeCodeCamp",
-			subHeading:
-				"Learning responsive web design, April 10, 2020",
+			subHeading: "Learning responsive web design, April 10, 2020",
 			img: "img-2",
 			subText:
 				"I earned the responsive web design certificate after completing 300 hours worth of tutorials and projects.",
@@ -253,8 +241,7 @@ const blogs = {
 			mainHeading: "Python",
 			subHeading: "Python vs C, March 27, 2020",
 			img: "img-4",
-			subText:
-				"Completed the problem sets in C and now onto Python.",
+			subText: "Completed the problem sets in C and now onto Python.",
 			mainText: `Took a little break but I'm back to CS50. 
       All the problem sets to do with C programming language were so interesting and fun! Now I am onto Python. 
       That blur filter in C was time consuming but in Python it was quicker to complete! 
@@ -263,8 +250,7 @@ const blogs = {
 		{
 			month: "October19",
 			mainHeading: "CS50",
-			subHeading:
-				"Amazing start to computer science, October 24, 2019",
+			subHeading: "Amazing start to computer science, October 24, 2019",
 			img: "img-3",
 			subText: "I just started and I am loving it!",
 			mainText:
@@ -275,18 +261,12 @@ const blogs = {
 
 document.addEventListener("DOMContentLoaded", () => {
 	document.getElementById("header").innerHTML = header;
-	document.getElementById("extra_dropdown").innerHTML =
-		dropdown;
+	document.getElementById("extra_dropdown").innerHTML = dropdown;
 	let links_temp_nav = $("#links_temp_nav").html();
-	let links_temp_dropdown = $(
-		"#links_temp_dropdown"
-	).html();
+	let links_temp_dropdown = $("#links_temp_dropdown").html();
 	let blogs_temp = $("#blogs_temp").html();
 	let nav_output = Mustache.render(links_temp_nav, links);
-	let dropdown_output = Mustache.render(
-		links_temp_dropdown,
-		links
-	);
+	let dropdown_output = Mustache.render(links_temp_dropdown, links);
 	let blogs_output = Mustache.render(blogs_temp, blogs);
 	$("#links_nav").append(nav_output);
 	$("#links_dropdown").append(dropdown_output);

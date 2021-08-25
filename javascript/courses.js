@@ -4,6 +4,15 @@ const header = `<h1>Courses</h1>
 const courses = {
 	courses: [
 		{
+			title: "React Native - The Practical Guide",
+			provider: "Udemy",
+			lang: "React Native",
+			projects: "4 Projects on GitHub",
+			description:
+				"Use React Native and React knowledge to build native iOS and Android Apps - incl. Push Notifications, Hooks, Redux, Firebase",
+			completion: "Completed and Passed",
+		},
+		{
 			title: "Information Security",
 			provider: "FreeCodeCamp",
 			lang: "JavaScript and Python",
@@ -11,15 +20,6 @@ const courses = {
 			description:
 				"Building a secure web app with HelmetJS. Building a TCP client and an Nmap and port scanner in Python.",
 			completion: "Completed and Passed",
-		},
-		{
-			title: "React Native - The Practical Guide",
-			provider: "Udemy",
-			lang: "React Native",
-			projects: "4 Projects on GitHub",
-			description:
-				"Use React Native and React knowledge to build native iOS and Android Apps - incl. Push Notifications, Hooks, Redux, Firebase",
-			completion: "Ongoing",
 		},
 		{
 			title: "Data Visualization",
@@ -44,8 +44,7 @@ const courses = {
 			provider: "FreeCodeCamp",
 			lang: "JavaScript",
 			projects: "5 projects on Repl.it and GitHub",
-			description:
-				"Managing Packages with Npm, Basic NodeJS and ExpressJS, MongoDB and Mongoose",
+			description: "Managing Packages with Npm, Basic NodeJS and ExpressJS, MongoDB and Mongoose",
 			completion: "Completed and Passed",
 		},
 		{
@@ -53,13 +52,11 @@ const courses = {
 			provider: "FreeCodeCamp",
 			lang: "Python",
 			projects: "5 projects on Repl.it",
-			description:
-				"Basics of Python, Object-Oriented Programming, Database Design, Web Development",
+			description: "Basics of Python, Object-Oriented Programming, Database Design, Web Development",
 			completion: "Completed and Passed",
 		},
 		{
-			title:
-				"CS50 Introduction to Artificial Intelligence with Python",
+			title: "CS50 Introduction to Artificial Intelligence with Python",
 			provider: "Harvard University (through edX)",
 			lang: "Python",
 			projects: "6 quizzes and 12 projects",
@@ -85,13 +82,11 @@ const courses = {
 			completion: "Completed and Passed",
 		},
 		{
-			title:
-				"CS50 Web Programming with Python and JavaScript",
+			title: "CS50 Web Programming with Python and JavaScript",
 			provider: "Harvard University (through edX)",
 			lang: "HTML, CSS, Python, JavaScript",
 			projects: "5 projects including a final project",
-			description:
-				"SQL, Flask, ORMs, APIs, Django, Git, Scalability and Security",
+			description: "SQL, Flask, ORMs, APIs, Django, Git, Scalability and Security",
 			completion: "Completed and Passed",
 		},
 		{
@@ -107,8 +102,7 @@ const courses = {
 			provider: "Harvard University (through edX)",
 			lang: "C, Python, HTML, CSS, JavaScript",
 			projects: "9 psets and a final project",
-			description:
-				"Introduction to Data Structures and Algorithms, Memory,  SQL, Flask",
+			description: "Introduction to Data Structures and Algorithms, Memory,  SQL, Flask",
 			completion: "Completed and Passed",
 		},
 	],
@@ -160,10 +154,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	let mobile_temp = $("#mobile_temp").html();
 	let table_temp = $("#table_temp").html();
 	let badges_temp = $("#badges_temp").html();
-	let badges_output = Mustache.render(
-		badges_temp,
-		learning_portals
-	);
+	let badges_output = Mustache.render(badges_temp, learning_portals);
 	let mobile_output = Mustache.render(mobile_temp, courses);
 	let table_output = Mustache.render(table_temp, courses);
 

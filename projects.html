@@ -4,7 +4,7 @@
 		<meta charset="utf-8" />
 		<meta
 			name="viewport"
-			content="width=device-width, initial-scale=1"
+			content="width=device-width, initial-scale=1, user-scalable=yes"
 			user-scalable="yes"
 		/>
 		<link
@@ -13,18 +13,9 @@
 			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
 			crossorigin="anonymous"
 		/>
-		<link
-			href="https://unpkg.com/aos@2.3.1/dist/aos.css"
-			rel="stylesheet"
-		/>
-		<link
-			rel="stylesheet"
-			href="style/owl.carousel.min.css"
-		/>
-		<link
-			rel="stylesheet"
-			href="style/owl.theme.default.min.css"
-		/>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+		<link rel="stylesheet" href="style/owl.carousel.min.css" />
+		<link rel="stylesheet" href="style/owl.theme.default.min.css" />
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
@@ -36,41 +27,17 @@
 			crossorigin="anonymous"
 		/>
 		<link href="style/styles.css" rel="stylesheet" />
-		<link
-			rel="apple-touch-icon"
-			sizes="180x180"
-			href="style/img/apple-touch-icon.png"
-		/>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="32x32"
-			href="style/img/favicon-32x32.png"
-		/>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="16x16"
-			href="style/img/favicon-16x16.png"
-		/>
-		<link
-			rel="manifest"
-			href="style/img/site.webmanifest"
-		/>
+		<link rel="apple-touch-icon" sizes="180x180" href="style/img/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="style/img/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="style/img/favicon-16x16.png" />
+		<link rel="manifest" href="style/img/site.webmanifest" />
 		<title>Projects</title>
 	</head>
 	<body>
-		<header
-			id="top"
-			class="jumbotron text-center"
-			style="margin-bottom: 0"
-		>
+		<header id="top" class="jumbotron text-center" style="margin-bottom: 0">
 			<div id="header" data-aos="zoom-in"></div>
 		</header>
-		<nav
-			id="navbar"
-			class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top"
-		></nav>
+		<nav id="navbar" class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top"></nav>
 		<main class="container back">
 			<form onsubmit="return false">
 				<div class="form-row">
@@ -84,12 +51,7 @@
 							aria-describedby="inputField"
 						/>
 						<div class="input-group-append">
-							<button
-								class="btn btn-light"
-								id="submit"
-								type="button"
-								onclick="getTokens()"
-							>
+							<button class="btn btn-light" id="submit" type="button" onclick="getTokens()">
 								<i class="fas fa-search"></i>
 							</button>
 						</div>
@@ -97,10 +59,7 @@
 				</div>
 			</form>
 			<div id="project_content" class="card-columns"></div>
-			<div
-				id="taglist"
-				class="row justify-content-center"
-			></div>
+			<div id="taglist" class="row justify-content-center"></div>
 		</main>
 		<div id="footer_content"></div>
 	</body>
@@ -110,9 +69,9 @@
 		    <div class="form-check form-check-inline">
 		        <input class="form-check-input" type="checkbox" id="id_{{.}}" value="{{.}}" style='display: none' disabled />
 		        <label onclick="addToken('{{.}}')" class="form-check-label tags-muted p-1 m-1 rounded-pill" id='label_{{.}}' for="id_{{.}}">
-                    <i class="fas fa-check" id='id_i_{{.}}' style='display: none'></i>
-                    <i class="fas fa-times" id='id_x_{{.}}'></i> {{.}}
-                </label>
+		                  <i class="fas fa-check" id='id_i_{{.}}' style='display: none'></i>
+		                  <i class="fas fa-times" id='id_x_{{.}}'></i> {{.}}
+		              </label>
 		    </div>
 		{{/.}}
 		{{/tags}}
