@@ -52,7 +52,7 @@
 				</div>
 			</div>
 			<div class="col-12">
-				<h2 class="text-center">My recommended learning resources for the self-taught programmers</h2>
+				<h2 class="text-center">My recommended learning resources for self-taught programmers</h2>
 			</div>
 			<div id="learning" class="column-learning"></div>
 		</main>
@@ -67,7 +67,9 @@
 		          <li><p>{{provider}}</p></li>
 		          <li><p>{{lang}}</p></li>
 		          <li><p>{{description}}</p></li>
-				  <li><p>{{projects}}</p></li>
+				  {{#projects}}
+				  	<li><p>{{projects}}</p></li>
+				  {{/projects}}
 		          <li><p>{{completion}}</p></li>
 		        </ul>
 		    </div>

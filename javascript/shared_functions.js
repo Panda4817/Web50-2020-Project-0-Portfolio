@@ -1,17 +1,23 @@
 function scrollToTargetAdjusted(data) {
-    $('html').animate({
-        scrollTop: $("#"+data).offset().top - 100
-      }, 2000);
+	$("html").animate(
+		{
+			scrollTop: $("#" + data).offset().top - 100,
+		},
+		2000
+	);
 }
 
 function scrollToTop(data) {
-    $('html').animate({
-        scrollTop: $("#"+data).offset().top
-      }, 1000);
+	$("html").animate(
+		{
+			scrollTop: $("#" + data).offset().top,
+		},
+		1000
+	);
 }
 
 const data = {
-    "footer": `<footer id="footer" class="jumbotron text-center" style="margin-bottom:0">
+	footer: `<footer id="footer" class="jumbotron text-center" style="margin-bottom:0">
     <div class="profile">
       <a class="profile" onclick="scrollToTop('top');" href="#top" title="Back to top">
         <i class="fas fa-chevron-up"></i>
@@ -37,7 +43,7 @@ const data = {
       <i class="far fa-copyright"></i> <span id="year"></span>
     </p>
   </footer>`,
-  "navbar": `<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	navbar: `<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="icon-bar top-bar"></span>
     <span class="icon-bar middle-bar"></span>
     <span class="icon-bar bottom-bar"></span>
@@ -61,12 +67,12 @@ const data = {
         <a class="nav-link" href="interests.html">Interests</a>
       </li>
     </ul>
-  </div>`
-}
+  </div>`,
+};
 
-document.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('navbar').innerHTML = data['navbar']
-    document.getElementById('footer_content').innerHTML = data['footer']
-    let x = new Date().getFullYear();
-    $('#year').html(x);
-})
+document.addEventListener("DOMContentLoaded", () => {
+	document.getElementById("navbar").innerHTML = data["navbar"];
+	document.getElementById("footer_content").innerHTML = data["footer"];
+	let x = new Date().getFullYear();
+	$("#year").html(x);
+});

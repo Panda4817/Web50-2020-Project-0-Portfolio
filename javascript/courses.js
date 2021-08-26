@@ -6,8 +6,8 @@ const courses = {
 		{
 			title: "BJSS Engineering Academy",
 			provider: "BJSS Ltd",
-			lang: "Various",
-			projects: "n/a",
+			lang: "Various topics",
+			projects: "",
 			description:
 				"BJSS Engineering Academy provides on the job training to prepare for delivering advanced technology and consulting solutions to clients throughout the UK.",
 			completion: "Starting September 2021",
