@@ -4,9 +4,21 @@ const header = `<h1>K Munton</h1>
 const slides = {
 	slides: [
 		{
-			img: "img1",
-			main: "A Python and Flask website to keep track of movies, TV shows and books watched and read.",
-			sub: "Deployed using PythonAnywhere",
+			img: "img4",
+			main: "A ReactJS, NodeJS and Socket.IO web application to play Pictionary online with friends.",
+			sub: "Back end deployed on Heroku and front end deployed on Netlify",
+		},
+		{
+			img: "img9",
+			main:
+				"A React Native, Expo and TypeScript reminders mobile application with notifications and navigation.",
+			sub: "Published on Expo",
+		},
+		{
+			img: "img10",
+			main:
+				"A Chrome extension that replaces the new tab with a xkcd themed one.",
+			sub: "Uploaded to Chrome Web Store and serverless API functions deployed on Netlify",
 		},
 		{
 			img: "img2",
@@ -20,9 +32,9 @@ const slides = {
 			sub: "Deployed using Heroku",
 		},
 		{
-			img: "img4",
-			main: "A ReactJS, NodeJS and Socket.IO web application to play Pictionary online with friends.",
-			sub: "Back end deployed on Heroku and front end deployed on Netlify",
+			img: "img1",
+			main: "A Python and Flask website to keep track of movies, TV shows and books watched and read.",
+			sub: "Deployed using PythonAnywhere",
 		},
 		{
 			img: "img5",
@@ -33,6 +45,18 @@ const slides = {
 			img: "img6",
 			main:
 				"A NodeJS and Pug issue tracker web application to GET, POST, PUT and DELETE issues using MongoDB.",
+			sub: "Running on Repl",
+		},
+		{
+			img: "img7",
+			main:
+				"A NodeJS and Pug anonymous message board web application using MongoDB, HelmetJS and password hashing using BCrypt.",
+			sub: "Running on Repl",
+		},
+		{
+			img: "img8",
+			main:
+				"A NodeJS real-time multiplayer arcade-style game with HelmetJS security features.",
 			sub: "Running on Repl",
 		},
 	],
@@ -74,6 +98,11 @@ const lang = {
 			src: "style/img/badges/node-dot-js.svg",
 			alt: "Node.js",
 			color: "#339933",
+		},
+		{
+			src: "style/img/badges/typescript.svg",
+			alt: "TypeScript",
+			color: "#3178C6",
 		},
 	],
 };
@@ -199,6 +228,11 @@ const tools = {
 			src: "style/img/badges/linux.svg",
 			alt: "Linux",
 			color: "#FCC624",
+		},
+		{
+			src: "style/img/badges/jest.svg",
+			alt: "Jest",
+			color: "#C21325",
 		},
 	],
 };

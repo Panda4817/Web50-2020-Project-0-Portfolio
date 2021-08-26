@@ -39,11 +39,11 @@
 					<table class="table table-hover table-borderless">
 						<thead>
 							<tr>
-								<th>Courses started</th>
-								<th>Course provider</th>
-								<th>Programming languages/ Tools/ Libraries</th>
-								<th>Projects/ Problem sets (psets)</th>
-								<th>Other skills</th>
+								<th>Title</th>
+								<th>Provider</th>
+								<th>Main topic</th>
+								<th>Other skills/ description</th>
+								<th>Associated projects</th>
 								<th>Completion status</th>
 							</tr>
 						</thead>
@@ -52,9 +52,9 @@
 				</div>
 			</div>
 			<div class="col-12">
-				<h2 class="text-center">My Learning Resources</h2>
+				<h2 class="text-center">My recommended learning resources for the self-taught programmers</h2>
 			</div>
-			<div id="learning"></div>
+			<div id="learning" class="column-learning"></div>
 		</main>
 		<div id="footer_content"></div>
 	</body>
@@ -66,8 +66,8 @@
 		        <ul>
 		          <li><p>{{provider}}</p></li>
 		          <li><p>{{lang}}</p></li>
-		          <li><p>{{projects}}</p></li>
 		          <li><p>{{description}}</p></li>
+				  <li><p>{{projects}}</p></li>
 		          <li><p>{{completion}}</p></li>
 		        </ul>
 		    </div>
@@ -80,8 +80,8 @@
 		    <td>{{title}}</td>
 		    <td>{{provider}}</td>
 		    <td>{{lang}}</td>
-		    <td>{{projects}}</td>
 		    <td>{{description}}</td>
+			<td>{{projects}}</td>
 		    <td>{{completion}}</td>
 		</tr>
 		{{/courses}}

@@ -56,12 +56,122 @@ const tags = {
 		"Redux",
 		"Geolocation",
 		"Firebase",
-		"Bootstrap-5"
+		"Bootstrap-5",
+		"Jest",
+		"Helmet",
+		"BCrypt",
+		"TypeScript"
 	],
 };
 
 const projects = {
 	projects: [
+		{
+			title: "Remindsy Mobile App",
+			img: "project-img-33",
+			tags: [
+				"TypeScript",
+				"VS-Code",
+				"WSL2",
+				"React-Native",
+				"Expo",
+				"Redux",
+				"SQLite",
+				"Git",
+				"deployed",
+				"Jest"
+			],
+			text: `The app lets you set reminders, called a "Remindsy", 
+			which notifies the user to buy cards and presents for friends and family a week or 2 weeks in advance of the birthday and/or anniversary date. 
+			This is my first TypeScript project. 
+			The project also has extensive tests via Jest for all features of the app. 
+			The app is published on Expo and can be installed onto an Android device via Expo Go app. 
+			The link to the Expo app page can be found via the GitHub repository.`,
+			link: "https://github.com/Panda4817/remindsy",
+		},
+		{
+			title: "COVID Wars",
+			img: "project-img-32",
+			tags: [
+				"JavaScript",
+				"Node",
+				"Express",
+				"Chai",
+				"Chai-http",
+				"Mocha",
+				"Bootstrap-5",
+				"HelmetJS",
+				"CSS",
+				"HTML",
+				"deployed",
+				"Repl",
+				"Git",
+				"FreeCodeCamp",
+				"API",
+				"SocketIO"
+			],
+			text: `A FreeCodeCamp project for the information security certificate. 
+			A secure real time multiplayer arcade-style game using NodeJS, ExpressJS serveR and Socket.IO. 
+			The frontend makes use of HTML5 Canvas API. Chai and Mocha was used for functional tests. 
+			I have added security features using Helmet.`,
+			link: "https://replit.com/@Panda4817/covid-wars",
+		},
+		{
+			title: "Stock Price Checker API",
+			img: "project-img-31",
+			tags: [
+				"JavaScript",
+				"Node",
+				"Express",
+				"Chai",
+				"Chai-http",
+				"Mocha",
+				"Bootstrap-5",
+				"MongoDB",
+				"Helmet",
+				"CSS",
+				"HTML",
+				"deployed",
+				"Repl",
+				"Git",
+				"FreeCodeCamp",
+				"API",
+			],
+			text: `A FreeCodeCamp project for the information security certificate. 
+			A stock checker API implementation using NodeJS, ExpressJS server and MongoDB database for checking ip address against stock symbols. 
+			I have also added a frontend to test out API responses and wrote all 5 functional tests using Chai and Mocha. 
+			I have set the content security policies to only allow loading of scripts and CSS from my server and trusted servers using Helmet.`,
+			link: "https://replit.com/@Panda4817/stock-checker-API",
+		},
+		{
+			title: "Anonymous Message Board",
+			img: "project-img-30",
+			tags: [
+				"JavaScript",
+				"Node",
+				"Express",
+				"Chai",
+				"Chai-http",
+				"Mocha",
+				"Bootstrap-5",
+				"Helmet",
+				"BCrypt",
+				"MongoDB",
+				"Pug",
+				"CSS",
+				"HTML",
+				"deployed",
+				"Repl",
+				"Git",
+				"FreeCodeCamp",
+				"API",
+			],
+			text: `A FreeCodeCamp project for the information security certificate. 
+			An anonymous message board implementation using NodeJS, ExpressJS server, MongoDB database and Pug template engine for the frontend. 
+			I have written all 10 functional tests using Chai and Mocha. 
+			I have added security features using Helmet and password hashing using BCrypt.`,
+			link: "https://replit.com/@Panda4817/anonymous-message-board",
+		},
 		{
 			title: "American-British Translator",
 			img: "project-img-29",
@@ -81,7 +191,7 @@ const projects = {
 				"FreeCodeCamp",
 				"API",
 			],
-			text: `A freecodecamp project for the quality assurance certificate. A full stack JavaScript app that translates sentences written in American English to British English and vice versa. 
+			text: `A FreeCodeCamp project for the quality assurance certificate. A full stack JavaScript app that translates sentences written in American English to British English and vice versa. 
 			I wrote all the logic for the translator and I wrote all unit tests and functional tests in Chai and Mocha. 
             The project is running on Repl.`,
 			link: "https://repl.it/@Panda4817/American-to-British-translator",
@@ -105,7 +215,7 @@ const projects = {
 				"FreeCodeCamp",
 				"API",
 			],
-			text: `A freecodecamp project for the quality assurance certificate. A full stack JavaScript app that solves any 9x9 sudoku puzzles with a frontend using Bootstrap 5 styling. All unit tests and functional tests written in Chai and Mocha.  
+			text: `A FreeCodeCamp project for the quality assurance certificate. A full stack JavaScript app that solves any 9x9 sudoku puzzles with a frontend using Bootstrap 5 styling. All unit tests and functional tests written in Chai and Mocha.  
             The project is running on Repl.`,
 			link: "https://repl.it/@Panda4817/sudoku-solver-js",
 		},
@@ -131,7 +241,7 @@ const projects = {
 				"FreeCodeCamp",
 				"API",
 			],
-			text: `A freecodecamp project for the quality assurance certificate. A library API implementation using NodeJS, ExpressJS server and MongoDB database for storage of books. It follows CRUD principles. You can add books, update them with new comments, delete a book and delete all books. I have also added a frontend to test out API responses and wrote all 10 functional tests using Chai and Mocha. 
+			text: `A FreeCodeCamp project for the quality assurance certificate. A library API implementation using NodeJS, ExpressJS server and MongoDB database for storage of books. It follows CRUD principles. You can add books, update them with new comments, delete a book and delete all books. I have also added a frontend to test out API responses and wrote all 10 functional tests using Chai and Mocha. 
             I used Bootstrap 4 for styling and mobile responsiveness. The project is running on Repl.`,
 			link: "https://repl.it/@Panda4817/personal-library",
 		},
@@ -255,6 +365,7 @@ const projects = {
 				"Git",
 				"VS-Code",
 				"WSL2",
+				"Jest"
 			],
 			text: `An online multiplayer Pictionary app with ReactJS front end and NodeJS back end with Express server. 
             The website lets you create a room or join an existing room. Once the game has started, it uses Socket.IO to communicate drawing data and chat messages between users. 

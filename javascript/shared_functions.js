@@ -21,7 +21,7 @@ const data = {
       Thank you for visiting my portfolio website. To find out more visit my other profile pages.
     </p>
     <div class="social-media">
-        <a id="profile-link" href="https://github.com/Panda4817" target="_blank" class="btn profile">
+        <a id="profile-link" href="https://github.kmunton.dev" target="_blank" class="btn profile">
           <i class="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/kmunton" target="_blank" class="btn profile">
           <i class="fab fa-linkedin"></i></a>
@@ -47,15 +47,15 @@ const data = {
     <ul class="navbar-nav">
       <li class="nav-item">
           <a class="nav-link" href="index.html">Home</a>
-        </li>
+      </li>
       <li class="nav-item">
-        <a class="nav-link" href="blogs.html">Blogs</a>
+        <a class="nav-link" href="projects.html">Projects</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="courses.html">Courses</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="projects.html">Projects</a>
+        <a class="nav-link" href="blogs.html">Blogs</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="interests.html">Interests</a>

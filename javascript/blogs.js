@@ -7,6 +7,7 @@ const dropdown = `<ul class="text-left flex-column dates-links">
     Jump to a date
   </a>
   <div class="dropdown-menu blog-dates" aria-labelledby="dropdownMenuButtonDates">
+  	<a class="dropdown-item" href="#July21" onclick="scrollToTargetAdjusted('August21');">August</a>
   	<a class="dropdown-item" href="#July21" onclick="scrollToTargetAdjusted('July21');">May-July</a>
   	<a class="dropdown-item" href="#April21" onclick="scrollToTargetAdjusted('April21');">March-April</a>
     <a class="dropdown-item" href="#February21" onclick="scrollToTargetAdjusted('February21');">February</a>
@@ -83,11 +84,28 @@ const links = {
 			href: "https://www.codingblocks.net/",
 			text: "Coding Blocks",
 		},
+		{
+			href: "https://docs.expo.dev/",
+			text: "Expo Documentation",
+		},
 	],
 };
 
 const blogs = {
 	blogs: [
+		{
+			month: "August21",
+			mainHeading: "New role: Graduate Software Engineer!",
+			subHeading: "August 26, 2021",
+			img: "img-17",
+			subText:
+				"In September I will be starting my new career as a Graduate Software Engineer at BJSS Ltd.",
+			mainText: `I am so excited to start my new career. The BJSS Engineering Academy sounds amazing and I cannot wait to start my month long on the job training. 
+			In other news I have completed and published a mobile app on Expo and it is now available to run on any Android device with Expo Go, using the QR code on the Expo app page. 
+			The app is called Remindsy and it reminds users to send a birthday card to friends and family by sending a local notification one week before the actual date. 
+			<a href="https://expo.dev/@kmunton/remindsy" target="_blank" class="blog_link">Click here for the Expo app page and QR code!</a>
+			I have also completed all Advent of Code challenges upto and including 2018. I only have 2019 to go!`,
+		},
 		{
 			month: "July21",
 			mainHeading: "I love programming <3",

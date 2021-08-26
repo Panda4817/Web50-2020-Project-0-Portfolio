@@ -1,16 +1,25 @@
-const header = `<h1>Courses</h1>
-<p>Read about the courses I have completed</p></div>`;
+const header = `<h1>Courses and Training</h1>
+<p>Read about the courses I have completed and training I have received</p></div>`;
 
 const courses = {
 	courses: [
 		{
+			title: "BJSS Engineering Academy",
+			provider: "BJSS Ltd",
+			lang: "Various",
+			projects: "n/a",
+			description:
+				"BJSS Engineering Academy provides on the job training to prepare for delivering advanced technology and consulting solutions to clients throughout the UK.",
+			completion: "Starting September 2021",
+		},
+		{
 			title: "React Native - The Practical Guide",
 			provider: "Udemy",
 			lang: "React Native",
-			projects: "4 Projects on GitHub",
+			projects: "4 projects on GitHub",
 			description:
 				"Use React Native and React knowledge to build native iOS and Android Apps - incl. Push Notifications, Hooks, Redux, Firebase",
-			completion: "Completed and Passed",
+			completion: "Completed",
 		},
 		{
 			title: "Information Security",
@@ -19,7 +28,7 @@ const courses = {
 			projects: "5 projects on Repl.it and GitHub",
 			description:
 				"Building a secure web app with HelmetJS. Building a TCP client and an Nmap and port scanner in Python.",
-			completion: "Completed and Passed",
+			completion: "Completed",
 		},
 		{
 			title: "Data Visualization",
@@ -28,7 +37,7 @@ const courses = {
 			projects: "5 projects through CodePen",
 			description:
 				"Building charts, graphs, and maps to present different types of data with the D3.js library",
-			completion: "Completed and Passed",
+			completion: "Completed",
 		},
 		{
 			title: "Quality Assurance",
@@ -37,7 +46,7 @@ const courses = {
 			projects: "5 projects on Repl.it and GitHub",
 			description:
 				"Writing unit tests and functional tests with Chai and Mocha, using Pug as a template engine, using Passport for authentication and Socket.IO for real-time communication",
-			completion: "Completed and Passed",
+			completion: "Completed",
 		},
 		{
 			title: "APIs and Microservices",
@@ -45,7 +54,7 @@ const courses = {
 			lang: "JavaScript",
 			projects: "5 projects on Repl.it and GitHub",
 			description: "Managing Packages with Npm, Basic NodeJS and ExpressJS, MongoDB and Mongoose",
-			completion: "Completed and Passed",
+			completion: "Completed",
 		},
 		{
 			title: "Scientific Computing with Python",
@@ -53,16 +62,16 @@ const courses = {
 			lang: "Python",
 			projects: "5 projects on Repl.it",
 			description: "Basics of Python, Object-Oriented Programming, Database Design, Web Development",
-			completion: "Completed and Passed",
+			completion: "Completed",
 		},
 		{
 			title: "CS50 Introduction to Artificial Intelligence with Python",
 			provider: "Harvard University (through edX)",
 			lang: "Python",
-			projects: "6 quizzes and 12 projects",
+			projects: "12 projects on GitHub",
 			description: `Graph Search Algorithms, Adversarial Search, Knowledge Representation, Logical Inference, Probability Theory, Bayesian Networks,
             Markov Models, Constraint Satisfaction, Machine Learning, Reinforcement Learning, Neural Networks, Natural Language Processing`,
-			completion: "Completed and Passed",
+			completion: "Completed",
 		},
 		{
 			title: "Front End Libraries",
@@ -70,24 +79,24 @@ const courses = {
 			lang: "JavaScript",
 			projects: "5 projects through CodePen",
 			description: "Bootstrap, jQuery, Sass, React, Redux",
-			completion: "Completed and Passed",
+			completion: "Completed",
 		},
 		{
 			title: "JavaScript Algorithms and Data Structures",
 			provider: "FreeCodeCamp",
 			lang: "JavaScript",
-			projects: "5 projects",
+			projects: "5 projects through FreeCodeCamp",
 			description:
 				"ES6, Debugging, Regular Expression, Object Oriented Programming, Functional Programming, Data Structures and Algorithm Scripting",
-			completion: "Completed and Passed",
+			completion: "Completed",
 		},
 		{
 			title: "CS50 Web Programming with Python and JavaScript",
 			provider: "Harvard University (through edX)",
 			lang: "HTML, CSS, Python, JavaScript",
-			projects: "5 projects including a final project",
+			projects: "5 projects on GitHub",
 			description: "SQL, Flask, ORMs, APIs, Django, Git, Scalability and Security",
-			completion: "Completed and Passed",
+			completion: "Completed",
 		},
 		{
 			title: "Responsive Web Design",
@@ -95,15 +104,15 @@ const courses = {
 			lang: "CSS and HTML",
 			projects: "5 projects through CodePen",
 			description: "Flexbox, Media Queries, Accessibility",
-			completion: "Completed and Passed",
+			completion: "Completed",
 		},
 		{
 			title: "CS50 Introduction to Computer Science",
 			provider: "Harvard University (through edX)",
 			lang: "C, Python, HTML, CSS, JavaScript",
-			projects: "9 psets and a final project",
+			projects: "A final project on GitHub",
 			description: "Introduction to Data Structures and Algorithms, Memory,  SQL, Flask",
-			completion: "Completed and Passed",
+			completion: "Completed",
 		},
 	],
 };
