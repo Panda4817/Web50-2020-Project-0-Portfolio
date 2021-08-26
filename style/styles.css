@@ -758,19 +758,24 @@ h1 {
   z-index: 1;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) {
   .hero-slides .single-hero-slide {
     height: 80vh;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero-slides .single-hero-slide {
     height: 75vh;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero-slides .single-hero-slide {
     height: 60vh;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .hero-slides .single-hero-slide {
+    height: 35vh;
   }
 }
 .hero-slides .single-hero-slide .hero-slides-content {

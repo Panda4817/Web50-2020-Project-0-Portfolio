@@ -16,8 +16,7 @@ const slides = {
 		},
 		{
 			img: "img10",
-			main:
-				"A Chrome extension that replaces the new tab with a xkcd themed one.",
+			main: "A Chrome extension that replaces the new tab with a xkcd themed one.",
 			sub: "Uploaded to Chrome Web Store and serverless API functions deployed on Netlify",
 		},
 		{
@@ -55,8 +54,7 @@ const slides = {
 		},
 		{
 			img: "img8",
-			main:
-				"A NodeJS real-time multiplayer arcade-style game with HelmetJS security features.",
+			main: "A NodeJS real-time multiplayer arcade-style game with HelmetJS security features.",
 			sub: "Running on Repl",
 		},
 	],
@@ -274,6 +272,27 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	if ($(".owl-carousel")) {
 		var welcomeSlide = $(".hero-slides");
+		function removeAnimation() {
+			var slideLayer = $("[data-animation]");
+			slideLayer.each(function () {
+				var anim_name = $(this).data("animation");
+				$(this)
+					.removeClass("animate__" + anim_name)
+					.css("opacity", "0");
+			});
+		}
+
+		function addAnimation() {
+			$(".owl-carousel").trigger("stop.owl.autoplay");
+			$(".owl-carousel").trigger("play.owl.autoplay");
+			var slideLayer = welcomeSlide.find(".owl-item.active").find("[data-animation]");
+			slideLayer.each(function () {
+				var anim_name = $(this).data("animation");
+				$(this)
+					.addClass("animate__" + anim_name)
+					.css("opacity", "1");
+			});
+		}
 
 		welcomeSlide.owlCarousel({
 			items: 1,
@@ -283,27 +302,11 @@ document.addEventListener("DOMContentLoaded", () => {
 			dots: false,
 			autoplay: true,
 			autoplayTimeout: 8000,
-			smartSpeed: 1000,
-		});
-
-		welcomeSlide.on("translate.owl.carousel", function () {
-			var slideLayer = $("[data-animation]");
-			slideLayer.each(function () {
-				var anim_name = $(this).data("animation");
-				$(this)
-					.removeClass("animate__" + anim_name)
-					.css("opacity", "0");
-			});
-		});
-
-		welcomeSlide.on("translated.owl.carousel", function () {
-			var slideLayer = welcomeSlide.find(".owl-item.active").find("[data-animation]");
-			slideLayer.each(function () {
-				var anim_name = $(this).data("animation");
-				$(this)
-					.addClass("animate__" + anim_name)
-					.css("opacity", "1");
-			});
+			smartSpeed: 750,
+			onTranslate: removeAnimation,
+			onTranslated: addAnimation,
+			onDrag: removeAnimation,
+			onDragged: addAnimation,
 		});
 
 		$("[data-delay]").each(function () {
