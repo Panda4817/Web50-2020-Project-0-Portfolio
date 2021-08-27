@@ -1,5 +1,5 @@
 const header = `<h1>K Munton</h1>
-<p>Graduate Software Engineer</p>`;
+<p class="lead">Graduate Software Engineer</p>`;
 
 const slides = {
 	slides: [

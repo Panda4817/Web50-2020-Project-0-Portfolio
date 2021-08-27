@@ -1,5 +1,5 @@
 const header = ` <h1>Hello World!</h1>
-<p>Read about my leap into software development!</p></div>`;
+<p>Read about my leap into software development</p></div>`;
 
 const dropdown = `<ul class="text-left flex-column dates-links">
 <li class="dropdown text-decoration-none">

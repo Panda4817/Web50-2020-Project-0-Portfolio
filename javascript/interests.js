@@ -8,7 +8,7 @@ function show(data) {
 }
 
 const header = `<h1>More about me</h1>
-<p>Grab a coffee and have a browse!</p>
+<p>Grab a coffee and have a browse</p>
 <p id="mobile" class="text-center">Tap on each picture to reveal something about me</p></div>`;
 
 document.addEventListener("DOMContentLoaded", () => {
