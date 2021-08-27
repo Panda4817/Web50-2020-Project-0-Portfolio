@@ -60,7 +60,7 @@ const tags = {
 		"Jest",
 		"Helmet",
 		"BCrypt",
-		"TypeScript"
+		"TypeScript",
 	],
 };
 
@@ -79,7 +79,7 @@ const projects = {
 				"SQLite",
 				"Git",
 				"deployed",
-				"Jest"
+				"Jest",
 			],
 			text: `The app lets you set reminders, called a "Remindsy", 
 			which notifies the user to buy cards and presents for friends and family a week or 2 weeks in advance of the birthday and/or anniversary date. 
@@ -88,6 +88,7 @@ const projects = {
 			The app is published on Expo and can be installed onto an Android device via Expo Go app. 
 			The link to the Expo app page can be found via the GitHub repository.`,
 			link: "https://github.com/Panda4817/remindsy",
+			short: "remindsy",
 		},
 		{
 			title: "COVID Wars",
@@ -108,13 +109,14 @@ const projects = {
 				"Git",
 				"FreeCodeCamp",
 				"API",
-				"SocketIO"
+				"SocketIO",
 			],
 			text: `A FreeCodeCamp project for the information security certificate. 
 			A secure real time multiplayer arcade-style game using NodeJS, ExpressJS serveR and Socket.IO. 
 			The frontend makes use of HTML5 Canvas API. Chai and Mocha was used for functional tests. 
 			I have added security features using Helmet.`,
 			link: "https://replit.com/@Panda4817/covid-wars",
+			short: "covid-wars",
 		},
 		{
 			title: "Stock Price Checker API",
@@ -171,6 +173,7 @@ const projects = {
 			I have written all 10 functional tests using Chai and Mocha. 
 			I have added security features using Helmet and password hashing using BCrypt.`,
 			link: "https://replit.com/@Panda4817/anonymous-message-board",
+			short: "message-board",
 		},
 		{
 			title: "American-British Translator",
@@ -248,16 +251,7 @@ const projects = {
 		{
 			title: "E-commerce App",
 			img: "project-img-26",
-			tags: [
-				"JavaScript",
-				"VS-Code",
-				"WSL2",
-				"React-Native",
-				"Expo",
-				"Redux",
-				"Firebase",
-				"Git",
-			],
+			tags: ["JavaScript", "VS-Code", "WSL2", "React-Native", "Expo", "Redux", "Firebase", "Git"],
 			text: `The app lets an user create an account, verifies their email, login to their account, place products in a cart, order products, view orders made, add own products to sell, edit account details and logout.`,
 			link: "https://github.com/Panda4817/react-native-shop-app",
 		},
@@ -281,43 +275,21 @@ const projects = {
 		{
 			title: "Penny Jar App",
 			img: "project-img-24",
-			tags: [
-				"JavaScript",
-				"VS-Code",
-				"WSL2",
-				"React-Native",
-				"Expo",
-				"Redux",
-				"Git",
-			],
+			tags: ["JavaScript", "VS-Code", "WSL2", "React-Native", "Expo", "Redux", "Git"],
 			text: `The app lets you keep a virtual "swear jar", which uses AsyncStorage to store the number of pennies in your jar and a list of reasons for adding the penny.`,
 			link: "https://github.com/Panda4817/penny-jar-app",
 		},
 		{
 			title: "To-do App with Pomodoro Timer",
 			img: "project-img-23",
-			tags: [
-				"JavaScript",
-				"VS-Code",
-				"WSL2",
-				"React-Native",
-				"Expo",
-				"Git",
-			],
+			tags: ["JavaScript", "VS-Code", "WSL2", "React-Native", "Expo", "Git"],
 			text: `The app has a timer and list keeping feature. The idea is to create the tasks and start the timer. The timer cycles between 25 minutes productive time and 5 minutes break time.`,
 			link: "https://github.com/Panda4817/pomodoro-timer-app",
 		},
 		{
 			title: "Number Guessing App",
 			img: "project-img-22",
-			tags: [
-				"JavaScript",
-				"VS-Code",
-				"WSL2",
-				"React-Native",
-				"Expo",
-				"Git",
-			],
+			tags: ["JavaScript", "VS-Code", "WSL2", "React-Native", "Expo", "Git"],
 			text: `Pick a number and the computer guesses. Human gives hints by pressing higher or lower. See how many guesses required by the computer.`,
 			link: "https://github.com/Panda4817/guess-number-app",
 		},
@@ -342,6 +314,7 @@ const projects = {
             To get around CORs while accessing the xkcd API, I created my own serverless API functions hosted on Netlify, which fetch the latest news headlines, comics and Google doodle. 
             My the serverless API repo is on GitHub.`,
 			link: "https://github.com/Panda4817/xkcd-new-tab",
+			short: "chrome-xkcd",
 		},
 		{
 			title: "Picto",
@@ -365,12 +338,13 @@ const projects = {
 				"Git",
 				"VS-Code",
 				"WSL2",
-				"Jest"
+				"Jest",
 			],
 			text: `An online multiplayer Pictionary app with ReactJS front end and NodeJS back end with Express server. 
             The website lets you create a room or join an existing room. Once the game has started, it uses Socket.IO to communicate drawing data and chat messages between users. 
             The website is mobile responsive and uses Bootstrap 4 for styling. The back end is deployed on Heroku and the front end is deployed on Netlify.`,
 			link: "https://picto.netlify.app/",
+			short: "picto",
 		},
 		{
 			title: "CuteSee",
@@ -396,6 +370,7 @@ const projects = {
             However it is a little different from normal image search engines because it adds the word ‘cute’ onto the beginning of the search query. 
             The website is mobile responsive and uses Bootstrap 4 for styling. This website is deployed on Heroku.`,
 			link: "https://cutesee.herokuapp.com/",
+			short: "cutesee",
 		},
 		{
 			title: "MySousChef Web Application",
@@ -426,6 +401,7 @@ const projects = {
             The website also lets you search for recipes by filtering for ingredients only in your virtual pantry. You can also create a virtual shopping list.
             This project uses the Django Python framework with a PostgreSQL database. This website utilises the Spoonacular API and a Colorlib template. The website is deployed using Heroku.`,
 			link: "https://mysouschef.herokuapp.com/",
+			short: "mysouschef",
 		},
 		{
 			title: "Watch Read Repeat Web Application",
@@ -453,8 +429,8 @@ const projects = {
             To start saving books, TV shows and movies, an account needs to be created with the site and then login using username and password. The website lets you update account details through the accounts page.
             I have also used Bootstrap styled DataTables for the lists and other styling features such as modals.
             This is the first website I have deployed and it is hosted from PythonAnywhere.`,
-			link:
-				"https://watchreadrepeat.eu.pythonanywhere.com/",
+			link: "https://watchreadrepeat.eu.pythonanywhere.com/",
+			short: "watchreadrepeat",
 		},
 		{
 			title: "Issue Tracker",
@@ -484,6 +460,7 @@ const projects = {
             When the project page is loaded, it displays all projects both open and closed but you may filter the issues by adding queries to the url.
             I used Bootstrap 4 for styling and mobile responsiveness. The project is running on Repl.`,
 			link: "https://repl.it/@Panda4817/issue-tracker",
+			short: "issue-tracker",
 		},
 		{
 			title: "Social Panda Web Application",
@@ -514,21 +491,13 @@ const projects = {
             I used a Pug template engine to render the front end. The app allows users to make posts, with hashtags and emoji. Users can like and unlike posts. Users can filter posts by trending hashtags. 
             The app includes a global chat room, which uses Socket.IO. I used Bootstrap 4 for styling and mobile responsiveness. The project is running on Repl.`,
 			link: "https://repl.it/@Panda4817/social-panda",
+			short: "social-panda",
 		},
 
 		{
 			title: "Sudoku Solver",
 			img: "project-img-17",
-			tags: [
-				"Python",
-				"command-line-tool",
-				"Numpy",
-				"Travis-CI",
-				"Git",
-				"VS-Code",
-				"CS50AI",
-				"WSL2",
-			],
+			tags: ["Python", "command-line-tool", "Numpy", "Travis-CI", "Git", "VS-Code", "CS50AI", "WSL2"],
 			text: `A project inspired by CS50 AI course. A command line tool that uses a backtracking search algorithm with some optimization heuristics to solve any valid sudoku boards. 
             The board is loaded from a csv file. It will print out the board as it is being solved and afterwards print out the number of seconds it took to solve it.`,
 			link: "https://github.com/Panda4817/sudoku-solver",
@@ -536,15 +505,7 @@ const projects = {
 		{
 			title: "Snake AI",
 			img: "project-img-16",
-			tags: [
-				"Python",
-				"Pygame",
-				"Numpy",
-				"Git",
-				"VS-Code",
-				"CS50AI",
-				"WSL2",
-			],
+			tags: ["Python", "Pygame", "Numpy", "Git", "VS-Code", "CS50AI", "WSL2"],
 			text: `A project inspired by CS50 AI course. A pygame program that allows users to play the classic game of Snake as normal, watch an AI play Snake and play Snake against the AI. 
             Before settling on the Hamiltonian Cycle for the AI snake, I tried Q-learning and A* search algorithms. `,
 			link: "https://github.com/Panda4817/Snake-AI",
@@ -658,8 +619,7 @@ const projects = {
 			text: `In this project, I built a web application for handling a pizza restaurant’s online orders. Users are able to browse the restaurant’s menu, add items to their cart, and submit their orders. 
             Meanwhile, the restaurant owners are able to add and update menu items, and view orders that have been placed.
             Customers can also choose to pay by card through the implementation of Stripe API and restaurant owners can mark orders complete. This project uses the Python Django framework with a SQLite database.`,
-			link:
-				"https://github.com/Panda4817/Web50-2020-Project-3-Pizza",
+			link: "https://github.com/Panda4817/Web50-2020-Project-3-Pizza",
 		},
 		{
 			title: "Project 2 - Flack",
@@ -683,8 +643,7 @@ const projects = {
             Users are able to sign into the site with a display name, create channels (i.e. chat rooms) to communicate in, as well as see and join existing channels. 
             Once a channel is selected, users are able to send and receive messages with one another in real time. You can also send GIFs and images and see who else is in the channel.
             This project uses Socket.IO to communicate between clients and servers.`,
-			link:
-				"https://github.com/Panda4817/Web50-2020-Project-2-Flack",
+			link: "https://github.com/Panda4817/Web50-2020-Project-2-Flack",
 		},
 		{
 			title: "Project 1 - Books",
@@ -713,8 +672,7 @@ const projects = {
             Once they log in, they will be able to search for books, leave reviews for individual books, and see the reviews made by other people. 
             I also use the a third party API by Goodreads, another book review website, to pull in ratings from a broader audience. 
             Finally, users are able to query for book details and book reviews programmatically via the website’s API.`,
-			link:
-				"https://github.com/Panda4817/Web50-2020-Project-1",
+			link: "https://github.com/Panda4817/Web50-2020-Project-1",
 		},
 		{
 			title: "Project 0 - Homepage",
@@ -740,13 +698,7 @@ const projects = {
 		{
 			title: "Survey Form Page",
 			img: "project-img-4",
-			tags: [
-				"HTML",
-				"CSS",
-				"CodePen",
-				"live-demo",
-				"FreeCodeCamp",
-			],
+			tags: ["HTML", "CSS", "CodePen", "live-demo", "FreeCodeCamp"],
 			text:
 				"I have created a survey form with different types of inputs. These include text input for name, email input, dropdown with option tags, radio and checkbox input types and textarea input for comments. I have also included a button with submit type at the end.",
 			link: "https://codepen.io/k_munton/full/oNjvJJO",
@@ -754,13 +706,7 @@ const projects = {
 		{
 			title: "Python Technical Documentation Page",
 			img: "project-img-3",
-			tags: [
-				"HTML",
-				"CSS",
-				"CodePen",
-				"live-demo",
-				"FreeCodeCamp",
-			],
+			tags: ["HTML", "CSS", "CodePen", "live-demo", "FreeCodeCamp"],
 			text:
 				"I have created a Python technical documentation page that has a fixed nav element on the left hand side of the screen. I have also used the code tag to present Python code on the page.",
 			link: "https://codepen.io/k_munton/full/JjYoPKx/",
@@ -768,13 +714,7 @@ const projects = {
 		{
 			title: "Company Product Landing Page",
 			img: "project-img-2",
-			tags: [
-				"HTML",
-				"CSS",
-				"CodePen",
-				"live-demo",
-				"FreeCodeCamp",
-			],
+			tags: ["HTML", "CSS", "CodePen", "live-demo", "FreeCodeCamp"],
 			text:
 				"I have created a company landing page with a contact form, navigation bar that responsively changes to a dropdown and uses CSS Flexbox. My page also uses media queries to respond to different viewport widths.",
 			link: "https://codepen.io/k_munton/full/bGVGrjE",
@@ -782,13 +722,7 @@ const projects = {
 		{
 			title: "Ada Lovelace Tribute Page",
 			img: "project-img-1",
-			tags: [
-				"HTML",
-				"CSS",
-				"CodePen",
-				"live-demo",
-				"FreeCodeCamp",
-			],
+			tags: ["HTML", "CSS", "CodePen", "live-demo", "FreeCodeCamp"],
 			text:
 				"I have built a tribute page with different elements. I made sure the image elements responsively resizes, relative to the width of its parent element, without exceeding its original size.",
 			link: "https://codepen.io/k_munton/full/VwvZEJp",
@@ -802,42 +736,25 @@ function filterProjects(checkbox, target_class) {
 	for (let i = 0; i < projects.length; i++) {
 		projects[i].style.display = "none";
 	}
-	let index = checkedTags.findIndex(
-		(t) => t == target_class
-	);
+	let index = checkedTags.findIndex((t) => t == target_class);
 	if (checkbox.checked) {
 		if (index < 0) {
 			checkedTags.push(target_class);
-			document.getElementById(
-				"id_i_" + target_class
-			).style.display = "inline-block";
-			document.getElementById(
-				"id_x_" + target_class
-			).style.display = "none";
-			document
-				.getElementById("label_" + target_class)
-				.classList.replace("tags-muted", "tags");
+			document.getElementById("id_i_" + target_class).style.display = "inline-block";
+			document.getElementById("id_x_" + target_class).style.display = "none";
+			document.getElementById("label_" + target_class).classList.replace("tags-muted", "tags");
 		}
 	} else {
 		if (index > -1) {
 			checkedTags.splice(index, 1);
-			document.getElementById(
-				"id_i_" + target_class
-			).style.display = "none";
-			document.getElementById(
-				"id_x_" + target_class
-			).style.display = "inline-block";
-			document
-				.getElementById("label_" + target_class)
-				.classList.replace("tags", "tags-muted");
+			document.getElementById("id_i_" + target_class).style.display = "none";
+			document.getElementById("id_x_" + target_class).style.display = "inline-block";
+			document.getElementById("label_" + target_class).classList.replace("tags", "tags-muted");
 			$('[data-value="' + target_class + '"').remove();
 		}
 	}
 	console.log(checkedTags);
-	let classString =
-		checkedTags.length > 1
-			? checkedTags.join(", .")
-			: checkedTags[0];
+	let classString = checkedTags.length > 1 ? checkedTags.join(", .") : checkedTags[0];
 	let targets = $("." + classString);
 	let projectsShown = false;
 	for (let i = 0; i < targets.length; i++) {
@@ -871,16 +788,10 @@ function getTokens() {
 	console.log(tokens);
 	$("#tokenfield-tokenfield").val("");
 	tokens.map((token) => {
-		let index = tags["tags"].findIndex(
-			(t) =>
-				t.toLowerCase().trim() == token.toLowerCase().trim()
-		);
+		let index = tags["tags"].findIndex((t) => t.toLowerCase().trim() == token.toLowerCase().trim());
 		let valid = index > -1 ? true : false;
 		if (valid) {
-			$("#tokenfield").tokenfield(
-				"createToken",
-				tags["tags"][index]
-			);
+			$("#tokenfield").tokenfield("createToken", tags["tags"][index]);
 		}
 
 		return;
@@ -888,17 +799,12 @@ function getTokens() {
 }
 
 function addToken(target_class) {
-	let checkbox = document.getElementById(
-		"id_" + target_class
-	);
+	let checkbox = document.getElementById("id_" + target_class);
 	if (checkbox.checked) {
 		checkbox.checked = false;
 		filterProjects(checkbox, target_class);
 	} else {
-		$("#tokenfield").tokenfield(
-			"createToken",
-			target_class
-		);
+		$("#tokenfield").tokenfield("createToken", target_class);
 	}
 }
 
@@ -908,10 +814,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	let projects_temp = $("#projects_temp").html();
 	let tags_temp = $("#tags_temp").html();
 
-	let projects_output = Mustache.render(
-		projects_temp,
-		projects
-	);
+	let projects_output = Mustache.render(projects_temp, projects);
 	let tags_output = Mustache.render(tags_temp, tags);
 
 	$("#project_content").append(projects_output);
@@ -921,10 +824,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		.on("tokenfield:createtoken", function (event) {
 			var existingTokens = $(this).tokenfield("getTokens");
 			$.each(existingTokens, function (index, token) {
-				if (
-					token.value.toLowerCase().trim() ===
-					event.attrs.value.toLowerCase().trim()
-				)
+				if (token.value.toLowerCase().trim() === event.attrs.value.toLowerCase().trim())
 					event.preventDefault();
 				$("#tokenfield-tokenfield").val("");
 			});
@@ -932,33 +832,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
 		.on("tokenfield:createdtoken", function (e) {
 			let val = e.attrs.value;
-			let index = tags["tags"].findIndex(
-				(t) =>
-					t.toLowerCase().trim() == val.toLowerCase().trim()
-			);
+			let index = tags["tags"].findIndex((t) => t.toLowerCase().trim() == val.toLowerCase().trim());
 			var valid = index > -1 ? true : false;
 			if (!valid) {
 				$(e.relatedTarget).remove();
 			} else {
-				changeCheckbox(
-					"id_" + tags["tags"][index],
-					tags["tags"][index]
-				);
+				changeCheckbox("id_" + tags["tags"][index], tags["tags"][index]);
 			}
 		})
 
 		.on("tokenfield:removedtoken", function (e) {
 			let val = e.attrs.value;
-			let index = tags["tags"].findIndex(
-				(t) =>
-					t.toLowerCase().trim() == val.toLowerCase().trim()
-			);
+			let index = tags["tags"].findIndex((t) => t.toLowerCase().trim() == val.toLowerCase().trim());
 			var valid = index > -1 ? true : false;
 			if (valid) {
-				changeCheckbox(
-					"id_" + tags["tags"][index],
-					tags["tags"][index]
-				);
+				changeCheckbox("id_" + tags["tags"][index], tags["tags"][index]);
 			}
 		})
 
@@ -969,6 +857,5 @@ document.addEventListener("DOMContentLoaded", () => {
 			},
 			showAutocompleteOnFocus: true,
 		});
-
 	AOS.init();
 });

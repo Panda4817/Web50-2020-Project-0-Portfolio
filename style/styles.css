@@ -768,12 +768,17 @@ h1 {
     height: 75vh;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 769px) and (max-width: 991px) {
   .hero-slides .single-hero-slide {
     height: 60vh;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .hero-slides .single-hero-slide {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 480px) {
   .hero-slides .single-hero-slide {
     height: 35vh;
   }
@@ -819,6 +824,16 @@ h1 {
     font-size: 11px;
     margin-bottom: 5px;
   }
+}
+.courses-anchor {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.courses-anchor:hover {
+  text-decoration: none;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

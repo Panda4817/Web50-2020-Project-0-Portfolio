@@ -824,12 +824,18 @@ h1 {
 		height: 75vh;
 	}
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 769px) and (max-width: 991px) {
 	.hero-slides .single-hero-slide {
 		height: 60vh;
 	}
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	.hero-slides .single-hero-slide {
+		height: 50vh;
+	}
+}
+
+@media only screen and (max-width: 480px) {
 	.hero-slides .single-hero-slide {
 		height: 35vh;
 	}
@@ -873,3 +879,32 @@ h1 {
 		margin-bottom: 5px;
 	}
 }
+
+.courses-anchor {
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+
+.courses-anchor:hover {
+	text-decoration: none;
+	color: white;
+}
+
+// .arrow {
+// 	animation: pulse 2s infinite;
+// 	color: $lightpink;
+// 	font-size: 30px;
+// }
+
+// @keyframes pulse {
+// 	0% {
+// 		transform: translate(0, 0);
+// 	}
+// 	50% {
+// 		transform: translate(0, 5px);
+// 	}
+// 	100% {
+// 		transform: translate(0, 0);
+// 	}
+// }

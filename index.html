@@ -52,23 +52,25 @@
 	</body>
 	<script id="slides_temp" type="text/template">
 		{{#slides}}
-		<div class="single-hero-slide {{img}}">
-		    <div class="container h-100">
-		        <div class="row h-100 align-items-end">
-		            <div class="col-12">
-		                <div class="hero-slides-content animate__animated animate__fadeInUp animate__delay-1s" data-animation="fadeInUp" data-delay="1s">
-		                    <h5 class="animate__animated animate__fadeInUp animate__delay-2s" data-animation="fadeInUp" data-delay="2s">{{main}}</h5>
-		                    <p class="animate__animated animate__fadeInUp animate__delay-3s" data-animation="fadeInUp" data-delay="3s">{{sub}}</p>
-		                </div>
-		            </div>
-		        </div>
-		    </div>
-		</div>
+		<a href="{{link}}" class="courses-anchor">
+			<div class="single-hero-slide {{img}}">
+				<div class="container h-100">
+					<div class="row h-100 align-items-end">
+						<div class="col-12">
+							<div class="hero-slides-content animate__animated animate__fadeInUp animate__delay-1s" data-animation="fadeInUp" data-delay="1s">
+								<h5 class="animate__animated animate__fadeInUp animate__delay-2s" data-animation="fadeInUp" data-delay="2s">{{main}}</h5>
+								<p class="animate__animated animate__fadeInUp animate__delay-3s" data-animation="fadeInUp" data-delay="3s">{{sub}}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</a>
 		{{/slides}}
 	</script>
 	<script id="badges_temp" type="text/template">
 		{{#badges}}
-		<div data-aos="zoom-in" class="badge" style="border-color: {{color}}">
+		<div data-aos="zoom-in" data-aos-anchor-placement="top-bottom" class="badge" style="border-color: {{color}}" >
 		    <img width="30" height="30" src="{{src}}" alt="{{alt}}" title="{{alt}}"/> {{alt}}
 		</div>
 		{{/badges}}

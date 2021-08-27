@@ -11,6 +11,7 @@ const courses = {
 			description:
 				"BJSS Engineering Academy provides on the job training to prepare for delivering advanced technology and consulting solutions to clients throughout the UK.",
 			completion: "Starting September 2021",
+			link: "",
 		},
 		{
 			title: "React Native - The Practical Guide",
@@ -20,6 +21,7 @@ const courses = {
 			description:
 				"Use React Native and React knowledge to build native iOS and Android Apps - incl. Push Notifications, Hooks, Redux, Firebase",
 			completion: "Completed",
+			link: "https://www.udemy.com/certificate/UC-6b9d9f76-fe7c-4006-834d-17821dcb18ed/",
 		},
 		{
 			title: "Information Security",
@@ -29,6 +31,7 @@ const courses = {
 			description:
 				"Building a secure web app with HelmetJS. Building a TCP client and an Nmap and port scanner in Python.",
 			completion: "Completed",
+			link: "https://freecodecamp.org/certification/kmunton/information-security-v7",
 		},
 		{
 			title: "Data Visualization",
@@ -38,6 +41,7 @@ const courses = {
 			description:
 				"Building charts, graphs, and maps to present different types of data with the D3.js library",
 			completion: "Completed",
+			link: "https://freecodecamp.org/certification/kmunton/data-visualization",
 		},
 		{
 			title: "Quality Assurance",
@@ -47,6 +51,7 @@ const courses = {
 			description:
 				"Writing unit tests and functional tests with Chai and Mocha, using Pug as a template engine, using Passport for authentication and Socket.IO for real-time communication",
 			completion: "Completed",
+			link: "https://www.freecodecamp.org/certification/kmunton/quality-assurance-v7",
 		},
 		{
 			title: "APIs and Microservices",
@@ -55,6 +60,7 @@ const courses = {
 			projects: "5 projects on Repl.it and GitHub",
 			description: "Managing Packages with Npm, Basic NodeJS and ExpressJS, MongoDB and Mongoose",
 			completion: "Completed",
+			link: "https://www.freecodecamp.org/certification/kmunton/apis-and-microservices",
 		},
 		{
 			title: "Scientific Computing with Python",
@@ -63,6 +69,7 @@ const courses = {
 			projects: "5 projects on Repl.it",
 			description: "Basics of Python, Object-Oriented Programming, Database Design, Web Development",
 			completion: "Completed",
+			link: "https://www.freecodecamp.org/certification/kmunton/scientific-computing-with-python-v7",
 		},
 		{
 			title: "CS50 Introduction to Artificial Intelligence with Python",
@@ -72,6 +79,7 @@ const courses = {
 			description: `Graph Search Algorithms, Adversarial Search, Knowledge Representation, Logical Inference, Probability Theory, Bayesian Networks,
             Markov Models, Constraint Satisfaction, Machine Learning, Reinforcement Learning, Neural Networks, Natural Language Processing`,
 			completion: "Completed",
+			link: "https://certificates.cs50.io/687557ba-d9d1-48a8-9668-d3d974f22736.png",
 		},
 		{
 			title: "Front End Libraries",
@@ -80,6 +88,7 @@ const courses = {
 			projects: "5 projects through CodePen",
 			description: "Bootstrap, jQuery, Sass, React, Redux",
 			completion: "Completed",
+			link: "https://www.freecodecamp.org/certification/kmunton/front-end-libraries",
 		},
 		{
 			title: "JavaScript Algorithms and Data Structures",
@@ -89,6 +98,8 @@ const courses = {
 			description:
 				"ES6, Debugging, Regular Expression, Object Oriented Programming, Functional Programming, Data Structures and Algorithm Scripting",
 			completion: "Completed",
+			link:
+				"https://www.freecodecamp.org/certification/kmunton/javascript-algorithms-and-data-structures",
 		},
 		{
 			title: "CS50 Web Programming with Python and JavaScript",
@@ -97,6 +108,7 @@ const courses = {
 			projects: "5 projects on GitHub",
 			description: "SQL, Flask, ORMs, APIs, Django, Git, Scalability and Security",
 			completion: "Completed",
+			link: "https://certificates.cs50.io/e303b258-c641-4a19-ada6-d83622bb7d7e.png",
 		},
 		{
 			title: "Responsive Web Design",
@@ -105,6 +117,7 @@ const courses = {
 			projects: "5 projects through CodePen",
 			description: "Flexbox, Media Queries, Accessibility",
 			completion: "Completed",
+			link: "https://www.freecodecamp.org/certification/kmunton/responsive-web-design",
 		},
 		{
 			title: "CS50 Introduction to Computer Science",
@@ -113,6 +126,7 @@ const courses = {
 			projects: "A final project on GitHub",
 			description: "Introduction to Data Structures and Algorithms, Memory,  SQL, Flask",
 			completion: "Completed",
+			link: "https://certificates.cs50.io/39daab4f-1949-4fa1-ac3e-897f785f03ca.png",
 		},
 	],
 };

@@ -1,19 +1,28 @@
 function scrollToTargetAdjusted(data) {
 	$("html").animate(
 		{
-			scrollTop: $("#" + data).offset().top - 100,
+			scrollTop: $(data).offset().top - 100,
 		},
 		2000
 	);
 }
 
 function scrollToTop(data) {
-	$("html").animate(
+	$("html, body").animate(
 		{
 			scrollTop: $("#" + data).offset().top,
 		},
 		1000
 	);
+}
+
+function adjustTop() {
+	const hash = window.location.hash;
+	if (hash) {
+		setTimeout(() => {
+			window.scrollBy(0, -100);
+		}, 10);
+	}
 }
 
 const data = {
@@ -75,4 +84,5 @@ document.addEventListener("DOMContentLoaded", () => {
 	document.getElementById("footer_content").innerHTML = data["footer"];
 	let x = new Date().getFullYear();
 	$("#year").html(x);
+	adjustTop();
 });

@@ -7,22 +7,22 @@ const dropdown = `<ul class="text-left flex-column dates-links">
     Jump to a date
   </a>
   <div class="dropdown-menu blog-dates" aria-labelledby="dropdownMenuButtonDates">
-  	<a class="dropdown-item" href="#July21" onclick="scrollToTargetAdjusted('August21');">August</a>
-  	<a class="dropdown-item" href="#July21" onclick="scrollToTargetAdjusted('July21');">May-July</a>
-  	<a class="dropdown-item" href="#April21" onclick="scrollToTargetAdjusted('April21');">March-April</a>
-    <a class="dropdown-item" href="#February21" onclick="scrollToTargetAdjusted('February21');">February</a>
-    <a class="dropdown-item" href="#January21" onclick="scrollToTargetAdjusted('January21');">January 2021</a>
-    <a class="dropdown-item" href="#December20" onclick="scrollToTargetAdjusted('December20');">December</a>
-    <a class="dropdown-item" href="#November20" onclick="scrollToTargetAdjusted('November20');">November</a>
-    <a class="dropdown-item" href="#October20" onclick="scrollToTargetAdjusted('October20');">October</a>
-    <a class="dropdown-item" href="#September20" onclick="scrollToTargetAdjusted('September20');">September</a>
-    <a class="dropdown-item" href="#August20" onclick="scrollToTargetAdjusted('August20');">August</a>
-    <a class="dropdown-item" href="#July20" onclick="scrollToTargetAdjusted('July20');">July</a>
-    <a class="dropdown-item" href="#June20" onclick="scrollToTargetAdjusted('June20');">June</a>
-    <a class="dropdown-item" href="#May20" onclick="scrollToTargetAdjusted('May20');">May</a>
-    <a class="dropdown-item" href="#April20" onclick="scrollToTargetAdjusted('April20');">April</a>
-    <a class="dropdown-item" href="#March20" onclick="scrollToTargetAdjusted('March20');">March 2020</a>
-    <a class="dropdown-item" href="#October19" onclick="scrollToTargetAdjusted('October19');">October 2019</a>
+  	<a class="dropdown-item" href="#August21" onclick="scrollToTargetAdjusted('#August21');">August</a>
+  	<a class="dropdown-item" href="#July21" onclick=scrollToTargetAdjusted('#July21');">May-July</a>
+  	<a class="dropdown-item" href="#April21" onclick="scrollToTargetAdjusted('#April21');">March-April</a>
+    <a class="dropdown-item" href="#February21" onclick="scrollToTargetAdjusted('#February21');">February</a>
+    <a class="dropdown-item" href="#January21" onclick="scrollToTargetAdjusted('#January21');">January 2021</a>
+    <a class="dropdown-item" href="#December20" onclick="scrollToTargetAdjusted('#December21');">December</a>
+    <a class="dropdown-item" href="#November20" onclick="scrollToTargetAdjusted('#November20');">November</a>
+    <a class="dropdown-item" href="#October20" onclick="scrollToTargetAdjusted('#October20');">October</a>
+    <a class="dropdown-item" href="#September20" onclick="scrollToTargetAdjusted('#September20');">September</a>
+    <a class="dropdown-item" href="#August20" onclick="scrollToTargetAdjusted('#August20');">August</a>
+    <a class="dropdown-item" href="#July20" onclick="scrollToTargetAdjusted('#July20');">July</a>
+    <a class="dropdown-item" href="#June20" onclick="scrollToTargetAdjusted('#June20');">June</a>
+    <a class="dropdown-item" href="#May20" onclick="scrollToTargetAdjusted('#May20');">May</a>
+    <a class="dropdown-item" href="#April20" onclick="scrollToTargetAdjusted('#April20');">April</a>
+    <a class="dropdown-item" href="#March20" onclick="scrollToTargetAdjusted('#March20');">March 2020</a>
+    <a class="dropdown-item" href="#October19" onclick="scrollToTargetAdjusted('#October19');">October 2019</a>
   </div>
 </li></ul>`;
 

@@ -60,37 +60,94 @@
 	</body>
 	<script id="mobile_temp" type="text/template">
 		{{#courses}}
-		<div class="col-12 p-3">
-		    <div class="content zoom">
-		        <h3>{{title}}</h3>
-		        <ul>
-		          <li><p>{{provider}}</p></li>
-		          <li><p>{{lang}}</p></li>
-		          <li><p>{{description}}</p></li>
-				  {{#projects}}
-				  	<li><p>{{projects}}</p></li>
-				  {{/projects}}
-		          <li><p>{{completion}}</p></li>
-		        </ul>
-		    </div>
-		  </div>
+				<div class="col-12 p-3">
+					{{#link}}
+			<a href="{{link}}" target="_blank" class="courses-anchor">
+			{{/link}}
+					<div class="content zoom">
+						<h3>{{title}}</h3>
+						<ul>
+						<li><p>{{provider}}</p></li>
+						<li><p>{{lang}}</p></li>
+						<li><p>{{description}}</p></li>
+						{{#projects}}
+							<li><p>{{projects}}</p></li>
+						{{/projects}}
+						<li><p>{{completion}}</p></li>
+						</ul>
+					</div>
+					{{#link}}
+			</a>
+			{{/link}}
+				</div>
+
 		{{/courses}}
 	</script>
 	<script id="table_temp" type="text/template">
 		{{#courses}}
+
 		<tr>
-		    <td>{{title}}</td>
-		    <td>{{provider}}</td>
-		    <td>{{lang}}</td>
-		    <td>{{description}}</td>
-			<td>{{projects}}</td>
-		    <td>{{completion}}</td>
+		    <td>
+				{{#link}}
+					<a href="{{link}}" target="_blank" class="courses-anchor">
+				{{/link}}
+				{{title}}
+				{{#link}}
+					</a>
+				{{/link}}
+			</td>
+		    <td>
+				{{#link}}
+					<a href="{{link}}" target="_blank" class="courses-anchor">
+				{{/link}}
+				{{provider}}
+				{{#link}}
+					</a>
+				{{/link}}
+			</td>
+		    <td>
+				{{#link}}
+					<a href="{{link}}" target="_blank" class="courses-anchor">
+				{{/link}}
+				{{lang}}
+				{{#link}}
+					</a>
+				{{/link}}
+			</td>
+		    <td>
+				{{#link}}
+					<a href="{{link}}" target="_blank" class="courses-anchor">
+				{{/link}}
+				{{description}}
+				{{#link}}
+					</a>
+				{{/link}}
+			</td>
+			<td>
+				{{#link}}
+					<a href="{{link}}" target="_blank" class="courses-anchor">
+				{{/link}}
+				{{projects}}
+				{{#link}}
+					</a>
+				{{/link}}
+			</td>
+		    <td>
+				{{#link}}
+					<a href="{{link}}" target="_blank" class="courses-anchor">
+				{{/link}}
+				{{completion}}
+				{{#link}}
+					</a>
+				{{/link}}
+			</td>
 		</tr>
+
 		{{/courses}}
 	</script>
 	<script id="badges_temp" type="text/template">
 		{{#badges}}
-		<div data-aos="zoom-in" class="badge" style="border-color: {{color}}">
+		<div data-aos="zoom-in" data-aos-anchor-placement="top-bottom" class="badge" style="border-color: {{color}}">
 		    <img width="30" height="30" src="{{src}}" alt="{{alt}}" title="{{alt}}"/> {{alt}}
 		</div>
 		{{/badges}}

@@ -7,55 +7,65 @@ const slides = {
 			img: "img4",
 			main: "A ReactJS, NodeJS and Socket.IO web application to play Pictionary online with friends.",
 			sub: "Back end deployed on Heroku and front end deployed on Netlify",
+			link: "projects.html#picto",
 		},
 		{
 			img: "img9",
 			main:
 				"A React Native, Expo and TypeScript reminders mobile application with notifications and navigation.",
 			sub: "Published on Expo",
+			link: "projects.html#remindsy",
 		},
 		{
 			img: "img10",
 			main: "A Chrome extension that replaces the new tab with a xkcd themed one.",
 			sub: "Uploaded to Chrome Web Store and serverless API functions deployed on Netlify",
+			link: "projects.html#chrome-xkcd",
 		},
 		{
 			img: "img2",
 			main:
 				"A Python and Django website to search and save recipes, add own recipes, keep a virtual pantry and create shopping lists.",
 			sub: "Deployed using Heroku",
+			link: "projects.html#mysouschef",
 		},
 		{
 			img: "img3",
 			main: "A ReactJS and NodeJS website to search images.",
 			sub: "Deployed using Heroku",
+			link: "projects.html#cutesee",
 		},
 		{
 			img: "img1",
 			main: "A Python and Flask website to keep track of movies, TV shows and books watched and read.",
 			sub: "Deployed using PythonAnywhere",
+			link: "projects.html#watchreadrepeat",
 		},
 		{
 			img: "img5",
 			main: "A NodeJS and Pug social media web application to create posts and chat.",
 			sub: "Running on Repl",
+			link: "projects.html#social-panda",
 		},
 		{
 			img: "img6",
 			main:
 				"A NodeJS and Pug issue tracker web application to GET, POST, PUT and DELETE issues using MongoDB.",
 			sub: "Running on Repl",
+			link: "projects.html#issue-tracker",
 		},
 		{
 			img: "img7",
 			main:
 				"A NodeJS and Pug anonymous message board web application using MongoDB, HelmetJS and password hashing using BCrypt.",
 			sub: "Running on Repl",
+			link: "projects.html#message-board",
 		},
 		{
 			img: "img8",
 			main: "A NodeJS real-time multiplayer arcade-style game with HelmetJS security features.",
 			sub: "Running on Repl",
+			link: "projects.html#covid-wars",
 		},
 	],
 };
