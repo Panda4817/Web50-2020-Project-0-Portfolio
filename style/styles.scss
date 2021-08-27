@@ -176,13 +176,13 @@ h1 {
 }
 
 .dates-links {
-	z-index: 9999 !important;
 	color: white;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	.dropdown-menu {
 		background-color: $darkgreen;
+		z-index: 9999 !important;
 		.dropdown-item {
 			color: $lightpink;
 		}

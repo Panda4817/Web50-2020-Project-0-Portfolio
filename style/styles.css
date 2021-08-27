@@ -151,7 +151,6 @@ h1 {
 }
 
 .dates-links {
-  z-index: 9999 !important;
   color: white;
   list-style-type: none;
   margin: 0;
@@ -159,6 +158,7 @@ h1 {
 }
 .dates-links .dropdown-menu {
   background-color: #1c3334;
+  z-index: 9999 !important;
 }
 .dates-links .dropdown-menu .dropdown-item {
   color: #da7b93;
