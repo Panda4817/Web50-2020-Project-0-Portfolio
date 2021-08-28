@@ -78,14 +78,14 @@ const lang = {
 			color: "#3776ab",
 		},
 		{
-			src: "style/img/badges/django.svg",
-			alt: "Django",
-			color: "#092e20",
+			src: "style/img/badges/html5.svg",
+			alt: "HTML5",
+			color: "#e34f26",
 		},
 		{
-			src: "style/img/badges/flask.svg",
-			alt: "Flask",
-			color: "#000000",
+			src: "style/img/badges/css3.svg",
+			alt: "CSS3",
+			color: "#1572b6",
 		},
 		{
 			src: "style/img/badges/gnubash.svg",
@@ -98,16 +98,6 @@ const lang = {
 			color: "#f7df1e",
 		},
 		{
-			src: "style/img/badges/jquery.svg",
-			alt: "jQuery",
-			color: "#0769ad",
-		},
-		{
-			src: "style/img/badges/node-dot-js.svg",
-			alt: "Node.js",
-			color: "#339933",
-		},
-		{
 			src: "style/img/badges/typescript.svg",
 			alt: "TypeScript",
 			color: "#3178C6",
@@ -118,14 +108,24 @@ const lang = {
 const frameworks = {
 	badges: [
 		{
-			src: "style/img/badges/html5.svg",
-			alt: "HTML5",
-			color: "#e34f26",
+			src: "style/img/badges/react.svg",
+			alt: "React",
+			color: "#61dafb",
 		},
 		{
-			src: "style/img/badges/css3.svg",
-			alt: "CSS3",
-			color: "#1572b6",
+			src: "style/img/badges/django.svg",
+			alt: "Django",
+			color: "#092e20",
+		},
+		{
+			src: "style/img/badges/flask.svg",
+			alt: "Flask",
+			color: "#000000",
+		},
+		{
+			src: "style/img/badges/node-dot-js.svg",
+			alt: "Node.js",
+			color: "#339933",
 		},
 		{
 			src: "style/img/badges/sass.svg",
@@ -138,9 +138,9 @@ const frameworks = {
 			color: "#7952b3",
 		},
 		{
-			src: "style/img/badges/react.svg",
-			alt: "React",
-			color: "#61dafb",
+			src: "style/img/badges/jquery.svg",
+			alt: "jQuery",
+			color: "#0769ad",
 		},
 		{
 			src: "style/img/badges/expo.svg",
@@ -148,14 +148,14 @@ const frameworks = {
 			color: "#000020",
 		},
 		{
-			src: "style/img/badges/yarn.svg",
-			alt: "Yarn",
-			color: "#2C8EBB",
+			src: "style/img/badges/mocha.svg",
+			alt: "Mocha",
+			color: "#8D6748",
 		},
 		{
-			src: "style/img/badges/npm.svg",
-			alt: "NPM",
-			color: "#CB3837",
+			src: "style/img/badges/jest.svg",
+			alt: "Jest",
+			color: "#C21325",
 		},
 		{
 			src: "style/img/badges/pug.svg",
@@ -171,11 +171,6 @@ const frameworks = {
 			src: "style/img/badges/redux.svg",
 			alt: "Redux",
 			color: "#764ABC",
-		},
-		{
-			src: "style/img/badges/nodemon.svg",
-			alt: "Nodemon",
-			color: "#76D04B",
 		},
 		{
 			src: "style/img/badges/express.svg",
@@ -196,6 +191,21 @@ const tools = {
 			src: "style/img/badges/git.svg",
 			alt: "Git",
 			color: "#f05032",
+		},
+		{
+			src: "style/img/badges/yarn.svg",
+			alt: "Yarn",
+			color: "#2C8EBB",
+		},
+		{
+			src: "style/img/badges/npm.svg",
+			alt: "NPM",
+			color: "#CB3837",
+		},
+		{
+			src: "style/img/badges/nodemon.svg",
+			alt: "Nodemon",
+			color: "#76D04B",
 		},
 		{
 			src: "style/img/badges/travisci.svg",
@@ -223,11 +233,6 @@ const tools = {
 			color: "#ff6c37",
 		},
 		{
-			src: "style/img/badges/mocha.svg",
-			alt: "Mocha",
-			color: "#8D6748",
-		},
-		{
 			src: "style/img/badges/xfce.svg",
 			alt: "XFCE",
 			color: "#2284F2",
@@ -236,11 +241,6 @@ const tools = {
 			src: "style/img/badges/linux.svg",
 			alt: "Linux",
 			color: "#FCC624",
-		},
-		{
-			src: "style/img/badges/jest.svg",
-			alt: "Jest",
-			color: "#C21325",
 		},
 	],
 };
