@@ -22,8 +22,8 @@ const jobs = {
 			],
 			achievements: [
 				"Successfully completed BJSS' month long engineering academy and gained a broad understanding of engineering roles.",
-				"Developed and performed several crucial production releases that were time sensitive.",
-				"Designed and refactored existing applications to update them to Java 17 from Java 8 and to improve maintainability of the code base"
+				"Developed and performed several crucial production releases that were time sensitive, in an efficient and quick manner.",
+				"Refactored existing applications to update them from Java 8 to Java 17, which improved the maintainability of the code base."
 			],
 			skills: [
 				{
