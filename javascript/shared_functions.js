@@ -33,7 +33,7 @@ const data = {
       </a>
     </div>
     <p>
-      Thank you for visiting my portfolio website. To find out more visit my other profile pages.
+      Thank you for visiting my portfolio website. To find out more visit the links below.
     </p>
     <div class="social-media">
         <a id="profile-link" href="https://github.kmunton.dev" target="_blank" class="btn profile">
@@ -58,19 +58,19 @@ const data = {
     <span class="icon-bar bottom-bar"></span>
   </button>
   <div id="extra_dropdown"></div>
-  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+  <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
           <a class="nav-link" href="index.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="projects.html">Projects</a>
+        <a class="nav-link" href="experience.html">Commercial Experience</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="courses.html">Courses</a>
+        <a class="nav-link" href="projects.html">Personal Projects</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="blogs.html">Blogs</a>
+        <a class="nav-link" href="courses.html">Courses and Training</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="interests.html">Interests</a>

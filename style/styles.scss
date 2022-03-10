@@ -3,7 +3,7 @@
 $bluegrey: #2f4454;
 $maroon: #2e151b;
 $lightpink: #da7b93;
-$lightgreen: rgb(55, 109, 100);
+$lightgreen: #376d64;
 $darkgreen: #1c3334;
 
 html {
@@ -32,99 +32,6 @@ h1 {
 }
 .jumbotron {
 	border-radius: 0em !important;
-}
-
-%img-blogs {
-	height: 300px;
-	background-size: contain;
-	background-position: center;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.img-1 {
-	@extend %img-blogs;
-	background-size: cover !important;
-	background-image: url(https://cdn-media-1.freecodecamp.org/images/1*rV6_99F42Jr7uR5YtLrHrQ.jpeg);
-}
-
-.img-2 {
-	@extend %img-blogs;
-	background-image: url(https://miro.medium.com/max/960/1*83jSovab7wOQQq-MJDuRgQ.jpeg);
-}
-
-.img-3 {
-	@extend %img-blogs;
-	background-image: url(https://i.ytimg.com/vi/FsYdgKO4AQU/maxresdefault.jpg);
-}
-
-.img-4 {
-	@extend %img-blogs;
-	background-image: url(https://files.realpython.com/media/Advance_Watermarked.7780b18d1990.jpg);
-}
-
-.img-6 {
-	@extend %img-blogs;
-	background-image: url("img/projects/cs50web.jpg");
-}
-
-.img-5 {
-	@extend %img-blogs;
-	background-image: url("img/projects/cs50_project.jpg");
-}
-
-.img-7 {
-	@extend %img-blogs;
-	background-image: url("img/projects/react_frontend.png");
-}
-
-.img-8 {
-	@extend %img-blogs;
-	background-image: url("img/projects/tictactoe.png");
-}
-
-.img-9 {
-	@extend %img-blogs;
-	background-image: url("img/projects/snake.gif");
-}
-
-.img-10 {
-	@extend %img-blogs;
-	background-image: url("img/projects/repl_it.png");
-}
-
-.img-11 {
-	@extend %img-blogs;
-	background-image: url("img/projects/picto2.gif");
-}
-
-.img-12 {
-	@extend %img-blogs;
-	background-image: url("img/projects/aoc.png");
-}
-
-.img-13 {
-	@extend %img-blogs;
-	background-image: url("img/projects/jan21.png");
-}
-
-.img-14 {
-	@extend %img-blogs;
-	background-image: url("img/projects/chrome_ext.png");
-}
-
-.img-15 {
-	@extend %img-blogs;
-	background-image: url("img/projects/march_april21.png");
-}
-
-.img-16 {
-	@extend %img-blogs;
-	background-image: url("img/projects/july21.png");
-}
-
-.img-17 {
-	@extend %img-blogs;
-	background-image: url("img/projects/august_21.jpg");
 }
 
 .blog_link {
@@ -212,11 +119,10 @@ h1 {
 
 .nav-link {
 	color: $lightpink !important;
-	text-decoration: none !important;
 	margin-top: 0;
 	margin-bottom: 0;
 	margin-left: 5px;
-	padding-left: 5px !important;
+	text-align: center;
 }
 
 .navbar-collapse > {
@@ -359,7 +265,7 @@ h1 {
 	justify-content: center;
 }
 
-#learning {
+.badge-full-screen  {
 	flex: 1;
 
 	div {
@@ -891,20 +797,7 @@ h1 {
 	color: white;
 }
 
-// .arrow {
-// 	animation: pulse 2s infinite;
-// 	color: $lightpink;
-// 	font-size: 30px;
-// }
-
-// @keyframes pulse {
-// 	0% {
-// 		transform: translate(0, 0);
-// 	}
-// 	50% {
-// 		transform: translate(0, 5px);
-// 	}
-// 	100% {
-// 		transform: translate(0, 0);
-// 	}
-// }
+.badge {
+	border-color: $lightpink; 
+	background-color: $darkgreen;
+}

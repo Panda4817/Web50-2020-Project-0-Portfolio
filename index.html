@@ -34,14 +34,14 @@
 		<nav id="navbar" class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top"></nav>
 		<main class="container back">
 			<div class="row">
-				<div class="col p-0">
+				<div class="col-12 p-0">
 					<div id="slides" class="hero-slides owl-carousel"></div>
 				</div>
 			</div>
 			<div class="row p-3 justify-content-center">
 				<div class="col-12">
 					<h3 class="text-center">
-						Programming languages, frameworks, libraries, tools and databases I have used
+						Languages, frameworks, libraries, tools and databases
 					</h3>
 				</div>
 				<div id="lang" class="column-lang"></div>
@@ -72,8 +72,8 @@
 	</script>
 	<script id="badges_temp" type="text/template">
 		{{#badges}}
-		<div data-aos="zoom-in" data-aos-anchor-placement="top-bottom" class="badge" style="border-color: {{color}}" >
-		    <img width="30" height="30" src="{{src}}" alt="{{alt}}" title="{{alt}}"/> {{alt}}
+		<div data-aos="zoom-in" data-aos-anchor-placement="top-bottom" class="badge" >
+		    <img width="30" height="30" src="style/img/badges/{{src}}.svg" alt="{{alt}}" title="{{alt}}"/> {{alt}}
 		</div>
 		{{/badges}}
 	</script>

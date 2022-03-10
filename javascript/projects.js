@@ -1,5 +1,5 @@
-const header = `<h1>Projects</h1>
-<p>Take a look at what I have been working on</p></div>`;
+const header = `<h1>Personal Projects</h1>
+<p>Take a look at what I have been working on in my own time</p></div>`;
 
 // tags
 

@@ -1,16 +1,36 @@
 const header = `<h1>Courses and Training</h1>
-<p>Read about the courses I have completed and training I have received</p></div>`;
+<p>The courses I have completed and training I have received</p></div>`;
 
 const courses = {
 	courses: [
 		{
+			title: "AWS Cloud Practitioner Exam Prep",
+			provider: "O'Reilly",
+			lang: "AWS",
+			projects: "",
+			description:
+				"Gain practical knowledge about AWS Cloud through hands-on video sessions and practice demos",
+			completion: "On-going",
+			link: "",
+		},
+		{
+			title: "Java Programming I & II",
+			provider: "University of Helsinki (MOOC.fi)",
+			lang: "Java",
+			projects: "Various problems to solve",
+			description:
+				"Learn the key aspects of the Java programming language",
+			completion: "Completed",
+			link: "https://certificates.mooc.fi/validate/hq4b3bjhqfj",
+		},
+		{
 			title: "BJSS Engineering Academy",
 			provider: "BJSS Ltd",
 			lang: "Various topics",
-			projects: "",
+			projects: "Group tasks every week",
 			description:
 				"BJSS Engineering Academy provides on the job training to prepare for delivering advanced technology and consulting solutions to clients throughout the UK.",
-			completion: "Starting September 2021",
+			completion: "Completed",
 			link: "",
 		},
 		{
@@ -134,39 +154,36 @@ const courses = {
 const learning_portals = {
 	badges: [
 		{
-			src: "style/img/badges/freecodecamp.svg",
+			src: "freecodecamp",
 			alt: "FreeCodeCamp",
-			color: "#0A0A23",
 		},
 		{
-			src: "style/img/badges/edx.svg",
+			src: "edx",
 			alt: "edX",
-			color: "#02262B",
 		},
 		{
-			src: "style/img/badges/geeksforgeeks.svg",
+			src: "geeksforgeeks",
 			alt: "Geeks For Geeks",
-			color: "#0F9D58",
 		},
 		{
-			src: "style/img/badges/leetcode.svg",
+			src: "leetcode",
 			alt: "LeetCode",
-			color: "#FFA116",
 		},
 		{
-			src: "style/img/badges/hackerrank.svg",
+			src: "hackerrank",
 			alt: "HackerRank",
-			color: "#2EC866",
 		},
 		{
-			src: "style/img/badges/stackoverflow.svg",
+			src: "stackoverflow",
 			alt: "Stack Overflow",
-			color: "#F58025",
 		},
 		{
-			src: "style/img/badges/udemy.svg",
+			src: "udemy",
 			alt: "Udemy",
-			color: "#EC5252",
+		},
+		{
+			src: "oreilly",
+			alt: "O'Reilly",
 		},
 	],
 };
