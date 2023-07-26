@@ -6,7 +6,7 @@ const slides = {
 		{
 			img: "img4",
 			main: "A ReactJS, NodeJS and Socket.IO web application to play Pictionary online with friends.",
-			sub: "Back end deployed on Heroku and front end deployed on Netlify",
+			sub: "Frontend deployed on Netlify and backend has been deployed on Heroku, AWS and Google Cloud",
 			link: "projects.html#picto",
 		},
 		{
@@ -26,13 +26,13 @@ const slides = {
 			img: "img2",
 			main:
 				"A Python and Django website to search and save recipes, add own recipes, keep a virtual pantry and create shopping lists.",
-			sub: "Deployed using Heroku",
+			sub: "Deployed using PythonAnywhere",
 			link: "projects.html#mysouschef",
 		},
 		{
 			img: "img3",
 			main: "A ReactJS and NodeJS website to search images.",
-			sub: "Deployed using Heroku",
+			sub: "Running on Glitch",
 			link: "projects.html#cutesee",
 		},
 		{

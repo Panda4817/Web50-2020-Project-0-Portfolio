@@ -17,13 +17,15 @@ const jobs = {
 				"Write unit and integration tests for all functional changes.",
 				"Collaborate with the team to review pull requests and ensure sufficient end-to-end testing is carried out before releases.",
 				"Perform production releases using Jenkins.",
-				"Stay knowledgeable on the tech stack used in production including: Java 8 to Java 17, Spring Boot, Maven, Node.js, ELK, Kafka, AWS, Docker and Kubernetes.",
+				"Stay knowledgeable on the tech stack used in production including: Java 8 to Java 17, Spring Boot, Maven, Node.js, ELK, Kafka, AWS, SQL, Docker and Kubernetes.",
 				"Adopt the agile workflow when working on JIRA tickets."
 			],
 			achievements: [
 				"Successfully completed BJSS' month long engineering academy and gained a broad understanding of engineering roles.",
 				"Developed and performed several crucial production releases that were time sensitive, in an efficient and quick manner.",
-				"Refactored existing applications to update them from Java 8 to Java 17, which improved the maintainability of the code base."
+				"Refactored existing applications to update them from Java 8 to Java 17, which improved the maintainability of the code base.",
+				"Created a script using Python 3 to help triage production incidents, which reduced incidents being raised in a support channel.",
+				"Designed and developed an internal application using React and Redux, which is used across various teams and aids with testing new functionality of production applications."
 			],
 			skills: [
 				{
@@ -45,6 +47,10 @@ const jobs = {
 				{
 					"alt":"JavaScript",
 					"src":"javascript"
+				},
+				{
+					"alt":"React",
+					"src":"react"
 				},
 				{
 					"alt":"Node.js",
@@ -81,6 +87,10 @@ const jobs = {
 				{
 					"alt":"AWS",
 					"src":"amazonaws"
+				},
+				{
+					"alt":"SQL",
+					"src":"postgresql"
 				},
 				{
 					"alt":"Kubernetes",

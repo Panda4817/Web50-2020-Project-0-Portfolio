@@ -1,11 +1,21 @@
 const header = `<h1>Courses and Training</h1>
-<p>The courses I have completed and training I have received</p></div>`;
+<p>All relevant learning, both current and previous</p></div>`;
 
 const courses = {
 	courses: [
 		{
-			title: "AWS Cloud Practitioner Exam Prep",
-			provider: "O'Reilly",
+			title: "AI using Tensorflow.js",
+			provider: "edX",
+			lang: "JavaScript",
+			projects: "",
+			description:
+				"Learn how to use tensorflow.js machine learning models in applications",
+			completion: "On-going",
+			link: "",
+		},
+		{
+			title: "AWS Cloud Practitioner",
+			provider: "O'Reilly, AWS Skills Builder",
 			lang: "AWS",
 			projects: "",
 			description:
