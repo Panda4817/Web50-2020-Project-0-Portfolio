@@ -33,17 +33,7 @@
 		</header>
 		<nav id="navbar" class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top"></nav>
 		<main class="container back">
-			<div class="row">
-				<div class="col-12 p-0">
-					<div id="slides" class="hero-slides owl-carousel"></div>
-				</div>
-			</div>
 			<div class="row p-3 justify-content-center">
-				<div class="col-12">
-					<h3 class="text-center">
-						Languages, frameworks, libraries, tools and databases
-					</h3>
-				</div>
 				<div id="lang" class="column-lang"></div>
 				<div id="frameworks" class="column-lang"></div>
 				<div id="tools" class="column-lang"></div>
@@ -52,24 +42,6 @@
 		</main>
 		<div id="footer_content"></div>
 	</body>
-	<script id="slides_temp" type="text/template">
-		{{#slides}}
-		<a href="{{link}}" class="courses-anchor">
-			<div class="single-hero-slide {{img}}">
-				<div class="container h-100">
-					<div class="row h-100 align-items-end">
-						<div class="col-12">
-							<div class="hero-slides-content animate__animated animate__fadeInUp animate__delay-1s" data-animation="fadeInUp" data-delay="1s">
-								<h5 class="animate__animated animate__fadeInUp animate__delay-2s" data-animation="fadeInUp" data-delay="2s">{{main}}</h5>
-								<p class="animate__animated animate__fadeInUp animate__delay-3s" data-animation="fadeInUp" data-delay="3s">{{sub}}</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</a>
-		{{/slides}}
-	</script>
 	<script id="badges_temp" type="text/template">
 		{{#badges}}
 		<div data-aos="zoom-in" data-aos-anchor-placement="top-bottom" class="badge" >

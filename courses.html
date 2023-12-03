@@ -42,9 +42,7 @@
 								<th>Title</th>
 								<th>Provider</th>
 								<th>Main topic</th>
-								<th>Other skills/ description</th>
-								<th>Associated projects</th>
-								<th>Completion status</th>
+								<th>Description</th>
 							</tr>
 						</thead>
 						<tbody id="table_body"></tbody>
@@ -70,10 +68,6 @@
 						<li><p>{{provider}}</p></li>
 						<li><p>{{lang}}</p></li>
 						<li><p>{{description}}</p></li>
-						{{#projects}}
-							<li><p>{{projects}}</p></li>
-						{{/projects}}
-						<li><p>{{completion}}</p></li>
 						</ul>
 					</div>
 					{{#link}}
@@ -119,24 +113,6 @@
 					<a href="{{link}}" target="_blank" class="courses-anchor">
 				{{/link}}
 				{{description}}
-				{{#link}}
-					</a>
-				{{/link}}
-			</td>
-			<td>
-				{{#link}}
-					<a href="{{link}}" target="_blank" class="courses-anchor">
-				{{/link}}
-				{{projects}}
-				{{#link}}
-					</a>
-				{{/link}}
-			</td>
-		    <td>
-				{{#link}}
-					<a href="{{link}}" target="_blank" class="courses-anchor">
-				{{/link}}
-				{{completion}}
 				{{#link}}
 					</a>
 				{{/link}}

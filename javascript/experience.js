@@ -4,24 +4,23 @@ const header = ` <h1>Commercial Experience</h1>
 const jobs = {
 	jobs: [
 		{
-			name: "BJSS Ltd",
+			name: "Technology and Engineering Consultancy",
 			role: "Software Engineer",
 			years:
 				"September 2021 - Present",
-			company: `BJSS are a leading technology and engineering consultancy for business; 
+			company: `Working in a leading technology and engineering consultancy for business; 
 			providing world-class digital consultancy to a range of clients from a variety of industries.
 			The role involves applying knowledge of various programming languages, cloud infrastructure, DB technology, agile methodologies, and more to solve complex problems.`,
 			responsibilities: [
-				"Monitor and troubleshoot any problems arising in existing services used by millions of people across the country, using Kibana, Grafana and Dynatrace.",
+				"Monitor and troubleshoot any problems arising in existing services used by millions of people across the country. Tech: [Datadog, Kibana]",
 				"Develop features, stories and bug fixes for Java Spring Boot applications and Node.js applications in a microservice architecture.",
 				"Write unit and integration tests for all functional changes.",
 				"Collaborate with the team to review pull requests and ensure sufficient end-to-end testing is carried out before releases.",
-				"Perform production releases using Jenkins.",
-				"Stay knowledgeable on the tech stack used in production including: Java 8 to Java 17, Spring Boot, Maven, Node.js, ELK, Kafka, AWS, SQL, Docker and Kubernetes.",
+				"Stay knowledgeable on the tech stack used in production. Tech: [Java, Spring Boot, Maven, Node.js, React, ELK, AWS, SQL, Docker, Kubernetes]",
 				"Adopt the agile workflow when working on JIRA tickets."
 			],
 			achievements: [
-				"Successfully completed BJSS' month long engineering academy and gained a broad understanding of engineering roles.",
+				"Successfully completed the month long engineering academy and gained a broad understanding of engineering roles.",
 				"Developed and performed several crucial production releases that were time sensitive, in an efficient and quick manner.",
 				"Refactored existing applications to update them from Java 8 to Java 17, which improved the maintainability of the code base.",
 				"Created a script using Python 3 to help triage production incidents, which reduced incidents being raised in a support channel.",
@@ -73,10 +72,6 @@ const jobs = {
 					"src":"docker"
 				},
 				{
-					"alt":"Jenkins",
-					"src":"jenkins"
-				},
-				{
 					"alt":"Kibana",
 					"src":"kibana"
 				},
@@ -95,10 +90,6 @@ const jobs = {
 				{
 					"alt":"Kubernetes",
 					"src":"kubernetes"
-				},
-				{
-					"alt":"Kafka",
-					"src":"apachekafka"
 				},
 				{
 					src: "intellijidea",
