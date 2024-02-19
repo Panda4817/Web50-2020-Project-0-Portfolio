@@ -42,11 +42,12 @@ const data = {
           <i class="fab fa-linkedin"></i></a>
         <a href="https://codepen.io/k_munton" target="_blank" class="btn profile">
           <i class="fab fa-codepen"></i></a>
-          <a id="profile-link" href="https://repl.it/@Panda4817" target="_blank" class="btn profile" onmouseover="document.getElementById('repl').src='style/img/repl_it_logo_hover.png';" onmouseout="document.getElementById('repl').src='style/img/repl_it_logo.png';">
-            <img id="repl" src="style/img/repl_it_logo.png" width="30" class="mb-2" /></a>
-            <a href="https://www.freecodecamp.org/kmunton" target="_blank" class="btn profile">
-              <i class="fab fa-free-code-camp"></i></a>
-            
+        <a id="profile-link" href="https://repl.it/@Panda4817" target="_blank" class="btn profile" onmouseover="document.getElementById('repl').src='style/img/repl_it_logo_hover.png';" onmouseout="document.getElementById('repl').src='style/img/repl_it_logo.png';">
+          <img id="repl" src="style/img/repl_it_logo.png" width="30" class="mb-2" /></a>
+        <a href="https://www.freecodecamp.org/kmunton" target="_blank" class="btn profile">
+          <i class="fab fa-free-code-camp"></i></a>
+        <a href="https://www.credly.com/users/kanta-munton/badges" target="_blank" class="btn profile" onmouseover="document.getElementById('credly').src='style/img/credly_hover.svg';" onmouseout="document.getElementById('credly').src='style/img/credly_normal.svg';">
+          <img id="credly" src="style/img/credly_normal.svg" width="30" class="mb-2" /></a>
     </div>
     <p>
       <i class="far fa-copyright"></i> <span id="year"></span>
@@ -68,12 +69,6 @@ const data = {
       </li>
       <li class="nav-item">
         <a class="nav-link" href="projects.html">Personal Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="courses.html">Courses and Training</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="interests.html">Interests</a>
       </li>
     </ul>
   </div>`,
